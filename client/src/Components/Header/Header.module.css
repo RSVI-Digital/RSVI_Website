@@ -1,0 +1,36 @@
+.navbar{
+    padding-bottom: 0;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+
+.navbrand{
+    text-align: center;
+}
+
+.navlinkbar{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom-width: 8px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(150,150,150);
+}
+
+.navlink{
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(80,80,80) !important;
+}
+
+.navicon{
+    width: 130px;
+    height: 130px;
+}
+
+@media  screen and (max-width:1610px) {
+    .navlink{
+        font-size: 25px;
+    }
+}

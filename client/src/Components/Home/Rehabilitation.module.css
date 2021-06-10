@@ -1,0 +1,48 @@
+.content{
+  
+  margin-bottom: 100px;
+
+  padding-top: 7vh;
+  padding-bottom: 11vh;
+
+  justify-content: center;
+  text-align-last: center;
+
+  background-size: cover;
+  background-image: url('./Images/Backgrounds/yellow.png');
+}
+
+.heading{
+  
+  margin: 0;
+  
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  
+  text-align: center;
+  
+  font-weight: bold;
+  font-size: max(4vh, 30px);
+}
+
+.text{
+  
+  margin: 0;
+  padding: 0;
+  
+  padding-left: 10%;
+  padding-right: 10%;
+  
+  line-height: 2;
+  text-align: center;
+  font-size: max(3vh,20px);
+}
+
+.logo{
+
+  margin: 0;
+  padding: 0;
+  
+  width: max(100px,12vh);
+  height: max(100px,12vh);
+}

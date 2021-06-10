@@ -1,0 +1,54 @@
+.holder{
+    background-image: url('./Images/Backgrounds/blue.png');
+}
+
+.content{
+    padding: 0;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    margin-bottom: 100px;
+
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-image: url('./Images/Icons/lamp.png');
+}
+
+.heading{
+    font-size: max(7vh,60px);
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+}
+
+.para1{
+    width: 70%;
+}
+
+.para2{
+    width: 50%;
+}
+
+.para1, .para2{
+    font-size: max(3vh,25px);
+    font-style: normal;
+}
+
+@media screen and (max-width: 1300px) {
+    .content{
+        background-image: none;
+    }
+
+    .heading{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .para1, .para2{
+        width: 100%;
+        text-align: center;
+    }
+}

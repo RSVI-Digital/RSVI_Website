@@ -1,0 +1,65 @@
+.icon{
+    height: max(10vh,70px);
+}
+
+.holder{
+    margin-bottom: 100px;
+    
+    text-align: center;
+    background-size: cover;
+    background-image: url('./Images/Backgrounds/green.png');
+}
+
+.text{
+    margin: 0;
+    padding: 4vh;
+    font-size: max(4vh, 30px);
+    font-weight: bolder;
+    justify-content: center;
+    color: rgb(100, 100, 100);
+}
+
+.iconlist{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.caption{
+    color: black;
+    font-size: max(2vh, 15px);
+    font-weight: bold;
+}
+
+.counter{
+    color: black;
+    display: block;
+    font-size: max(4vh, 30px);
+}
+
+.progressbar .progress {
+    height: 100%;
+    border-radius: 4px;
+    background-color: black;
+    transition: width 3s ease-in-out;
+}
+  
+.progressbar {
+    width: 78%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-bottom: 1vh;
+    background-color: lightgrey;
+}
+
+.years{
+    padding-bottom: 3vh;
+}
+
+.year{
+    color: black;
+    font-size: max(3vh,20px);
+    font-weight: bold;
+}
