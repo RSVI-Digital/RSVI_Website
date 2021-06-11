@@ -1,0 +1,63 @@
+.para1{
+    text-decoration: solid;
+    font-weight: 500;
+    font-size: 30px;
+    padding-left: 28px;
+}
+
+.para2{
+    font-size: 30px;
+}
+
+h1{
+    margin-top: -5%;
+    margin-bottom: 0%;
+    padding-left: 23px;
+    font-size: 110px;
+    position: relative;
+    bottom:20px;
+}
+
+.main{
+    margin-bottom: 7%;
+    background: url("https://lh3.googleusercontent.com/d/16vgc8HB7AT_OmWDiN-gEqXXCNIBiovLX=s220?authuser=0");
+    background-size: 700px;
+}
+
+.leftPart{
+    padding: 5% 0% 5% 7%;
+}
+
+.RSVI_image{
+    padding-top: 10%;
+    height: 120px;
+    width: 120px;
+    position: relative;
+}
+
+.image{
+    height:500px;
+    width: 90%;
+}
+
+@media(max-width:985px){
+    .para1{
+        text-decoration: solid;
+        font-weight: 500;
+        /* margin-left: 0%; */
+        font-size: 30px;
+        position: relative;
+        right: 7%;
+    }
+    
+    h1{
+        margin-top: -5%;
+        margin-bottom: 0%;
+        /* margin-left: 0%; */
+        font-size: 110px;
+        position: relative;
+        position: relative;
+        right: 7%;
+        bottom:20px;
+    }
+}
