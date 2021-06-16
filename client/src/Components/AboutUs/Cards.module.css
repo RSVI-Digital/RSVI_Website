@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Noto+Sans+HK&display=swap");
+
+.sectionSeven {
+    padding: 25px 0px;
+  }
+  
+  .section7Col {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    padding: 12px 12px;
+  }
+  
+  .sevenImage {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .contentWrap {
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  
+  .contentWrap>h3 {
+    font-size: 30px;
+    font-weight: 350;
+    text-transform: uppercase;
+  }
+  
+  .contentWrap>h4 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+  
+  .contentWrap>p {
+    font-size: 23px;
+    font-weight: 300;
+    text-align: justify;
+  }
+  
+  .wrapSeven1 {
+    background-image: url("./AboutUsImages/backRed.png");
+    background-attachment: fixed;
+  }
+  
+  .wrapSeven2 {
+    background-image: url("./AboutUsImages/backYellow.png");
+    background-attachment: fixed;
+  }
+  
+  .wrapSeven3 {
+    background-image: url("./AboutUsImages/backGreen.png");
+    background-attachment: fixed;
+  }
+  
+  .wrapSeven4 {
+    background-image: url("./AboutUsImages/backBlue.png");
+    background-attachment: fixed;
+  }
+  
+  /*************Section7b**************/
+  .sectionSevenb {
+    max-width: 100%;
+    padding: 60px 60px;
+    margin: 0px 0px;
+  }
+  
+  .sectionSevenRow1 {
+    background-image: url("./AboutUsImages/backRed.png");
+    background-attachment: inherit;
+  }
+  
+  .sectionSevenRow2 {
+    background-image: url("./AboutUsImages/backYellow.png");
+    background-attachment: inherit;
+  }
+  
+  .sectionSevenRow3 {
+    background-image: url("./AboutUsImages/backGreen.png");
+    background-attachment: inherit;
+  }
+  
+  .sectionSevenRow4 {
+    background-image: url("./AboutUsImages/backBlue.png");
+    background-attachment: inherit;
+  }
+  
+  .innerRow {
+    max-width: 100%;
+    background-color: white;
+    padding: 10px 10px;
+    margin: 0px 0px;
+  }
+  
+  .row1Col2,
+  .row3Col2,
+  .row2Col1,
+  .row4Col1 {
+    margin: 20px 20px;
+  }
+  
+  .row1Col1,
+  .row3Col1,
+  .row2Col2,
+  .row4Col2 {
+    margin: 20px 20px;
+    align-self: center;
+  }
+  
+  .image7 {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .cWrap {
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  .cWrap>h2 {
+    font-size: 30px;
+    font-weight: 450;
+    text-transform: uppercase;
+  }
+  
+  .cWrap>h4 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+  
+  .cWrap>p {
+    font-size: 20px;
+    font-weight: 250;
+    word-spacing: 5px;
+    text-align: justify;
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .wrap1 {
+    padding: 10px 10px;
+    background-image: url("./AboutUsImages/backRed.png");
+    background-attachment: inherit;
+    text-align: start;
+  }
+  
+  .wrap2 {
+    padding: 10px 10px;
+    background-image: url("./AboutUsImages/backYellow.png");
+    background-attachment: inherit;
+    text-align: start;
+  }
+  
+  .wrap3 {
+    padding: 10px 10px;
+    background-image: url("./AboutUsImages/backGreen.png");
+    background-attachment: inherit;
+    text-align: start;
+  }
+  
+  .wrap4 {
+    padding: 10px 10px;
+    background-image: url("./AboutUsImages/backBlue.png");
+    background-attachment: inherit;
+    text-align: start;
+  }
+
+  /*************Section7c**************/
+  .sectionSevenc {
+    display: flex;
+    max-width: 100%;
+    padding: 30px 45px 30px 30px;
+    margin: 2rem 2rem;
+  }
+
+  .sectionSevencRow1 {
+    background-image: url("./AboutUsImages/backRed.png");
+    background-attachment: inherit;
+  }
+
+  .sectionSevencRow2 {
+    background-image: url("./AboutUsImages/backYellow.png");
+    background-attachment: inherit;
+  }
+
+  .sectionSevencRow3 {
+    background-image: url("./AboutUsImages/backGreen.png");
+    background-attachment: inherit;
+  }
+
+  .sectionSevencRow4 {
+    background-image: url("./AboutUsImages/backBlue.png");
+    background-attachment: inherit;
+  }
+
+  .innercRow {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: white;
+    padding: 20px 20px;
+    margin: 8px 8px;
+  }
+
+  .row1Col2c,
+  .row2Col2c,
+  .row3Col2c,
+  .row4Col2c {
+    padding-top: 10px;
+  }
+
+  .row1Col1c,
+  .row2Col1c,
+  .row3Col1c,
+  .row4Col1c {
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+  }
+
+  .row1Col2c>.cWrapc,
+  .row2Col2c>.cWrapc,
+  .row3Col2c>.cWrapc,
+  .row4Col2c>.cWrapc {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .image7c {
+    width: 200px;
+    height: 200px;
+  }
+
+  .cWrapc {
+    width: auto;
+    height: auto;
+  }
+
+  .cWrapc>h2 {
+    font-size: 24px;
+    font-weight: 450;
+    text-transform: uppercase;
+  }
+
+  .cWrapc>h4 {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .cWrapc>p {
+    font-size: 14px;
+    font-weight: 250;
+    word-spacing: 5px;
+    text-align: justify;
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .wrap1c {
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./AboutUsImages/backRed.png");
+    background-attachment: inherit;
+    text-align: start;
+  }
+
+  .wrap2c {
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./AboutUsImages/backYellow.png");
+    background-attachment: inherit;
+    text-align: start;
+  }
+
+  .wrap3c {
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./AboutUsImages/backGreen.png");
+    background-attachment: inherit;
+    text-align: start;
+  }
+
+  .wrap4c {
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./AboutUsImages/backBlue.png");
+    background-attachment: inherit;
+    text-align: start;
+  }

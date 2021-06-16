@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Noto+Sans+HK&display=swap");
+
+.sec5bgimage {
+    z-index: -1;
+    margin-left: 200px;
+    margin-top: 5px;
+    width: 70%;
+    transition: 300ms ease-in-out;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bgimage {
+    margin-left: 10%;
+    margin-top: 50px;
+    width: 80%;
+    transition: 300ms ease-in-out;
+  }
+  
+  .sec5bgimage:hover {
+    z-index: 5;
+    transform: scale(1.1);
+  }
+  
+  .section5 {
+    font-size: 25px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    background-size: 100% 90%;
+    height: auto;
+    background-image: url('./AboutUsImages/backRed.png');
+    background-attachment: inherit;
+    position: absolute;
+  }
+  
+  .para1 {
+    padding: 50px 80px 50px 80px;
+    margin-bottom: 0px;
+    text-align: justify;
+    font-size: 21px;
+    font-family: "Noto Sans HK", "Source Sans Pro";
+    word-spacing: 5px;
+    /* font-weight: bolder; */
+  }
+  
+  .boxbg1 {
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 300px;
+    transition: 300ms ease-in-out;
+  }
+  
+  .boxbg1:hover {
+    transform: scale(1.1);
+  }
+  
+  .boxbg2 {
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 300px;
+    transition: 300ms ease-in-out;
+  }
+  
+  .boxbg2:hover {
+    transform: scale(1.1);
+  }
+  
+  .boxbg3 {
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 300px;
+    transition: 300ms ease-in-out;
+  }
+  
+  .boxbg3:hover {
+    transform: scale(1.1);
+  }
+  
+  .sbox {
+    height: 48px;
+    width: 180px;
+    margin-left: 150px;
+    background-image: url('./AboutUsImages/backRed.png');
+    background-size: 50% 90%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -30%);
+    font-size: 23px;
+  }
+  

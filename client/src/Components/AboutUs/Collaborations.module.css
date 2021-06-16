@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Noto+Sans+HK&display=swap");
+
+.collabs {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-image: url('./AboutUsImages/backGreen.png');
+    background-attachment: inherit;
+    padding: 30px 180px 30px 180px;
+  }
+  
+  .collabs h1 {
+    font-size: 48px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bolder;
+  }
+  
+  .collabs p {
+    font-size: 20px;
+    font-family: "Noto Sans HK", "Source Sans Pro";
+    word-spacing: 5px;
+    text-align: justify;
+  }
+  
+  .collabbutton {
+    font-family: "Noto Sans HK", "Source Sans Pro";
+    word-spacing: 5px;
+    margin-top: 10px;
+    padding: 13px 15px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #ffffa8;
+    border: none;
+    border-radius: 25px;
+    color: black;
+  }
+  
+  .collabbutton:hover {
+    background-color: #ffff8c;
+    text-decoration: underline;
+    color: black;
+  }
