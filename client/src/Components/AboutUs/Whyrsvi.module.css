@@ -16,7 +16,8 @@
 
   .content {
     text-align: center;
-    background-image: url("./AboutUsImages/backGreen.png");
+    /* background-image: url("./AboutUsImages/backGreen.png"); */
+    background-image:url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
     z-index: 2;
   }
   
@@ -59,7 +60,8 @@
   .whyStarted {
     margin-top: 50px;
     height: 100px;
-    background-image: url("./AboutUsImages/backBlue.png");
+    /* background-image: url("./AboutUsImages/backBlue.png"); */
+    background-image:url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
   }
   
   .whyStarted h1 {

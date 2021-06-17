@@ -30,7 +30,8 @@
     margin-bottom: 50px;
     background-size: 100% 90%;
     height: auto;
-    background-image: url('./AboutUsImages/backRed.png');
+    /* background-image: url('./AboutUsImages/backRed.png'); */
+    background-image: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
     background-attachment: inherit;
     position: absolute;
   }
@@ -82,7 +83,8 @@
     height: 48px;
     width: 180px;
     margin-left: 150px;
-    background-image: url('./AboutUsImages/backRed.png');
+    /* background-image: url('./AboutUsImages/backRed.png'); */
+    background-image: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
     background-size: 50% 90%;
     justify-content: center;
     text-align: center;

@@ -5,7 +5,8 @@
 .collabs {
     margin-top: 20px;
     margin-bottom: 50px;
-    background-image: url('./AboutUsImages/backGreen.png');
+    /* background-image: url('./AboutUsImages/backGreen.png'); */
+    background-image:url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
     background-attachment: inherit;
     padding: 30px 180px 30px 180px;
   }

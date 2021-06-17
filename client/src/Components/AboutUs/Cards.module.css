@@ -45,22 +45,26 @@
   }
   
   .wrapSeven1 {
-    background-image: url("./AboutUsImages/backRed.png");
+    /* background-image: url("./AboutUsImages/backRed.png"); */
+    background-image: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
     background-attachment: fixed;
   }
   
   .wrapSeven2 {
-    background-image: url("./AboutUsImages/backYellow.png");
+    /* background-image: url("./AboutUsImages/backYellow.png"); */
+    background-image: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
     background-attachment: fixed;
   }
   
   .wrapSeven3 {
-    background-image: url("./AboutUsImages/backGreen.png");
+    /* background-image: url("./AboutUsImages/backGreen.png"); */
+    background-image:url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
     background-attachment: fixed;
   }
   
   .wrapSeven4 {
-    background-image: url("./AboutUsImages/backBlue.png");
+    /* background-image: url("./AboutUsImages/backBlue.png"); */
+    background-image:url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
     background-attachment: fixed;
   }
   
@@ -72,22 +76,26 @@
   }
   
   .sectionSevenRow1 {
-    background-image: url("./AboutUsImages/backRed.png");
+    /* background-image: url("./AboutUsImages/backRed.png"); */
+    background-image:url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
     background-attachment: inherit;
   }
   
   .sectionSevenRow2 {
-    background-image: url("./AboutUsImages/backYellow.png");
+    /* background-image: url("./AboutUsImages/backYellow.png"); */
+    background-image:url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
     background-attachment: inherit;
   }
   
   .sectionSevenRow3 {
-    background-image: url("./AboutUsImages/backGreen.png");
+    /* background-image: url("./AboutUsImages/backGreen.png"); */
+    background-image:url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
     background-attachment: inherit;
   }
   
   .sectionSevenRow4 {
-    background-image: url("./AboutUsImages/backBlue.png");
+    /* background-image: url("./AboutUsImages/backBlue.png"); */
+    background-image:url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
     background-attachment: inherit;
   }
   
@@ -145,28 +153,32 @@
   
   .wrap1 {
     padding: 10px 10px;
-    background-image: url("./AboutUsImages/backRed.png");
+    /* background-image: url("./AboutUsImages/backRed.png"); */
+    background-image:url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
     background-attachment: inherit;
     text-align: start;
   }
   
   .wrap2 {
     padding: 10px 10px;
-    background-image: url("./AboutUsImages/backYellow.png");
+    /* background-image: url("./AboutUsImages/backYellow.png"); */
+    background-image:url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
     background-attachment: inherit;
     text-align: start;
   }
   
   .wrap3 {
     padding: 10px 10px;
-    background-image: url("./AboutUsImages/backGreen.png");
+    /* background-image: url("./AboutUsImages/backGreen.png"); */
+    background-image:url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
     background-attachment: inherit;
     text-align: start;
   }
   
   .wrap4 {
     padding: 10px 10px;
-    background-image: url("./AboutUsImages/backBlue.png");
+    /* background-image: url("./AboutUsImages/backBlue.png"); */
+    background-image:url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
     background-attachment: inherit;
     text-align: start;
   }
@@ -180,22 +192,26 @@
   }
 
   .sectionSevencRow1 {
-    background-image: url("./AboutUsImages/backRed.png");
+    /* background-image: url("./AboutUsImages/backRed.png"); */
+    background-image:url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
     background-attachment: inherit;
   }
 
   .sectionSevencRow2 {
-    background-image: url("./AboutUsImages/backYellow.png");
+    /* background-image: url("./AboutUsImages/backYellow.png"); */
+    background-image:url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
     background-attachment: inherit;
   }
 
   .sectionSevencRow3 {
-    background-image: url("./AboutUsImages/backGreen.png");
+    /* background-image: url("./AboutUsImages/backGreen.png"); */
+    background-image:url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
     background-attachment: inherit;
   }
 
   .sectionSevencRow4 {
-    background-image: url("./AboutUsImages/backBlue.png");
+    /* background-image: url("./AboutUsImages/backBlue.png"); */
+    background-image:url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
     background-attachment: inherit;
   }
 
@@ -266,7 +282,8 @@
     padding: 10px 10px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("./AboutUsImages/backRed.png");
+    /* background-image: url("./AboutUsImages/backRed.png"); */
+    background-image:url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
     background-attachment: inherit;
     text-align: start;
   }
@@ -275,7 +292,8 @@
     padding: 10px 10px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("./AboutUsImages/backYellow.png");
+    /* background-image: url("./AboutUsImages/backYellow.png"); */
+    background-image:url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
     background-attachment: inherit;
     text-align: start;
   }
@@ -284,7 +302,8 @@
     padding: 10px 10px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("./AboutUsImages/backGreen.png");
+    /* background-image: url("./AboutUsImages/backGreen.png"); */
+    background-image:url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
     background-attachment: inherit;
     text-align: start;
   }
@@ -293,7 +312,8 @@
     padding: 10px 10px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("./AboutUsImages/backBlue.png");
+    /* background-image: url("./AboutUsImages/backBlue.png"); */
+    background-image:url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
     background-attachment: inherit;
     text-align: start;
   }
