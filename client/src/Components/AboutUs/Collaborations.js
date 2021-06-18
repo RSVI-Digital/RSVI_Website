@@ -8,7 +8,7 @@ class Collaborations extends Component {
         return (
             <div>
                <Row className={Modules.section8}>
-                    <img src={Image.Section8} alt="section8" className={Modules.bgimage}></img>
+                    <img src={Image.Section8} alt="section8" className={Modules.sec8img}></img>
                 </Row>
                 <Row className={Modules.collabs}>
                   <Col>
@@ -18,14 +18,14 @@ class Collaborations extends Component {
                   </Col>
                   <Col>
                     <p>
-                    Collaborations with RSVI is very easy process. We extend collaboration 
-                    to all the organisations who  compliment to our cause and can help in 
-                    upliftment of life of the visually Impaired. Major highlights being Uber 
-                    India , Enactus , NSS Society of various colleges , Yoga Session, Mental 
+                    Collaborations with RSVI is very easy process. We extend collaboration
+                    to all the organisations who  compliment to our cause and can help in
+                    upliftment of life of the visually Impaired. Major highlights being Uber
+                    India , Enactus , NSS Society of various colleges , Yoga Session, Mental
                     Wellness doctors etc.
                     </p>
                   </Col>
-                </Row> 
+                </Row>
             </div>
         )
     }

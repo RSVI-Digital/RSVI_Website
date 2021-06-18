@@ -3,45 +3,280 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Noto+Sans+HK&display=swap");
 
 .collabs {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  /* background-image: url('./AboutUsImages/backGreen.png'); */
+  background-image: url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
+  background-attachment: inherit;
+  padding: 30px 180px 30px 180px;
+}
+
+.collabs h1 {
+  font-size: 50px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bolder;
+}
+
+.collabs p {
+  font-size: 20px;
+  font-family: "Noto Sans HK", "Source Sans Pro";
+  word-spacing: 5px;
+  text-align: left;
+}
+
+.collabbutton {
+  font-family: "Noto Sans HK", "Source Sans Pro";
+  word-spacing: 5px;
+  margin-top: 10px;
+  padding: 13px 15px;
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #ffffa8;
+  border: none;
+  border-radius: 25px;
+  color: black;
+  margin-left:5%;
+}
+
+.collabbutton:hover {
+  background-color: #ffff8c;
+  text-decoration: underline;
+  color: black;
+}
+
+.sec8img {
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 10%;
+  width: 80%;
+}
+
+@media screen and (min-width: 1450px) and (max-width: 1589px) {
+  .collabs {
     margin-top: 20px;
     margin-bottom: 50px;
-    /* background-image: url('./AboutUsImages/backGreen.png'); */
-    background-image:url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
-    background-attachment: inherit;
     padding: 30px 180px 30px 180px;
   }
-  
+
   .collabs h1 {
-    font-size: 48px;
-    font-family: "Cormorant Garamond", serif;
-    font-weight: bolder;
+    font-size: 54px;
   }
-  
+
   .collabs p {
-    font-size: 20px;
-    font-family: "Noto Sans HK", "Source Sans Pro";
+    font-size: 21px;
     word-spacing: 5px;
-    text-align: justify;
   }
-  
+
   .collabbutton {
-    font-family: "Noto Sans HK", "Source Sans Pro";
-    word-spacing: 5px;
     margin-top: 10px;
     padding: 13px 15px;
+    font-size: 21px;
+  }
+
+  .sec8img {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1126px) and (max-width: 1259px) {
+  .collabs {
+    width: 100%;
+  }
+
+  .collabs h1 {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+  .collabs p {
+    font-size: 18px;
+  }
+
+  .collabbutton {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left:5%;
+  }
+
+  .sec8img {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1125px) {
+  .collabs h1 {
+    font-size: 38px;
+    margin-top: 20px;
+  }
+
+  .collabs p {
     font-size: 17px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: #ffffa8;
-    border: none;
-    border-radius: 25px;
-    color: black;
+    text-align: left;
   }
-  
-  .collabbutton:hover {
-    background-color: #ffff8c;
-    text-decoration: underline;
-    color: black;
+
+  .collabbutton {
+    font-size: 17px;
+    margin-top: 0px;
   }
+
+  .sec8img {
+    margin-left: 5%;
+    margin-top: 50px;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 999px) {
+  .collabs {
+    padding: 10px 40px 10px 30px;
+    width: 100%;
+  }
+
+  .collabs h1 {
+    font-size: 36px;
+    margin-top: 50px;
+  }
+
+  .collabs p {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .sec8img {
+    position: relative;
+    width: 80%;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9%;
+  }
+
+  .collabbutton {
+    font-size: 16px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .collabs {
+    padding: 10px 40px 10px 30px;
+    margin: 0 2rem;
+  }
+
+  .collabs h1 {
+    font-size: 34px;
+    margin-top: 20px;
+  }
+
+  .collabs p {
+    font-size: 14px;
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .collabbutton {
+    font-size: 14px;
+  }
+
+  .sec8img {
+    width: 100%;
+    padding: 10px 40px 10px 40px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sec8img {
+    width: 100%;
+    padding: 10px 70px 0px 10px;
+    margin-left: 2rem;
+  }
+
+  .collabs {
+    padding: 10px 20px 10px 20px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    flex-direction: column;
+  }
+
+  .collabs h1 {
+    font-size: 34px;
+    font-weight: bolder;
+    margin-top: 20px;
+  }
+
+  .collabs p {
+    font-size: 14px;
+    word-spacing: 2px;
+  }
+
+  .collabbutton {
+    margin-top: 0px;
+    padding: 10px 12px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 444px) {
+  .sec8img {
+    width: 100%;
+    padding: 10px 70px 0px 10px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .collabs {
+    padding: 10px 20px 10px 20px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    flex-direction: column;
+  }
+
+  .collabs p {
+    font-size: 13px;
+    word-spacing: 2px;
+    text-align: justify;
+  }
+
+  .collabbutton {
+    margin-top: 2px;
+    padding: 10px 12px;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .sec8img {
+    width: 100%;
+    margin-left: 0px;
+    padding: 5px 30px 10px 30px;
+  }
+
+  .collabs {
+    margin: 0 1rem;
+  }
+
+  .collabs h1 {
+    font-size: 28px;
+  }
+
+  .collabs p {
+    font-size: 12px;
+  }
+
+  .collabbutton {
+    font-size: 12px;
+  }
+}
