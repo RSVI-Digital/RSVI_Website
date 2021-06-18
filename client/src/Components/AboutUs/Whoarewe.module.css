@@ -9,7 +9,6 @@
   left: 5rem;
 }
 
-
 .rowOneColTwo {
   /* background-image: url("./AboutUsImages/backRed.png"); */
   background-image: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
@@ -90,9 +89,12 @@
   padding-right: 80px;
   text-align: justify;
 }
-@media screen and (min-width: 1590px) {}
-@media screen and (min-width: 1450px) and (max-width: 1589px) {}
-@media screen and (min-width: 1300px) and (max-width: 1449px) {}
+@media screen and (min-width: 1590px) {
+}
+@media screen and (min-width: 1450px) and (max-width: 1589px) {
+}
+@media screen and (min-width: 1300px) and (max-width: 1449px) {
+}
 @media screen and (min-width: 1260px) and (max-width: 1299px) {
   .rowOneColOne > img {
     height: 300px;
@@ -138,8 +140,10 @@
     font-size: 18px;
   }
 }
-@media screen and (min-width: 1051px) and (max-width: 1125px) {}
-@media screen and (min-width: 1000px) and (max-width: 1050px) {}
+@media screen and (min-width: 1051px) and (max-width: 1125px) {
+}
+@media screen and (min-width: 1000px) and (max-width: 1050px) {
+}
 
 @media screen and (min-width: 1000px) and (max-width: 1125px) {
   .rowOneColOne > img {
@@ -164,7 +168,8 @@
     font-size: 17px;
   }
 }
-@media screen and (min-width: 870px) and (max-width: 999px) {}
+@media screen and (min-width: 870px) and (max-width: 999px) {
+}
 @media screen and (min-width: 769px) and (max-width: 999px) {
   .rowOneColOne > img {
     width: 450px;
@@ -240,15 +245,19 @@
     right: 0;
     font-size: 34px;
   }
-
+   .rowTwoRowPara{
+    margin-left: 1px;
+   }
   .rowTwoRowPara > p {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 14px;
   }
 }
-@media screen and (min-width: 700px) and (max-width: 767px) {}
-@media screen and (min-width: 640px) and (max-width: 700px) {}
+@media screen and (min-width: 700px) and (max-width: 767px) {
+}
+@media screen and (min-width: 640px) and (max-width: 700px) {
+}
 @media screen and (max-width: 575px) {
   .section1,
   .section2 {
@@ -276,6 +285,7 @@
   .rowTwoRowPara {
     background-color: cornsilk;
     word-spacing: 0;
+    margin-left: 1px;
   }
 
   .rowTwoRowPara > p {

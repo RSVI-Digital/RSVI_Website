@@ -29,7 +29,7 @@ class Whoarewe extends Component {
                   <div className={`${Modules.rowTwoDiv}  py-4 mt-5`}>
                     <h1 className="">Who Are We?</h1>
                   </div>
-                  <div className={`row pt-2 m-1 text-justify ${Modules.rowTwoRowPara}`}>
+                  <div className={`row pt-2 m-md-1 text-justify ${Modules.rowTwoRowPara}`}>
                     <p>
                       RSVI started its journey in the year 2005 and has successfully
                       completed more than 15 years of its successful mission.
