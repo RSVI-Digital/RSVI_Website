@@ -14,7 +14,7 @@
   clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   text-align: center;
   height: 540px;
-  background-image: url("./AboutUsImages/backGreen.png");
+  background-image: url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
   z-index: 2;
 }
 
@@ -51,7 +51,7 @@
 .whyStarted {
   margin-top: 50px;
   height: 100px;
-  background-image: url("./AboutUsImages/backBlue.png");
+  background-image: url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
 }
 
 .whyStarted h1 {
@@ -78,7 +78,6 @@
 }
 
 @media screen and (min-width: 1590px) {
-
   .content p {
     font-size: 21px;
   }
@@ -89,7 +88,6 @@
 }
 
 @media screen and (min-width: 1450px) and (max-width: 1589px) {
-
   .content p {
     font-size: 20.5px;
   }
@@ -100,7 +98,6 @@
 }
 
 @media screen and (min-width: 1300px) and (max-width: 1449px) {
-
   .content {
     width: 75%;
   }
@@ -115,7 +112,6 @@
 }
 
 @media screen and (min-width: 1260px) and (max-width: 1299px) {
-
   .content p {
     font-size: 19px;
   }
@@ -126,7 +122,6 @@
 }
 
 @media screen and (min-width: 1126px) and (max-width: 1259px) {
-
   .content p {
     font-size: 18px;
   }
@@ -137,7 +132,6 @@
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1125px) {
-
   .content p {
     font-size: 16.8px;
   }
@@ -148,7 +142,6 @@
 }
 
 @media screen and (min-width: 870px) and (max-width: 999px) {
-
   .content p {
     font-size: 16px;
   }
@@ -166,7 +159,6 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 869px) {
-
   .content {
     width: 75%;
   }
@@ -200,7 +192,7 @@
     margin: 0 2rem;
   }
 
-  .content>p {
+  .content > p {
     font-size: 18px;
     line-height: 24px;
     margin: 30px;
@@ -239,7 +231,6 @@
     background-color: rgb(200, 234, 245);
     font-size: 18px;
   }
-
 }
 
 @media screen and (max-width: 575px) {
@@ -293,11 +284,9 @@
     background-color: rgb(200, 234, 245);
     font-size: 16px;
   }
-
 }
 
-@media screen and (max-width:360px) {
-  
+@media screen and (max-width: 360px) {
   .whyStarted {
     margin: 0 1rem;
   }
