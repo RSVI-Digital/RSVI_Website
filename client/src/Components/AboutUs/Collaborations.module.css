@@ -12,16 +12,16 @@
 }
 
 .collabs h1 {
-  font-size: 50px;
+  font-size: 45px;
   font-family: "Cormorant Garamond", serif;
   font-weight: bolder;
 }
 
 .collabs p {
-  font-size: 20px;
+  font-size: 21px;
   font-family: "Noto Sans HK", "Source Sans Pro";
   word-spacing: 5px;
-  text-align: left;
+  text-align: justify;
 }
 
 .collabbutton {
@@ -59,11 +59,11 @@
   .collabs {
     margin-top: 20px;
     margin-bottom: 50px;
-    padding: 30px 180px 30px 180px;
+    padding: 30px 160px 30px 160px;
   }
 
   .collabs h1 {
-    font-size: 54px;
+    font-size: 45px;
   }
 
   .collabs p {
@@ -88,6 +88,7 @@
 @media screen and (min-width: 1126px) and (max-width: 1259px) {
   .collabs {
     width: 100%;
+    padding: 30px 100px 30px 100px;
   }
 
   .collabs h1 {
@@ -114,6 +115,34 @@
 }
 
 @media screen and (min-width: 1050px) and (max-width: 1125px) {
+  .collabs {
+    padding: 30px 100px 30px 100px;
+  }
+  .collabs h1 {
+    font-size: 38px;
+    margin-top: 20px;
+  }
+
+  .collabs p {
+    font-size: 17px;
+    text-align: left;
+  }
+
+  .collabbutton {
+    font-size: 17px;
+    margin-top: 0px;
+  }
+
+  .sec8img {
+    margin-left: 5%;
+    margin-top: 50px;
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1049px) {
+  .collabs {
+    padding: 30px 100px 30px 100px;
+  }
   .collabs h1 {
     font-size: 38px;
     margin-top: 20px;

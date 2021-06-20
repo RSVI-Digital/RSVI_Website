@@ -27,6 +27,7 @@
   /* background-image: url('./AboutUsImages/backRed.png'); */
   background-image: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
   position: relative;
+  /* transition: 300ms ease-in-out; */
 }
 
 .para1 {
@@ -262,6 +263,7 @@
 
 
 @media screen and (min-width: 680px) and (max-width: 767px) {
+  
   .sec5bgimage {
     padding: 10px 10px;
     margin-left: 10px;
@@ -275,8 +277,8 @@
   .section5 {
     width: auto;
     height: auto;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 2rem;
+    margin-left: 2rem;
     margin-bottom: 30px;
   }
 
@@ -287,7 +289,7 @@
 
   .sec6img {
     height: 160px;
-    margin-left: 30px;
+    margin-left: 2rem;
   }
 
   .sec6box {
