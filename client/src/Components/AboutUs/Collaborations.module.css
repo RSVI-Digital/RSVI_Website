@@ -195,6 +195,7 @@
   .sec8img {
     width: 100%;
     margin-left: 0rem;
+    margin-bottom: 0px;
   }
 }
 
@@ -202,6 +203,7 @@
   .collabs {
     padding: 10px 40px 10px 30px;
     margin: 0 2rem;
+    margin-top: 0px;
   }
 
   .collabs h1 {
@@ -221,16 +223,18 @@
 
   .sec8img {
     width: 100%;
-    padding: 10px 50px 10px 40px;
+    padding: 10px 50px 0px 40px;
     margin-left: 0.5rem;
+    margin-bottom: 0px;
   }
 }
 
 @media screen and (max-width: 575px) {
   .sec8img {
-    width: 100%;
+    width: 99%;
     padding: 10px 70px 0px 10px;
     margin-left: 2rem;
+    margin-bottom: 0px;
   }
 
   .collabs {
@@ -238,6 +242,7 @@
     margin-right: 2rem;
     margin-left: 2rem;
     flex-direction: column;
+    margin-top: 0;
   }
 
   .collabs h1 {
@@ -263,9 +268,9 @@
 @media screen and (max-width: 444px) {
   .sec8img {
     width: 100%;
-    padding: 10px 70px 0px 10px;
-    margin-right: 2rem;
+    padding: 10px 75px 0px 13px;
     margin-left: 2rem;
+    margin-bottom: 0px;
   }
 
   .collabs {
@@ -273,6 +278,7 @@
     margin-right: 2rem;
     margin-left: 2rem;
     flex-direction: column;
+    margin-top: 0;
   }
 
   .collabs p {
@@ -293,11 +299,13 @@
   .sec8img {
     width: 100%;
     margin-left: 0px;
-    padding: 5px 30px 10px 30px;
+    padding: 5px 30px 0px 30px;
+    margin-bottom: 0px;
   }
 
   .collabs {
     margin: 0 1rem;
+    margin-top: 0px;
   }
 
   .collabs h1 {
