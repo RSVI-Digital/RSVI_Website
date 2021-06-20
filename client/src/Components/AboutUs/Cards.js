@@ -207,7 +207,7 @@ class Cards extends Component {
           
                 {/* ***************Row 7c**************** */}
                 <Row className={`${Modules.sectionSevenc} ${Modules.sectionSevencRow1}`}>
-                    <Row className={`${Modules.innercRow}`}>
+                    <Row className={`${Modules.innercRow} ${Modules.incRow1}`}>
                       <Col className={`${Modules.row1Col1c}`}>
                         <img
                           className={`${Modules.image7c}`}
@@ -247,7 +247,7 @@ class Cards extends Component {
                     </Row>
                 </Row>
                 <Row className={`${Modules.sectionSevenc} ${Modules.sectionSevencRow2}`}>
-                    <Row className={`${Modules.innercRow}`}>
+                    <Row className={`${Modules.innercRow} ${Modules.incRow2}`}>
                       <Col className={`${Modules.row2Col1c}`}>
                         <img
                           className={`${Modules.image7c}`}
@@ -281,7 +281,7 @@ class Cards extends Component {
                     </Row>
                 </Row>
                 <Row className={`${Modules.sectionSevenc} ${Modules.sectionSevencRow3}`}>
-                    <Row className={`${Modules.innercRow}`}>
+                    <Row className={`${Modules.innercRow} ${Modules.incRow3}`}>
                       <Col className={`${Modules.row3Col1c}`}>
                         <img
                           className={`${Modules.image7c}`}

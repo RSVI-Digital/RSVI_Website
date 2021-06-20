@@ -628,11 +628,29 @@
 }
 
 @media screen and (max-width: 575px) {
+  .sectionSevenc {
+    padding: 10px 20px 10px 10px;
+    border-radius: 8px;
+  }
+  .innercRow {
+    padding: 15px 15px;
+    margin: 6px 6px;
+  }
+  .incRow1{
+    background-color: #F7D9D9;
+  }
+  .incRow2{
+    background-color: #FEFFDE;
+  }
+  .incRow3{
+    background-color: #EDFFEC;
+  }
   .cWrapc {
     margin-top: 10px;
     width: auto;
     max-height: 180px;
     overflow-y: auto;
+    border-radius: 8px;
   }
 
   .cWrapc::-webkit-scrollbar {
