@@ -36,6 +36,9 @@
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
+  .rowNineCarouselWrapper {
+    margin: 0 2rem;
+  }
   .rowNineCarouselDiv img {
     padding: 15px 15px;
   }

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Noto+Sans+HK&display=swap");
 
@@ -318,3 +318,560 @@
     font-size: 12px;
   }
 }
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Noto+Sans+HK&display=swap");
+
+.section3 {
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+}
+
+.content {
+  width: 70%;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+  text-align: center;
+  height: 540px;
+  background-image: url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
+  z-index: 2;
+}
+
+.content p {
+  text-align: justify;
+  margin: 40px 100px 40px 80px;
+  font-family: "Noto Sans HK", "Source Sans Pro";
+  word-spacing: 5px;
+}
+
+.imageBox {
+  align-items: center;
+  text-align: center;
+}
+
+.imageBox img {
+  right: 0;
+  z-index: 1;
+  position: absolute;
+  transition: all 500ms ease-in-out;
+}
+
+.imageBox img:hover {
+  transform: scale(1.3);
+  z-index: 3;
+  margin-right: 130px;
+}
+
+.section4 {
+  position: relative;
+  width: 100%;
+}
+
+.whyStarted {
+  margin-top: 50px;
+  height: 100px;
+  background-image: url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
+}
+
+.whyStarted h1 {
+  margin-left: 80px;
+  padding-top: 20px;
+  padding-left: 0px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bolder;
+  line-height: 90px;
+  font-size: 45px;
+}
+
+.reasonForStart {
+  text-align: center;
+  margin: 10px 0 100px 0;
+}
+
+.reasonForStart p {
+  text-align: justify;
+  margin: 0 80px 0 80px;
+  font-family: "Noto Sans HK", "Source Sans Pro";
+  word-spacing: 5px;
+  font-size: 21px;
+}
+
+@media screen and (min-width: 1590px) {
+  .content p {
+    font-size: 21px;
+  }
+
+  .imageBox img {
+    top: 10%;
+  }
+}
+
+@media screen and (min-width: 1450px) and (max-width: 1589px) {
+  .content p {
+    font-size: 21px;
+    margin-left: 80px;
+  }
+
+  .imageBox img {
+    top: 9%;
+  }
+
+  .whyStarted h1 {
+    margin-left: 80px;
+  }
+
+  .reasonForStart p {
+    margin-left: 80px;
+    font-size: 21px;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1449px) {
+  .content {
+    width: 75%;
+  }
+
+  .content p {
+    margin-left: 80px;
+    font-size: 21px;
+  }
+
+  .imageBox img {
+    top: 13%;
+  }
+
+  .whyStarted h1 {
+    margin-left: 80px;
+  }
+
+  .reasonForStart p {
+    margin-left: 80px;
+    font-size: 21px;
+  }
+}
+
+@media screen and (min-width: 1260px) and (max-width: 1299px) {
+  .content p {
+    font-size: 19px;
+    margin-left: 3rem;
+  }
+
+  .imageBox img {
+    margin-top: 5.5%;
+  }
+
+  .whyStarted h1 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .reasonForStart p {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 1126px) and (max-width: 1259px) {
+  .content p {
+    font-size: 18px;
+    margin-left: 4rem;
+  }
+
+  .imageBox img {
+    margin-top: 70px;
+  }
+
+  .whyStarted h1 {
+    font-size: 38px;
+    margin-left: 4rem;
+  }
+
+  .reasonForStart p {
+    margin-top: 20px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1125px) {
+  .content p {
+    margin-left: 60px;
+    font-size: 17px;
+  }
+
+  .imageBox img {
+    margin-top: 70px;
+  }
+
+  .whyStarted h1 {
+    margin-left: 60px;
+    font-size: 38px;
+  }
+
+  .reasonForStart p {
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 999px) {
+  .content {
+    height: auto;
+  }
+
+  .content p {
+    font-size: 16px;
+    margin-left: 50px;
+  }
+
+  .imageBox img {
+    margin-top: 70px;
+  }
+
+  .imageBox img:hover {
+    width: 75%;
+    height: 70%;
+    margin-right: 79px;
+    margin-top: 85px;
+  }
+
+  .whyStarted h1 {
+    left: 0px;
+    margin-left: 50px;
+    font-size: 36px;
+  }
+
+  .reasonForStart p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (width: 768px){
+  .content {
+    height: auto;
+    width: 75%;
+  }
+
+  .content p {
+    font-size: 16px;
+    margin-left: 40px;
+    margin-right: 80px;
+  }
+
+  .imageBox img {
+    margin-top: 70px;
+  }
+
+  .imageBox img:hover {
+    width: 75%;
+    height: 70%;
+    margin-right: 79px;
+    margin-top: 85px;
+  }
+
+  .whyStarted h1 {
+    left: 0px;
+    margin-left: 40px;
+    font-size: 36px;
+  }
+
+  .reasonForStart p {
+    margin-top: 20px;
+    font-size: 16px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .section3 {
+    flex-direction: column;
+  }
+
+  .content {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    height: auto;
+    width: fit-content;
+    margin: 0 2rem;
+  }
+
+  .content > p {
+    font-size: 15px;
+    line-height: 24px;
+    margin: 30px;
+  }
+
+  .imageBox {
+    margin: 0 2rem;
+  }
+
+  .imageBox img {
+    position: relative;
+    width: 100%;
+  }
+
+  .imageBox img:hover {
+    transform: none;
+  }
+
+  .whyStarted {
+    margin: 0 2rem;
+  }
+
+  .whyStarted h1 {
+    margin-top: 50px;
+    margin-left: 4.2rem;
+    font-size: 34px;
+  }
+
+  .reasonForStart {
+    margin-top: 10px;
+  }
+
+  .reasonForStart p {
+    margin: 0 2rem;
+    padding: 20px 1.7rem;
+    background-color: rgb(200, 234, 245);
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .section3 {
+    flex-direction: column;
+  }
+
+  .content {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    height: auto;
+    width: fit-content;
+    margin: 0 2rem;
+  }
+
+  .content > p {
+    font-size: 15px;
+    line-height: 24px;
+    word-spacing: 0;
+    margin: 30px;
+  }
+
+  .imageBox {
+    margin: 0 2rem;
+  }
+
+  .imageBox img {
+    position: relative;
+    width: 100%;
+  }
+
+  .imageBox img:hover {
+    transform: none;
+  }
+
+  .whyStarted {
+    margin: 0 2rem;
+  }
+
+  .whyStarted h1 {
+    margin-top: 50px;
+    margin-left: 4.2rem;
+    font-size: 34px;
+  }
+
+  .reasonForStart {
+    margin-top: 10px;
+  }
+
+  .reasonForStart p {
+    margin: 0 2rem;
+    padding: 20px 1.7rem;
+    background-color: rgb(200, 234, 245);
+    font-size: 14px;
+    word-spacing: 0;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .content > p {
+    font-size: 13px;
+  }
+  .whyStarted h1 {
+    font-size: 32px;
+  }
+  .reasonForStart p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .content > p {
+    font-size: 12px;
+  }
+  .whyStarted h1 {
+    margin: 0 1rem;
+    font-size: 28px;
+  }
+  .reasonForStart p {
+    margin: 0 1rem;
+    font-size: 12px;
+  }
+
+  .content {
+    margin: 0 1rem;
+  }
+
+  .imageBox {
+    margin: 0 1rem;
+  }
+
+}
+
+/* @media screen and (min-width: 411) and (max-width: 574px) {
+  .section3 {
+    flex-direction: column;
+  }
+
+  .content {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    height: auto;
+    width: 83%;
+    margin-left: 2rem;
+  }
+
+  .content p {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .imageBox img {
+    position: relative;
+    width: 83%;
+  }
+
+  .whyStarted {
+    width: 83%;
+    margin-left: 1.9rem;
+  }
+
+  .whyStarted h1 {
+    margin-left: 2rem;
+    font-size: 25px;
+  }
+
+  .reasonForStart {
+    width: 83%;
+    margin-left: 1.9rem;
+    background-color: rgb(200, 234, 245);
+  }
+
+  .reasonForStart p {
+    margin: 0 1.1rem;
+    padding: 1rem 0;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 410px) {
+  .section3 {
+    flex-direction: column;
+  }
+
+  .content {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    height: auto;
+    width: 83%;
+    margin-left: 2rem;
+  }
+
+  .content p {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .imageBox img {
+    position: relative;
+    width: 83%;
+  }
+
+  .whyStarted {
+    width: 83%;
+    margin-left: 1.9rem;
+  }
+
+  .whyStarted h1 {
+    margin-left: 2rem;
+    font-size: 25px;
+  }
+
+  .reasonForStart {
+    width: 83%;
+    margin-left: 1.9rem;
+    background-color: rgb(200, 234, 245);
+  }
+
+  .reasonForStart p {
+    margin: 0 1.1rem;
+    padding: 1rem 0;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .section3 {
+    flex-direction: column;
+  }
+
+  .content {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    height: auto;
+    width: 91.1%;
+    margin: 0 1rem;
+  }
+
+  .content p {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .imageBox img {
+    position: relative;
+    width: 100%;
+  }
+
+  .whyStarted {
+    margin: 1rem;
+    height: auto;
+  }
+
+  .whyStarted h1 {
+    margin-left: 30px;
+    font-size: 25px;
+  }
+
+  .reasonForStart {
+    width: 91.1%;
+    margin: 0 1rem;
+    background-color: rgb(200, 234, 245);
+  }
+
+  .reasonForStart p {
+    margin: 0 1.1rem;
+    padding: 1rem 0;
+    font-size: 12px;
+  }
+
+  .imageBox {
+    margin: 0 1rem;
+  }
+} */
