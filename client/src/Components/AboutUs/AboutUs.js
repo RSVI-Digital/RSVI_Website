@@ -14,7 +14,7 @@ class AboutUs extends Component {
       display1: false,
       display2: false,
       display3: false,
-      display4: false,
+      /* display4: false, */
     };
   }
 
@@ -26,29 +26,29 @@ class AboutUs extends Component {
           display1: !prevState.display1,
           display2: false,
           display3: false,
-          display4: false,
+          /* display4: false, */
         };
       if (e.target.alt === "CEO")
         return {
           display1: false,
           display2: !prevState.display2,
           display3: false,
-          display4: false,
+          /* display4: false, */
         };
       if (e.target.alt === "Roots1")
         return {
           display1: false,
           display2: false,
           display3: !prevState.display3,
-          display4: false,
+          /* display4: false, */
         };
-      if (e.target.alt === "Roots2")
+      /* if (e.target.alt === "Roots2")
         return {
           display1: false,
           display2: false,
           display3: false,
           display4: !prevState.display4,
-        };
+        }; */
     });
   };
   render() {
@@ -269,7 +269,7 @@ class AboutUs extends Component {
                   <h4>Ms. Satakshi Gupta</h4>
                 </div>
               </Col>
-              <Col
+              {/* <Col
                 className={`${Modules.section7Col} ${Modules.section7Col4}`}
                 onClick={this.displayHandler}
               >
@@ -282,7 +282,7 @@ class AboutUs extends Component {
                   <h3>ROOTS</h3>
                   <h4>Mr. Nagesh Kumar Pandey</h4>
                 </div>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
           {/* Section 7b */}
@@ -429,7 +429,7 @@ class AboutUs extends Component {
               </Row>
             </Row>
           )}
-          {this.state.display4 && (
+          {/* {this.state.display4 && (
             <Row
               className={`${Modules.sectionSevenb} ${Modules.sectionSevenRow4}`}
             >
@@ -481,7 +481,7 @@ class AboutUs extends Component {
                 </Col>
               </Row>
             </Row>
-          )}
+          )} */}
           {/* Section 7c */}
           <Row className={`${Modules.sectionSevenc} ${Modules.sectionSevencRow1}`}>
               <Row className={`${Modules.innercRow}`}>
@@ -613,7 +613,7 @@ class AboutUs extends Component {
                 </Col>
               </Row>
             </Row>
-          <Row className={`${Modules.sectionSevenc} ${Modules.sectionSevencRow4}`}>
+          {/* <Row className={`${Modules.sectionSevenc} ${Modules.sectionSevencRow4}`}>
               <Row className={`${Modules.innercRow}`}>
               <Col className={`${Modules.row4Col1c}`}>
                   <img
@@ -661,7 +661,7 @@ class AboutUs extends Component {
                   </Row>
                 </Col>
               </Row>
-            </Row>
+            </Row> */}
           {/* **************** Row 8 **************** */}
           {/* Anjali */}
           <Row className={Modules.section8}>
@@ -679,12 +679,11 @@ class AboutUs extends Component {
             </Col>
             <Col>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas molestie iaculis fringilla. Ut tincidunt tempor quam,
-                sit amet interdum lectus tempus porttitor. Vivamus dolor est,
-                vulputate ut dapibus vitae, accumsan consequat tortor. Phasellus
-                varius porttitor nunc, a accumsan lorem tempor sit amet. Nam
-                aliquet ultricies metus.{" "}
+              Collaborations with RSVI is very easy process. We extend collaboration
+                    to all the organisations who  compliment to our cause and can help in
+                    upliftment of life of the visually Impaired. Major highlights being Uber
+                    India , Enactus , NSS Society of various colleges , Yoga Session, Mental
+                    Wellness doctors etc.
               </p>
             </Col>
           </Row>
