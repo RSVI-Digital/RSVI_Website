@@ -168,6 +168,36 @@
   }
 }
 
+@media screen and (width: 768px) {
+  .collabs {
+    padding: 10px 40px 10px 30px;
+    width: 100%;
+  }
+
+  .collabs h1 {
+    font-size: 36px;
+    margin-top: 50px;
+  }
+
+  .collabs p {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .collabbutton {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .sec8img {
+    width: 100%;
+    padding: 10px 50px 10px 40px;
+    margin-left: 0rem;
+  }
+}
+
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .collabs {
     padding: 10px 40px 10px 30px;
