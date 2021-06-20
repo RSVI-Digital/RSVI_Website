@@ -170,8 +170,9 @@
 
 @media screen and (width: 768px) {
   .collabs {
-    padding: 10px 40px 10px 30px;
-    width: 100%;
+    padding: 20px 40px 20px 40px;
+    width: 102%;
+    margin-top: 0px;
   }
 
   .collabs h1 {
@@ -193,7 +194,6 @@
 
   .sec8img {
     width: 100%;
-    padding: 10px 50px 10px 40px;
     margin-left: 0rem;
   }
 }
