@@ -330,10 +330,12 @@
   .rowOneColTwo > div {
     padding-top: 1rem;
   }
-
+   .rowOneColTwo >div >h1{
+     font-size:x-large;
+   }
   .rowTwoRowPara > h1 {
     text-align: justify;
-    font-size: 28px;
+    font-size: xx-large;
   }
 
   .rowTwoRowPara > p {

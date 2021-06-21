@@ -14,7 +14,7 @@ class Whoarewe extends Component {
                     <div className={`${Modules.rowOneColTwo}  col text-center py-md-5`}>
                       <div className="d-inline-block  text-left my-5">
                         <h1 className="d-inline-block">
-                          Rehabiliatation <br></br>Society of the<br></br>Visually
+                          Rehabilitation <br></br>Society of the<br></br>Visually
                           Impaired
                         </h1>
                         <br></br>
