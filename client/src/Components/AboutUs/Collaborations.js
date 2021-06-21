@@ -7,16 +7,16 @@ class Collaborations extends Component {
     render() {
         return (
             <div>
-               <Row className={Modules.section8}>
+                <Row className={Modules.section8}>
                     <img src={Image.Section8} alt="section8" className={Modules.sec8img}></img>
                 </Row>
                 <Row className={Modules.collabs}>
-                  <Col>
+                  <Col className={Modules.sec8Col}>
                     <h1> Affilations & Collaborations </h1>
                     {/* Should link it yet */}
                     <button className={Modules.collabbutton}> KNOW MORE </button>
                   </Col>
-                  <Col>
+                  <Col className={Modules.sec8Col}>
                     <p>
                     Collaborations with RSVI is very easy process. We extend collaboration
                     to all the organisations who  compliment to our cause and can help in
@@ -24,8 +24,9 @@ class Collaborations extends Component {
                     India , Enactus , NSS Society of various colleges , Yoga Session, Mental
                     Wellness doctors etc.
                     </p>
+                    <button className={Modules.mobilebutton}> KNOW MORE </button>
                   </Col>
-                </Row>
+                </Row> 
             </div>
         )
     }
