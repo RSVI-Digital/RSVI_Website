@@ -8,7 +8,7 @@ class Section5 extends Component {
         return (
             <div>
                 {/* *********************** Row 5 *********************** */}
-                {/* <div className={`${Modules.section5}`}> */}
+                <div className={`${Modules.section5}`}>
                     <Row className={`${Modules.sec5Row1}`}>
                         <img className={`${Modules.sec5Img}`} src={Image.Section5} alt="Sec5"></img>
                     </Row>
@@ -31,7 +31,7 @@ class Section5 extends Component {
                             Impairment.
                         </p>
                     </Row>
-                {/* </div> */}
+                </div>
                 {/* *********************** Row 6 *********************** */}
                 <Container className={`${Modules.container6}`}>
                     <Row className={`${Modules.section6}`}>

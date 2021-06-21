@@ -32,7 +32,7 @@ class Whyrsvi extends Component {
                       </p>
                     </div>
                     <div className={Modules.imageBox}>
-                      <img src={Image.Section3} alt="pot" />
+                      <img src={Image.Section3} alt="main" />
                     </div>
                 </section> 
 

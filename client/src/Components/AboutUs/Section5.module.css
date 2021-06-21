@@ -3,68 +3,84 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Noto+Sans+HK&display=swap");
 
 /* ************ Section 5 *************/
-.sec5Row1{
-    max-width: 100%;
-    width: 100%;
-    margin: 0px 0px;
-    padding: 0 80px;
+.section5 {
+  position: relative;
 }
-.sec5Img{
-    max-width: 100%;
-    width: 100%;
-    height: 450px;
-    padding: 0px 0px;
-    transition: all 500ms ease-in-out;
-    z-index: -1;  
+.sec5Row1 {
+  max-width: 100%;
+  width: 100%;
+  margin: 0px 0px;
+  padding: 0 80px;
 }
-.sec5Img:hover{
-    z-index: 3;
-    transform: scale(1.3);
+.sec5Row1 img {
+  max-width: 100%;
+  width: 100%;
+  height: 450px;
+  padding: 0px 0px;
+  transition: all 500ms ease-in-out;
+  z-index: 1;
+}
+.sec5Row1 img:hover {
+  transform: scale(1.2);
+  z-index: 3;
 }
 
-.sec5Content{
-    background-image: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
-    padding: 30px 80px;
-    margin-top: -70px;
-    margin-bottom: 30px;
-    z-index: 1;
+.sec5Content {
+  position: absolute;
+  background: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
+  z-index: 2;
+  padding: 30px 80px;
+  margin-top: -70px;
+  margin-bottom: 30px;
 }
-.sec5para{
-    text-align: justify;
-    font-size: 21px;
-    font-family: "Noto Sans HK", "Source Sans Pro";
-    word-spacing: 5px;
-    z-index: 1;
+.sec5para {
+  text-align: justify;
+  font-size: 21px;
+  font-family: "Noto Sans HK", "Source Sans Pro";
+  word-spacing: 5px;
+  z-index: 2;
 }
 
 /* ************ Section 6 *************/
-.sec6Col1, .sec6Col2, .sec6Col3{
-    max-width: 100%;
-}
-.sec6Img{
-    max-width: 100%;
-    width: 100%;
-    transition: 300ms ease-in-out;
-    z-index: 0;
-}
-.sec6Img:hover {
-    transform: scale(1.1);
+.container6 {
+  position: relative;
 }
 
-.sec6Wrap{
-    background-image: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
-    background-attachment: inherit;
-    width: fit-content;
-    padding: 10px 20px;
-    margin: -15px auto 0px auto;
-    transform: translate(0%, -30%);
+.sec6Col1,
+.sec6Col2,
+.sec6Col3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 400px;
+  max-width: 100%;
 }
-.sec6Wrap > h4{
-    font-family: "Noto Sans HK", "Source Sans Pro";
-    word-spacing: 5px;
-    font-size: 21px;
-    font-weight: inherit;
-    z-index: 1; 
+.sec6Img {
+  max-width: 100%;
+  width: 100%;
+  transition: 300ms ease-in-out;
+  z-index: 1;
+}
+
+.sec6Img:hover {
+  transform: scale(1.1);
+  z-index: 3;
+}
+
+.sec6Wrap {
+  background-image: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
+  background-attachment: inherit;
+  width: fit-content;
+  padding: 10px 20px;
+  margin: -15px auto 0px auto;
+  transform: translate(0%, -30%);
+  z-index: 2;
+}
+.sec6Wrap h4 {
+  font-family: "Noto Sans HK", "Source Sans Pro";
+  word-spacing: 5px;
+  font-size: 21px;
+  font-weight: inherit;
+  z-index: 2;
 }
 
 /* ******************* Media Queries ********************* */
