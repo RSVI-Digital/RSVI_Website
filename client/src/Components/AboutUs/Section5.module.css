@@ -21,7 +21,7 @@
   z-index: 1;
 }
 .sec5Row1 img:hover {
-  transform: scale(1.2);
+  transform: scale(1.0);
   z-index: 3;
 }
 
