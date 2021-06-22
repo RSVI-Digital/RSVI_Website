@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Image from './AboutUsImages/Image';
 import Modules from './Section5.module.css';
 import {Container, Row, Col} from 'react-bootstrap';
+import { Carousel } from "react-responsive-carousel";
+/* import './Carousel.css';  */
 
 class Section5 extends Component {
     render() {
@@ -55,6 +57,33 @@ class Section5 extends Component {
                         </Col>
                     </Row>
                 </Container>
+                {/* <div className={`${Modules.section6b}`}>
+                  <Carousel
+                    autoPlay
+                    infiniteLoop
+                    interval="10000"
+                    transitionTime="600"
+                    className={Modules.sec6bSlider}>
+                    <div className={` ${Modules.sec6Carousel} `}>
+                      <img src={Image.Section6.Img1} alt="thumb1" />
+                      <div className={` ${Modules.sec6bWrap} `}>
+                        <h4>Something about the picture</h4>
+                      </div>
+                    </div>
+                    <div className={` ${Modules.sec6Carousel} `}>
+                      <img src={Image.Section6.Img2} alt="thumb2" />
+                      <div className={` ${Modules.sec6bWrap} `}>
+                        <h4>Something about the picture</h4>
+                      </div>
+                    </div>
+                    <div className={` ${Modules.sec6Carousel} `}>
+                      <img src={Image.Section6.Img3} alt="thumb3" />
+                      <div className={` ${Modules.sec6bWrap} `}>
+                        <h4>Something about the picture</h4>
+                      </div>
+                    </div>
+                  </Carousel>
+                </div> */}
             </div>
         )
     }
