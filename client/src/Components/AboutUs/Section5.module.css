@@ -21,7 +21,7 @@
   z-index: 1;
 }
 .sec5Row1 img:hover {
-  transform: scale(1.0);
+  transform: scale(1);
   z-index: 3;
 }
 
@@ -29,7 +29,6 @@
   position: absolute;
   background: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
   z-index: 2;
-  padding: 30px 80px;
   margin-top: -70px;
   margin-bottom: 30px;
 }
@@ -41,11 +40,7 @@
   z-index: 2;
 }
 
-/* ************ Section 6 *************/
-.container6 {
-  position: relative;
-}
-
+/************* Section 6 *************/
 .sec6Col1,
 .sec6Col2,
 .sec6Col3 {
@@ -85,8 +80,246 @@
 
 /* ******************* Media Queries ********************* */
 @media screen and (min-width: 1590px) {
+  .sec5Row1 {
+    padding: 0 80px;
+  }
+  .sec5Content {
+    padding: 30px 80px;
+  }
+
+  .sec5Content p {
+    font-size: 21px;
+  }
+
+  .section6 {
+    position: absolute;
+    left: -80px;
+    width: 93vw;
+  }
 }
 @media screen and (min-width: 1450px) and (max-width: 1589px) {
+  .sec5Row1 {
+    padding: 0 80px;
+  }
+  .sec5Content {
+    padding: 30px 80px;
+  }
+
+  .sec5Content p {
+    font-size: 21px;
+  }
+
+  .container6 {
+    margin-bottom: 900px;
+  }
+  
+  .section6 {
+    left: 80px;
+    width: 91vw;
+  }
 }
 @media screen and (min-width: 1300px) and (max-width: 1449px) {
+  .sec5Row1 {
+    padding: 0 80px;
+  }
+  .sec5Content {
+    padding: 30px 80px;
+  }
+
+  .sec5Content p {
+    font-size: 21px;
+  }
+
+  .container6 {
+    margin-bottom: 850px;
+  }
+  
+  .section6 {
+    left: 80px;
+    width: 90vw;
+  }
+}
+
+@media screen and (min-width: 1260px) and (max-width: 1299px) {
+  .sec5Row1 {
+    padding: 0 80px;
+  }
+  .sec5Row1 {
+    padding: 0 50px;
+  }
+
+  .sec5para {
+    padding: 0 60px;
+  }
+
+  .sec5Content p {
+    font-size: 19px;
+  }
+
+  .container6 {
+    margin-bottom: 800px;
+  }
+  
+  .container6 {
+    margin-bottom: 800px;
+  }
+  
+  .section6 {
+    position: absolute;
+    left: 65px;
+    width: 93vw;
+  }
+}
+
+@media screen and (min-width: 1126px) and (max-width: 1259px) {
+  .sec5Row1 {
+    padding: 0 80px;
+  }
+  .sec5Row1 {
+    padding: 0 70px;
+  }
+
+  .sec5para {
+    padding: 0 80px;
+  }
+
+  .sec5Content p {
+    font-size: 18px;
+  }
+
+  .container6 {
+    margin-bottom: 800px;
+  }
+  
+  .section6 {
+    position: absolute;
+    left: 65px;
+    margin-right: 60px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1125px) {
+  .sec5Row1 {
+    padding: 0 80px;
+  }
+  .sec5Row1 {
+    padding: 0 70px;
+  }
+
+  .sec5para {
+    padding: 0 80px;
+  }
+
+  .sec5Content p {
+    font-size: 17px;
+  }
+
+  .container6 {
+    margin-bottom: 750px;
+  }
+  
+  .section6 {
+    position: absolute;
+    left: 65px;
+    right: 70px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 999px) {
+  .sec5Row1 {
+    padding: 0 80px;
+  }
+
+  .sec5Row1 {
+    padding: 0 50px;
+  }
+
+  .sec5para {
+    padding: 0 60px;
+  }
+
+  .sec5Content p {
+    font-size: 16px;
+  }
+
+  .container6 {
+    margin-bottom: 700px;
+  }
+  
+  .section6 {
+    position: absolute;
+    left: 45px;
+    right: 45px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .section5 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec5Row1 {
+    position: relative;
+    padding: 0 30px;
+  }
+
+  .sec5Row1 img {
+    height: 300px;
+  }
+
+  .sec5Img:hover {
+    transform: none;
+  }
+
+  .sec5Content {
+    position: relative;
+    margin: 0 30px;
+  }
+
+  .sec5para {
+    padding: 0 30px;
+  }
+
+  .sec5Content p {
+    font-size: 14px;
+  }
+
+  .container6 {
+    margin-bottom: 700px;
+  }
+  
+  .section6 {
+    position: absolute;
+    left: 55px;
+    right: 55px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sec5Row1 img {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .sec5Content p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 444px) {
+  .sec5Row1 img {
+    height: 200px;
+  }
+
+  .sec5Content p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .sec5Row1 img {
+    height: 140px;
+  }
+
+  .sec5Content p {
+    font-size: 12px;
+  }
 }
