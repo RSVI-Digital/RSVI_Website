@@ -3,8 +3,9 @@ import Image from './AboutUsImages/Image';
 import Modules from './Section5.module.css';
 import {Container, Row, Col} from 'react-bootstrap';
 import { Carousel } from "react-responsive-carousel";
-/* import './Carousel.css';  */
-
+// 
+import './CarouselWithoutThumbnail.css';  
+// 
 class Section5 extends Component {
     render() {
         return (
@@ -57,7 +58,7 @@ class Section5 extends Component {
                         </Col>
                     </Row>
                 </Container>
-                {/* <div className={`${Modules.section6b}`}>
+                <div className={`${Modules.section6b}`}>
                   <Carousel
                     autoPlay
                     infiniteLoop
@@ -83,7 +84,7 @@ class Section5 extends Component {
                       </div>
                     </div>
                   </Carousel>
-                </div> */}
+                </div> 
             </div>
         )
     }
