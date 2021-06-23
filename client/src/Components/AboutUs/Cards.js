@@ -371,7 +371,7 @@ class Cards extends Component {
                 <h2>FOUNDER</h2>
                 <h4>Dr. Rakesh Jain</h4>
               </Row>
-              <Row className={`${Modules.cWrapc}`}>
+              <Row className={`${Modules.cWrapc} ${Modules.imppeople}`}>
                 <p id={Modules.p1}>
                   <strong>Dr. Rakesh Jain</strong> is the Secretary General of
                   the Rehabilitation Society of the Visually Impaired and
@@ -404,10 +404,10 @@ class Cards extends Component {
                   Dr. Jain launched an organisation in 2005. The organisation
                   has accomplished a lot during this short period of time.
                 </p>
-                {this.state.screenWidth && (
+                {this.state.screenWidth && (<p id={Modules.parabtn}>
                   <span id={Modules.btn} onClick={this.contentHandler}>
                     Read More
-                  </span>
+                  </span></p>
                 )}
               </Row>
             </Col>
@@ -437,7 +437,7 @@ class Cards extends Component {
                 <h2>CEO</h2>
                 <h4>Ms. Shraddha Srivastava</h4>
               </Row>
-              <Row className={`${Modules.cWrapc}`}>
+              <Row className={`${Modules.cWrapc} ${Modules.imppeople1}`}>
                 <p id={Modules.p21}>
                   <strong>Ms. Shraddha Srivastava</strong> has been instrumental
                   in growth of RSVI since inception. She is woman of substance
@@ -448,17 +448,17 @@ class Cards extends Component {
                   Court Lucknow Working in the field of Rehabilitation of the
                   Visually Impaired - RSVI since 2006 in the various capacities
                   {!this.state.screenWidth &&
-                    "including Chief Executive Secretary & Treasurer of RSVI, as well as Course-co-ordinator D.Ed.S.E.V.I. (Diploma in Education, Special Education Visual Impairment)"}
+                    " including Chief Executive Secretary & Treasurer of RSVI, as well as Course-co-ordinator D.Ed.S.E.V.I. (Diploma in Education, Special Education Visual Impairment)"}
                 </p>
                 <p id={Modules.next22}>
                   including Chief Executive Secretary & Treasurer of RSVI, as
                   well as Course-co-ordinator D.Ed.S.E.V.I. (Diploma in
                   Education, Special Education Visual Impairment)
                 </p>
-                {this.state.screenWidth && (
+                {this.state.screenWidth && (<p id={Modules.parabtn2}>
                   <span id={Modules.btn2} onClick={this.contentHandler}>
                     Read More
-                  </span>
+                  </span></p>
                 )}
               </Row>
             </Col>
@@ -488,7 +488,7 @@ class Cards extends Component {
                 <h2>Roots</h2>
                 <h4>Ms. Satakshi Gupta</h4>
               </Row>
-              <Row className={`${Modules.cWrapc}`}>
+              <Row className={`${Modules.cWrapc} ${Modules.imppeople}`}>
                 <p id={Modules.p31}>
                   <strong>Ms. Satakshi Gupta</strong> plays a core part as Daisy
                   incharge , recordist , voice editor and yoga trainer in
@@ -502,7 +502,7 @@ class Cards extends Component {
                   qualifications such as:{" "}
                 </p>
                 <p id={Modules.next31}>
-                  <ul>
+                  <ul className="m-0">
                     <li>Certified child counselor</li>
                     <li>
                       Certified marriage ,relationship and family counselor
@@ -512,8 +512,7 @@ class Cards extends Component {
                     </li>
                   </ul>
                   {!this.state.screenWidth2 && (
-                    <ul>
-                      {" "}
+                    <ul className="m-0">
                       <li>Certified Neuro -Linguistic</li>
                       <li>Programming (NLP) practioner</li>
                       <li>Reiki healer and Mudra therapist</li>
@@ -522,7 +521,6 @@ class Cards extends Component {
                   )}
                 </p>
                 <p id={Modules.next1next31}><ul>
-                {" "}
                 <li>Certified Neuro -Linguistic</li>
                 <li>Programming (NLP) practioner</li>
                 <li>Reiki healer and Mudra therapist</li>
@@ -532,10 +530,10 @@ class Cards extends Component {
                   Rehabilitation Society Of the Visually Impaired is immensely
                   glad for her contribution and to be a part of RSVI.
                 </p>
-                {this.state.screenWidth && (
+                {this.state.screenWidth && (<p id={Modules.parabtn3}>
                   <span id={Modules.btn3} onClick={this.contentHandler}>
                     Read More
-                  </span>
+                  </span></p>
                 )}
               </Row>
             </Col>
