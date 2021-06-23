@@ -197,6 +197,9 @@
 .sectionSevenc {
   display: none;
 }
+#p1next1,#next1next1,#next22,#p1next31,#next1next31{
+  display: none;
+}
 
 /* ****************************** Media Queries **************************** */
 @media screen and (min-width: 1590px) {
@@ -535,23 +538,23 @@
     height: fit-content;
     align-self: center;
   }
-
-  .row1Col2c > .cWrapc,
+/* Shataxi commented this */
+  /* .row1Col2c > .cWrapc,
   .row2Col2c > .cWrapc,
   .row3Col2c > .cWrapc {
     width: fit-content;
     height: fit-content;
-  }
+  } */
 
   .image7c {
     width: 200px;
     height: 200px;
   }
-
-  .cWrapc {
+/* Shataxi commented this */
+  /* .cWrapc {
     width: auto;
     height: auto;
-  }
+  } */
 
   .cWrapc > h2 {
     font-family: "Cormorant Garamond", serif;
@@ -673,8 +676,8 @@
     width: auto;
     /* max-height: 180px; */
     /* overflow-y: auto; */
-    /* Shataxi */
-    max-height:275px;
+    /* Shataxi added max-height of 275 and now it is commented*/
+    /* max-height:275px; */
     /* Shataxi */
     border-radius: 8px;
   }
@@ -685,11 +688,21 @@
   #btn,#btn2 ,#btn3{
     color: seagreen;
     cursor: pointer;
+    text-decoration: underline;
+  }
+  #parabtn,#parabtn2,#parabtn3{
+    text-align:right;
   }
   #next1,
   #next2,#p1next1,#next1next1,#next21,
   #next22,#p1next31,#next1next31,#next31,#next32{
     display: none;
+  }
+  .imppeople{
+    height:260px;
+  }
+  .imppeople1{
+    height:200px;
   }
   /* Shataxi */
   .cWrapc::-webkit-scrollbar {
@@ -724,6 +737,12 @@
   .cWrapc > h4 {
     font-size: 15px;
   }
+  /* Shataxi */
+  .imppeople{
+    height:270px;
+  }
+ 
+  /* Shataxi */
 }
 
 @media screen and (max-width: 360px) {
@@ -747,8 +766,11 @@
   #p1next1,#next1next1,#p1next31,#next1next31{
     display:none;
   }
+  .imppeople{
+    height: 300px;
+  }
   /* Shataxi */
-  .cWrapc > p {
+  /* .cWrapc > p {
     text-align: left;
     font-size: 13px;
   }
@@ -758,5 +780,6 @@
 
   .cWrapc > h4 {
     font-size: 15px;
-  }
+  } */
+  
 }
