@@ -66,7 +66,7 @@
 
 .reasonForStart {
   text-align: center;
-  margin: 10px 0 100px 0;
+  margin: 10px 0 40px 0;
 }
 
 .reasonForStart p {
@@ -382,7 +382,11 @@
     font-size: 13px;
   }
   .whyStarted h1 {
-    font-size: 32px;
+    /* font-size: 32px; */
+    /* Shataxi */
+    font-size:25px;
+    margin-left:2.5rem;
+    /* Shataxi */
   }
   .reasonForStart p {
     font-size: 13px;
@@ -394,9 +398,17 @@
     font-size: 12px;
   }
   .whyStarted h1 {
-    margin: 0 1rem;
-    font-size: 28px;
+    /* margin: 0 1rem;
+    font-size: 28px; */
+    /* Shataxi */
+   font-size: 25px;
+    /* Shataxi */
   }
+  /* Shataxi */
+  .whyStarted{
+    margin:1rem;
+  }
+  /* Shataxi */
   .reasonForStart p {
     margin: 0 1rem;
     font-size: 12px;
