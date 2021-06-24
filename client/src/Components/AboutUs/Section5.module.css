@@ -279,4 +279,13 @@
   .section6{
     display: none;
   }
+  /* Shataxi*/
+  .sec6bWrap{
+     padding:2px;
+     width:65%;
+  }
+  .sec6bWrap h4{
+    font-size: 14px;
+  }
+  /* Shataxi*/
 }
