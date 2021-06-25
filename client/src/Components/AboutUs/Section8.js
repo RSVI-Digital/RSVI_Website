@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Image from './AboutUsImages/Image';
+import Image from './Image';
 import Modules from './Section8.module.css';
 import {Row, Col} from 'react-bootstrap';
 

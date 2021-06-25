@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Image from './AboutUsImages/Image';
+import Image from './Image';
 import Modules from './Section3_4.module.css';
 
 class Section3_4 extends Component {

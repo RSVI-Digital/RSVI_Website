@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Image from './AboutUsImages/Image';
+import Image from './Image';
 import Modules from './Section5_6.module.css';
 import {Container, Row, Col} from 'react-bootstrap';
 import { Carousel } from "react-responsive-carousel"; 
