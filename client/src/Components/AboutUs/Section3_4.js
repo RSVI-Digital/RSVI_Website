@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Image from './AboutUsImages/Image';
-import Modules from './Whyrsvi.module.css';
+import Modules from './Section3_4.module.css';
 
-class Whyrsvi extends Component {
+class Section3_4 extends Component {
     render() {
         return (
             <div>
@@ -74,4 +74,4 @@ class Whyrsvi extends Component {
     }
 }
 
-export default Whyrsvi
+export default Section3_4

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Image from './AboutUsImages/Image';
-import Modules from './Collaborations.module.css';
+import Modules from './Section8.module.css';
 import {Row, Col} from 'react-bootstrap';
 
-class Collaborations extends Component {
+class Section8 extends Component {
     render() {
         return (
             <div>
@@ -32,4 +32,4 @@ class Collaborations extends Component {
     }
 }
 
-export default Collaborations
+export default Section8;

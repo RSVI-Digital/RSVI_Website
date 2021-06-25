@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Footer from './Components/Footer/Footer';
 import WhatWeDo  from './Components/Home/WorksComp/WhatWeDo';
 import AboutUs from './Components/AboutUs/AboutUs';
-import About from './Components/AboutUs/About';
 
 
 /* function App() {
@@ -28,8 +27,7 @@ function App() {
     <Router>
     <div>
       <Header />
-      {/* <AboutUs /> */}
-      <About></About>
+      <AboutUs /> 
       <Footer />
     </div>
     </Router>

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Image from "./AboutUsImages/Image";
-import Modules from "./Cards.module.css";
+import Modules from "./Section7.module.css";
 import { Container, Row, Col } from "react-bootstrap";
 
-class Cards extends Component {
+class Section7 extends Component {
   constructor() {
     super();
 
@@ -390,14 +390,14 @@ class Cards extends Component {
                 <p id={Modules.next1}>
                   He was awarded Junior Research Fellowship and Senior Research
                   Fellowship for his Ph.D. in English Literature and he was also
-                  awarded{" "}
+                  awarded
                   {!this.state.screenWidth2 &&
-                    "Research Associate ship by the University Grants Commission for his Post-Doctoral Research in his discipline."}{" "}
+                    "Research Associate ship by the University Grants Commission for his Post-Doctoral Research in his discipline."}
                 </p>
 
                 <p id={Modules.next1next1}>
                   Research Associate ship by the University Grants Commission
-                  for his Post-Doctoral Research in his discipline.{" "}
+                  for his Post-Doctoral Research in his discipline.
                 </p>
 
                 <p id={Modules.next2}>
@@ -544,4 +544,4 @@ class Cards extends Component {
   }
 }
 
-export default Cards;
+export default Section7;

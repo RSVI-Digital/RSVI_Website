@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Image from './AboutUsImages/Image';
-import Modules from './Slider.module.css';
+import Modules from './Section9.module.css';
 import { Carousel } from "react-responsive-carousel";
 import './Carousel.css'; 
 
-class Slider extends Component {
+class Section9 extends Component {
     render() {
         return (
             <div>
@@ -12,7 +12,7 @@ class Slider extends Component {
                   <Carousel
                     autoPlay
                     infiniteLoop
-                    interval="15000"
+                    interval="10000"
                     transitionTime="600"
                     className={Modules.rowNineCarouselRoot}>
                     <div className={` ${Modules.rowNineCarouselDiv} `}>
@@ -37,4 +37,4 @@ class Slider extends Component {
     }
 }
 
-export default Slider
+export default Section9

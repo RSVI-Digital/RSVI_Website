@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import Image from './AboutUsImages/Image';
-import Modules from './Section5.module.css';
+import Modules from './Section5_6.module.css';
 import {Container, Row, Col} from 'react-bootstrap';
-import { Carousel } from "react-responsive-carousel";
-// 
+import { Carousel } from "react-responsive-carousel"; 
 import './CarouselWithoutThumbnail.css';  
-// 
-class Section5 extends Component {
+
+class Section5_6 extends Component {
     render() {
         return (
             <div>
@@ -90,4 +89,4 @@ class Section5 extends Component {
     }
 }
 
-export default Section5
+export default Section5_6

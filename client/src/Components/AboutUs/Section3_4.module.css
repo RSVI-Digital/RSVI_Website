@@ -382,11 +382,8 @@
     font-size: 13px;
   }
   .whyStarted h1 {
-    /* font-size: 32px; */
-    /* Shataxi */
     font-size:25px;
     margin-left:2.5rem;
-    /* Shataxi */
   }
   .reasonForStart p {
     font-size: 13px;
@@ -398,17 +395,11 @@
     font-size: 12px;
   }
   .whyStarted h1 {
-    /* margin: 0 1rem;
-    font-size: 28px; */
-    /* Shataxi */
    font-size: 25px;
-    /* Shataxi */
   }
-  /* Shataxi */
   .whyStarted{
     margin:1rem;
   }
-  /* Shataxi */
   .reasonForStart p {
     margin: 0 1rem;
     font-size: 12px;
@@ -423,145 +414,3 @@
   }
 
 }
-
-/* @media screen and (min-width: 411) and (max-width: 574px) {
-  .section3 {
-    flex-direction: column;
-  }
-
-  .content {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    height: auto;
-    width: 83%;
-    margin-left: 2rem;
-  }
-
-  .content p {
-    font-size: 12px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .imageBox img {
-    position: relative;
-    width: 83%;
-  }
-
-  .whyStarted {
-    width: 83%;
-    margin-left: 1.9rem;
-  }
-
-  .whyStarted h1 {
-    margin-left: 2rem;
-    font-size: 25px;
-  }
-
-  .reasonForStart {
-    width: 83%;
-    margin-left: 1.9rem;
-    background-color: rgb(200, 234, 245);
-  }
-
-  .reasonForStart p {
-    margin: 0 1.1rem;
-    padding: 1rem 0;
-    font-size: 12px;
-  }
-}
-
-@media screen and (min-width: 361px) and (max-width: 410px) {
-  .section3 {
-    flex-direction: column;
-  }
-
-  .content {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    height: auto;
-    width: 83%;
-    margin-left: 2rem;
-  }
-
-  .content p {
-    font-size: 12px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .imageBox img {
-    position: relative;
-    width: 83%;
-  }
-
-  .whyStarted {
-    width: 83%;
-    margin-left: 1.9rem;
-  }
-
-  .whyStarted h1 {
-    margin-left: 2rem;
-    font-size: 25px;
-  }
-
-  .reasonForStart {
-    width: 83%;
-    margin-left: 1.9rem;
-    background-color: rgb(200, 234, 245);
-  }
-
-  .reasonForStart p {
-    margin: 0 1.1rem;
-    padding: 1rem 0;
-    font-size: 12px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .section3 {
-    flex-direction: column;
-  }
-
-  .content {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    height: auto;
-    width: 91.1%;
-    margin: 0 1rem;
-  }
-
-  .content p {
-    font-size: 12px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .imageBox img {
-    position: relative;
-    width: 100%;
-  }
-
-  .whyStarted {
-    margin: 1rem;
-    height: auto;
-  }
-
-  .whyStarted h1 {
-    margin-left: 30px;
-    font-size: 25px;
-  }
-
-  .reasonForStart {
-    width: 91.1%;
-    margin: 0 1rem;
-    background-color: rgb(200, 234, 245);
-  }
-
-  .reasonForStart p {
-    margin: 0 1.1rem;
-    padding: 1rem 0;
-    font-size: 12px;
-  }
-
-  .imageBox {
-    margin: 0 1rem;
-  }
-} */

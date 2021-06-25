@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Image from './AboutUsImages/Image';
-import Modules from './Whoarewe.module.css';
+import Modules from './Section1_2.module.css';
 
-class Whoarewe extends Component {
+class Section1_2 extends Component {
     render() {
         return (
             <div>
@@ -60,4 +60,4 @@ class Whoarewe extends Component {
     }
 }
 
-export default Whoarewe
+export default Section1_2
