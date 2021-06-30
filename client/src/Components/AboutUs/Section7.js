@@ -355,7 +355,7 @@ class Section7 extends Component {
               {this.state.screenWidth ? (
                 <img
                   className={`${Modules.image7c}`}
-                  src={Image.Section7.Img1}
+                  src={Image.Section7c.Img1}
                   alt="Founder"
                 ></img>
               ) : (
@@ -421,7 +421,7 @@ class Section7 extends Component {
               {this.state.screenWidth ? (
                 <img
                   className={`${Modules.image7c}`}
-                  src={Image.Section7.Img2}
+                  src={Image.Section7c.Img2}
                   alt="Ceo"
                 ></img>
               ) : (
@@ -472,7 +472,7 @@ class Section7 extends Component {
               {this.state.screenWidth ? (
                 <img
                   className={`${Modules.image7c}`}
-                  src={Image.Section7.Img3}
+                  src={Image.Section7c.Img3}
                   alt="Roots1"
                 ></img>
               ) : (

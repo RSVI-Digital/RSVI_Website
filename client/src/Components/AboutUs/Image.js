@@ -11,13 +11,17 @@ const Image = {
     Img1: "https://drive.google.com/uc?id=1YKXDoO_4kMoCppsO-fw0z7QKm2O36mHn",
     Img2: "https://drive.google.com/uc?id=1mBYHsiT4ikGKUzk2Hjz_ZKhvyYKh4dfC",
     Img3: "https://drive.google.com/uc?id=1tc6DjdDpmBaKn7Tp1H9Ua_yxBJdukyw5",
-    Img4: "https://drive.google.com/uc?id=1ZtrHJIAJDrGBXUrVxKJDtQ1nU-mY7jxQ",
   },
   Section7b: {
     Img1: "https://drive.google.com/uc?id=1w4u7Uj0_gItghRdkhDKTf6w9lA2podr9",
     Img2: "https://drive.google.com/uc?id=1mfQSRTHKtai5jBLe7PMOBDHOauOBvdft",
     Img3: "https://drive.google.com/uc?id=1ag96TlP0mLKRS6DWecQYJnzNzYRZvQgZ",
     Img4: "https://drive.google.com/uc?id=10Y87f0sGCJ191JiXdR38q6l8wvQMcJCw",
+  },
+  Section7c: {
+    Img1: "https://drive.google.com/uc?id=1JrGonG-mnimoWaKOOgPMCUXwXpgepFCn",
+    Img2: "https://drive.google.com/uc?id=16piQ2uQpQxtHl7jBE3jxmATDdqqCx54C",
+    Img3: "https://drive.google.com/uc?id=1CSO89pt3zFUrFPlBzn_cEKpwk7pOAdfs",
   },
   Section8: "https://drive.google.com/uc?id=1vxaQVQ7nuH5GI_QR_1Fa_a8VL8nmQyF2",
   Section9: {
