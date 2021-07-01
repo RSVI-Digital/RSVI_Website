@@ -5,89 +5,63 @@ import style from './Section2M.module.css';
 
 const Section2M = () => {
 
-  // const showSlide = (e) => {
-  //   console.log(e.target.className);
-  //   document.getElementById('slide').style.display = "block";
-  // }
-
-  // const removeSlide = () => {
-  //   document.getElementById('slide').style.display = "none";
-  // }
-
   const nextCard = (e) => {
-    console.log(e.target.id,);
-    if (e.target.id == 'next-Mbtn_1') {
-      document.getElementById('containerMCard1').style.display = "none";
-      document.getElementById('containerMCard2').style.display = "block";
+    if (e.target.id === 'next-btn_1') {
+      document.getElementById('containerCardM1').style.display = "none";
+      document.getElementById('containerCardM2').style.display = "block";
     }
-    if (e.target.id == 'next-Mbtn_2') {
-      document.getElementById('containerMCard2').style.display = "none";
-      document.getElementById('containerMCard3').style.display = "block";
+    if (e.target.id === 'next-btn_2') {
+      document.getElementById('containerCardM2').style.display = "none";
+      document.getElementById('containerCardM3').style.display = "block";
     }
-    if (e.target.id == 'next-Mbtn_3') {
-      document.getElementById('containerMCard3').style.display = "none";
-      document.getElementById('containerMCard4').style.display = "block";
+    if (e.target.id == 'next-btn_3') {
+      document.getElementById('containerCardM3').style.display = "none";
+      document.getElementById('containerCardM4').style.display = "block";
     }
-    if (e.target.id == 'next-Mbtn_4') {
-      document.getElementById('containerMCard4').style.display = "none";
-      document.getElementById('containerMCard5').style.display = "block";
+    if (e.target.id == 'next-btn_4') {
+      document.getElementById('containerCardM4').style.display = "none";
+      document.getElementById('containerCardM5').style.display = "block";
     }
-    if (e.target.id == 'next-Mbtn_5') {
-      document.getElementById('containerMCard5').style.display = "none";
-      document.getElementById('containerMCard6').style.display = "block";
+    if (e.target.id == 'next-btn_5') {
+      document.getElementById('containerCardM5').style.display = "none";
+      document.getElementById('containerCardM6').style.display = "block";
     }
-    if (e.target.id == 'next-Mbtn_6') {
-      document.getElementById('containerMCard6').style.display = "none";
-      document.getElementById('containerMCard7').style.display = "block";
+    if (e.target.id == 'next-btn_6') {
+      document.getElementById('containerCardM6').style.display = "none";
+      document.getElementById('containerCardM7').style.display = "block";
     }
   }
 
   const previousCard = (e) => {
-    if (e.target.id == 'prev-Mbtn_2') {
-      document.getElementById('containerMCard2').style.display = "none";
-      document.getElementById('containerMCard1').style.display = "block";
-      // document.getElementById('containerMCard1').style.transition = "all 1200ms ease-in";
+    if (e.target.id == 'prev-btn_2') {
+      document.getElementById('containerCardM2').style.display = "none";
+      document.getElementById('containerCardM1').style.display = "block";
     }
-    if (e.target.id == 'prev-Mbtn_3') {
-      document.getElementById('containerMCard3').style.display = "none";
-      document.getElementById('containerMCard2').style.display = "block";
-      // document.getElementById('containerMCard1').style.transition = "all 1200ms ease-in";
+    if (e.target.id == 'prev-btn_3') {
+      document.getElementById('containerCardM3').style.display = "none";
+      document.getElementById('containerCardM2').style.display = "block";
     }
-    if (e.target.id == 'prev-Mbtn_4') {
-      document.getElementById('containerMCard4').style.display = "none";
-      document.getElementById('containerMCard3').style.display = "block";
-      // document.getElementById('containerMCard1').style.transition = "all 1200ms ease-in";
+    if (e.target.id == 'prev-btn_4') {
+      document.getElementById('containerCardM4').style.display = "none";
+      document.getElementById('containerCardM3').style.display = "block";
     }
-    if (e.target.id == 'prev-Mbtn_5') {
-      document.getElementById('containerMCard5').style.display = "none";
-      document.getElementById('containerMCard4').style.display = "block";
-      // document.getElementById('containerMCard1').style.transition = "all 1200ms ease-in";
+    if (e.target.id == 'prev-btn_5') {
+      document.getElementById('containerCardM5').style.display = "none";
+      document.getElementById('containerCardM4').style.display = "block";
     }
-    if (e.target.id == 'prev-Mbtn_6') {
-      document.getElementById('containerMCard6').style.display = "none";
-      document.getElementById('containerMCard5').style.display = "block";
-      // document.getElementById('containerMCard1').style.transition = "all 1200ms ease-in";
+    if (e.target.id == 'prev-btn_6') {
+      document.getElementById('containerCardM6').style.display = "none";
+      document.getElementById('containerCardM5').style.display = "block";
     }
-    if (e.target.id == 'prev-Mbtn_7') {
-      document.getElementById('containerMCard7').style.display = "none";
-      document.getElementById('containerMCard6').style.display = "block";
-      // document.getElementById('containerMCard1').style.transition = "all 1200ms ease-in";
+    if (e.target.id == 'prev-btn_7') {
+      document.getElementById('containerCardM7').style.display = "none";
+      document.getElementById('containerCardM6').style.display = "block";
     }
   }
 
   return (
     <Container className={style.mainContainer}>
-      <section className={style.containerM1} id="containerMCard1">
-        {/* <Row className={style.slide1} id='slide1' onMouseEnter={showSlide} onMouseLeave={removeSlide}>
-        <h2 className={style.name} id='name'><a href="#">John Doe</a></h2>
-        <p className={style.date}>June 21, 2021</p>
-        <ul className={style.listItems} id='listItems'>
-          <li><a href="#">Learn</a></li>
-          <li><a href="#">Code</a></li>
-          <li><a href="#">HTML</a></li>
-          <li><a href="#">CSS</a></li>
-        </ul>
-      </Row> */}
+      <section className={style.container1} id="containerCardM1">
         <Row className={style.front1} id="front1">
           <Col className={style.imagePart}>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
@@ -103,12 +77,12 @@ const Section2M = () => {
           </Col>
           <Row className={style.buttons}>
             <input type="button" className={style.previous} value="" />
-            <input type="button" className={style.next} value="Next" id="next-Mbtn_1" onClick={nextCard} />
+            <input type="button" className={style.next} value="Next" id="next-btn_1" onClick={nextCard} />
           </Row>
         </Row>
       </section>
 
-      <section className={style.containerM2} id="containerMCard2">
+      <section className={style.container2} id="containerCardM2">
         <Row className={style.front2} id="front2">
           <Col className={style.imagePart}>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
@@ -123,13 +97,13 @@ const Section2M = () => {
             </p>
           </Col>
           <Row className={style.buttons}>
-            <input type="button" className={style.previous} value="Previous" id="prev-Mbtn_2" onClick={previousCard} />
-            <input type="button" className={style.next} value="Next" id="next-Mbtn_2" onClick={nextCard} />
+            <input type="button" className={style.previous} value="Previous" id="prev-btn_2" onClick={previousCard} />
+            <input type="button" className={style.next} value="Next" id="next-btn_2" onClick={nextCard} />
           </Row>
         </Row>
       </section>
 
-      <section className={style.containerM3} id="containerMCard3">
+      <section className={style.container3} id="containerCardM3">
         <Row className={style.front3} id="front3">
           <Col className={style.imagePart}>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
@@ -144,13 +118,13 @@ const Section2M = () => {
             </p>
           </Col>
           <Row className={style.buttons}>
-            <input type="button" className={style.previous} value="Previous" id="prev-Mbtn_3" onClick={previousCard} />
-            <input type="button" className={style.next} value="Next" id="next-Mbtn_3" onClick={nextCard} />
+            <input type="button" className={style.previous} value="Previous" id="prev-btn_3" onClick={previousCard} />
+            <input type="button" className={style.next} value="Next" id="next-btn_3" onClick={nextCard} />
           </Row>
         </Row>
       </section>
 
-      <section className={style.containerM4} id="containerMCard4">
+      <section className={style.container4} id="containerCardM4">
         <Row className={style.front4} id="front4">
           <Col className={style.imagePart}>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
@@ -165,13 +139,13 @@ const Section2M = () => {
             </p>
           </Col>
           <Row className={style.buttons}>
-            <input type="button" className={style.previous} value="Previous" id="prev-Mbtn_4" onClick={previousCard} />
-            <input type="button" className={style.next} value="Next" id="next-Mbtn_4" onClick={nextCard} />
+            <input type="button" className={style.previous} value="Previous" id="prev-btn_4" onClick={previousCard} />
+            <input type="button" className={style.next} value="Next" id="next-btn_4" onClick={nextCard} />
           </Row>
         </Row>
       </section>
 
-      <section className={style.containerM5} id="containerMCard5">
+      <section className={style.container5} id="containerCardM5">
         <Row className={style.front5} id="front5">
           <Col className={style.imagePart}>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
@@ -186,13 +160,13 @@ const Section2M = () => {
             </p>
           </Col>
           <Row className={style.buttons}>
-            <input type="button" className={style.previous} value="Previous" id="prev-Mbtn_5" onClick={previousCard} />
-            <input type="button" className={style.next} value="Next" id="next-Mbtn_5" onClick={nextCard} />
+            <input type="button" className={style.previous} value="Previous" id="prev-btn_5" onClick={previousCard} />
+            <input type="button" className={style.next} value="Next" id="next-btn_5" onClick={nextCard} />
           </Row>
         </Row>
       </section>
 
-      <section className={style.containerM6} id="containerMCard6">
+      <section className={style.container6} id="containerCardM6">
         <Row className={style.front6} id="front6">
           <Col className={style.imagePart}>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
@@ -207,13 +181,13 @@ const Section2M = () => {
             </p>
           </Col>
           <Row className={style.buttons}>
-            <input type="button" className={style.previous} value="Previous" id="prev-Mbtn_6" onClick={previousCard} />
-            <input type="button" className={style.next} value="Next" id="next-Mbtn_6" onClick={nextCard} />
+            <input type="button" className={style.previous} value="Previous" id="prev-btn_6" onClick={previousCard} />
+            <input type="button" className={style.next} value="Next" id="next-btn_6" onClick={nextCard} />
           </Row>
         </Row>
       </section>
 
-      <section className={style.containerM7} id="containerMCard7">
+      <section className={style.container7} id="containerCardM7">
         <Row className={style.front7} id="front7">
           <Col className={style.imagePart}>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
@@ -228,7 +202,7 @@ const Section2M = () => {
             </p>
           </Col>
           <Row className={style.buttons}>
-            <input type="button" className={style.previous} value="Previous" id="prev-Mbtn_7" onClick={previousCard} />
+            <input type="button" className={style.previous} value="Previous" id="prev-btn_7" onClick={previousCard} />
             <input type="button" className={style.next} value="" />
           </Row>
         </Row>

@@ -1,261 +1,217 @@
 .mainContainer {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .mainContainer{
+    height: 100vh;
+    width: 100%;
+    display: block;
+  }
+
+  .container1 {
+    position: relative;
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 100px;
+    border-radius: 15px 15px 0 0;
+    background: url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
+  }
+  
+  .container1:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .imagePart img {
+    position: relative;
+    width: 280px;
+    z-index: 1;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .heading h1 {
+    margin-top: 35px;
+    font-size: 30px;
+    width: 280px;
+    margin-left: 3px;
+    height: auto;
+  }
+  
+  .border {
+    position: relative;
+    width: 25%;
+    height: 6px;
+    background-color: green;
+    margin-left: 10px;
+  }
+  
+  .contentDetails p {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    word-spacing: 0px;
+  }
+  
+  .buttons {
+    position: relative;
+    justify-content: space-around;
+    bottom: 10px;
+  }
+  
+  .next {
+    position: absolute;
+    right: 0px;
+    top: 4px;
+    width: 60px;
+    border: none;
+    background: transparent;
+    color: green;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  .next:hover {
+    text-decoration: underline;
+  }
+  
+  .previous {
+    border: none;
+    width: 85px;
+    background: transparent;
+    margin-left: -170px;
+    font-size: 15px;
+    color: green;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  .previous:hover {
+    text-decoration: underline;
+  }
+  
+  .container2 {
+    position: relative;
+    width: 280px;
+    z-index: 10;
     display: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 100px;
+    min-height: 410px;
+    border-radius: 15px 15px 0 0;
+    background: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
   }
   
-  @media screen and (max-width: 650px) {
-    .mainContainer{
-      height: 100vh;
-      width: 100%;
-      display: block;
-    }
-  
-    .containerM1 {
-      position: relative;
-      width: 250px;
-      display: flex;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: rgb(245, 240, 240);
-      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-      margin-top: 100px;
-      min-height: 430px;
-      border-radius: 15px 15px 0 0;
-      background: url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
-    }
-    
-    /* .slide {
-      display: none;
-      position: absolute;
-      z-index: 2;
-      height: 165px;
-      color: white;
-      background-color: rgba(0, 0, 0, 0.363);
-      width: 230px;
-      padding-left: 20px;
-      border-radius: 10px 10px 0 0;
-    }
-    
-    .container a {
-        text-decoration: none;
-        color: white;
-    }
-    
-    .name {
-      font-weight: 500;
-      width: 105px;
-      border-bottom: 1.5px dashed;
-    }
-    
-    .listItems {
-      display: flex;
-      list-style: none;
-      padding: 0px;
-    }
-    
-    .listItems li {
-      margin-right: 10px;
-      border-bottom: 1.5px dashed;
-    }
-    
-    .name a:hover {
-      cursor: pointer;
-      color: green;
-    }
-    
-    .listItems li a:hover {
-      cursor: pointer;
-      color: green;
-    } */
-    
-    .containerM1:hover {
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-    
-    .imagePart img {
-      position: relative;
-      width: 250px;
-      z-index: 1;
-      border-radius: 15px 15px 0 0;
-    }
-    
-    .heading {
-      height: 50px;
-    }
-    
-    .heading h1 {
-      margin-top: 0px;
-      margin-bottom: 10px;
-      margin-left: 10px;
-      height: auto;
-    }
-    
-    .border {
-      position: relative;
-      width: 25%;
-      height: 6px;
-      background-color: green;
-      margin-left: 10px;
-    }
-    
-    .contentDetails p {
-      margin-left: 10px;
-      margin-right: 10px;
-      text-align: justify;
-      word-spacing: 0px;
-    }
-    
-    .buttons {
-      position: relative;
-      justify-content: space-around;
-    }
-    
-    .next {
-      position: absolute;
-      right: 0;
-      top: 4px;
-      border: none;
-      background: transparent;
-      font-size: 15px;
-      letter-spacing: 1px;
-      margin-right: 10px;
-      cursor: pointer;
-    }
-    
-    .next:hover {
-      color: blue;
-      text-decoration: underline;
-    }
-    
-    .previous {
-      border: none;
-      background: transparent;
-      margin-left: 8px;
-      font-size: 15px;
-      letter-spacing: 1px;
-      cursor: pointer;
-    }
-    
-    .previous:hover {
-      color: blue;
-      text-decoration: underline;
-    }
-    
-    .containerM2 {
-      position: relative;
-      width: 250px;
-      display: none;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: rgb(245, 240, 240);
-      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-      margin-top: 100px;
-      min-height: 410px;
-      border-radius: 15px 15px 0 0;
-      background: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
-    }
-    
-    .containerM2:hover {
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-    
-    .containerM3 {
-      position: relative;
-      width: 250px;
-      display: none;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: rgb(245, 240, 240);
-      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-      margin-top: 100px;
-      min-height: 450px;
-      border-radius: 15px 15px 0 0;
-      background: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
-    }
-    
-    .containerM3:hover {
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-    
-    
-    .containerM4 {
-      position: relative;
-      width: 250px;
-      display: none;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: rgb(245, 240, 240);
-      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-      margin-top: 100px;
-      min-height: 430px;
-      border-radius: 15px 15px 0 0;
-      background: url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
-    }
-    
-    .containerM4:hover {
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-    
-    
-    .containerM5 {
-      position: relative;
-      width: 250px;
-      display: none;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: rgb(245, 240, 240);
-      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-      margin-top: 100px;
-      min-height: 445px;
-      border-radius: 15px 15px 0 0;
-      background: url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
-    }
-    
-    .containerM5:hover {
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-    
-    .para5 {
-      margin-top: 75px;
-    }
-    
-    .containerM6 {
-      position: relative;
-      width: 250px;
-      display: none;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: rgb(245, 240, 240);
-      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-      margin-top: 100px;
-      min-height: 430px;
-      border-radius: 15px 15px 0 0;
-      background: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
-    }
-    
-    .containerM6:hover {
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-    
-    
-    .containerM7 {
-      position: relative;
-      width: 250px;
-      display: none;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: rgb(245, 240, 240);
-      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-      margin-top: 100px;
-      min-height: 440px;
-      border-radius: 15px 15px 0 0;
-      background: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
-    }
-    
-    .containerM7:hover {
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-    
-    .para7 {
-      margin-top: 45px;
-    }
+  .container2:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
+  
+  .container3 {
+    position: relative;
+    width: 280px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 100px;
+    min-height: 450px;
+    border-radius: 15px 15px 0 0;
+    background: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
+  }
+  
+  .container3:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  
+  .container4 {
+    position: relative;
+    width: 280px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 100px;
+    min-height: 430px;
+    border-radius: 15px 15px 0 0;
+    background: url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
+  }
+  
+  .container4:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  
+  .container5 {
+    position: relative;
+    width: 280px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 100px;
+    min-height: 445px;
+    border-radius: 15px 15px 0 0;
+    background: url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
+  }
+  
+  .container5:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .para5 {
+    margin-top: 75px;
+  }
+  
+  .container6 {
+    position: relative;
+    width: 280px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 100px;
+    min-height: 430px;
+    border-radius: 15px 15px 0 0;
+    background: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
+  }
+  
+  .container6:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  
+  .container7 {
+    position: relative;
+    width: 280px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 100px;
+    min-height: 440px;
+    border-radius: 15px 15px 0 0;
+    background: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
+  }
+  
+  .container7:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .para7 {
+    margin-top: 45px;
+  }
+}

@@ -8,13 +8,11 @@ import AboutUs from './Components/AboutUs/AboutUs';
 import GetInTouch from './Components/GetInTouch/GetInTouch';
 import Footer from './Components/Footer/Footer';
 import Initiatives from './Components/Initiatives/Initiatives';
-/* import Internship from "./Components/Internship/Internship"; */
-
+// import Internship from "./Components/Internship/Internship";
 
 function App() {
   return (
     <Router>
-    <div>
       <Header />
       <Switch>
          <Route exact path='/' component={Home} />
@@ -26,7 +24,6 @@ function App() {
          {/* <Route exact path='/internship' component={Internship} /> */}
       </Switch>
       <Footer />
-    </div>
     </Router>
   );
 }
