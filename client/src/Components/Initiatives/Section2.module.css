@@ -1,0 +1,89 @@
+/* .containerimages {
+    margin-left: 150px;
+  }
+*/  
+
+/* ********************** */
+  .mainTraining{
+      max-width: 100%;
+      width: 100%;
+      padding: 30px 160px;
+  }
+  .Row1 , .Row2{
+    margin: 0px 0px 50px 0px;
+    width: 100%;
+  }
+  .Row1{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  .Row2{
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+  }
+  /* ********************** */
+  
+  .containerimage{
+      max-width: 100%;
+      margin: 0px 0px;
+      padding: 0px 0px;
+      width: 100%;
+  }
+  .containerimage1{
+    max-width: 100%;
+      margin: 0px 0px;
+      padding: 0px 0px;
+      width: 100%;
+  }
+  .containertext{
+      background-color: lightblue;
+      width: 100%;
+  }
+  .containertext1{
+    background-color: lightgreen;
+    width: 100%;
+  }
+ 
+  .previous, .next {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: none;
+    color: orange;
+    text-decoration: underline;
+    border: none;
+  }
+  
+  .container1{
+      display: block;
+      position: relative;/* 
+      border: 1px solid black;
+      background-color: blanchedalmond; */
+      margin: 0px 0px;
+  }
+  .container2, .container3, .container4{
+      position: relative;
+      display: none;/* 
+      border: 1px solid black;
+      background-color: blanchedalmond; */
+      margin: 0px 0px;
+  }
+
+  .header{
+      background-color: yellowgreen;
+      font-size: 40px;
+      font-weight: 400;
+      text-align: center;
+  }
+  @media screen and (max-width: 999px) {
+    .Row1{
+      }
+      .Row2{
+          
+      }
+  }
+  @media screen and (max-width: 650px) {
+    .mainTraining{
+        display: none;
+    }
+  }

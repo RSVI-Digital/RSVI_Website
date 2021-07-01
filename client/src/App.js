@@ -7,7 +7,7 @@ import ActivityChild from './Components/Home/Activity/ActivityChild';
 import AboutUs from './Components/AboutUs/AboutUs';
 import GetInTouch from './Components/GetInTouch/GetInTouch';
 import Footer from './Components/Footer/Footer';
-
+import Initiatives from './Components/Initiatives/Initiatives';
 /* import Internship from "./Components/Internship/Internship"; */
 
 
@@ -22,6 +22,7 @@ function App() {
          <Route exact path="/ActivityChild" component={ActivityChild}/>
          <Route exact path='/about-us' component={AboutUs} />
          <Route exact path='/get-in-touch' component={GetInTouch} />
+         <Route exact path='/initiatives' component={Initiatives} />
          {/* <Route exact path='/internship' component={Internship} /> */}
       </Switch>
       <Footer />
