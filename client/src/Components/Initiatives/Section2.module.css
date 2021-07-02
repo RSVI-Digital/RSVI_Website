@@ -151,6 +151,10 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 
+  .front1{
+    height: 510px;
+  }
+
   .imagePart img {
     position: relative;
     width: 280px;
@@ -160,7 +164,7 @@
 
   .heading h1 {
     margin-top: 35px;
-    font-size: 30px;
+    font-size: 28px;
     width: 280px;
     margin-left: 3px;
     height: auto;
@@ -230,13 +234,17 @@
     background-color: rgb(245, 240, 240);
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     margin-top: 100px;
-    min-height: 410px;
+    min-height: 450px;
     border-radius: 15px 15px 0 0;
     background: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
   }
 
   .container2:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .front2{
+    height: 510px;
   }
 
   .container3 {
@@ -257,6 +265,10 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 
+  .front3{
+    height: 510px;
+  }
+
   .container4 {
     position: relative;
     width: 280px;
@@ -266,13 +278,17 @@
     background-color: rgb(245, 240, 240);
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     margin-top: 100px;
-    min-height: 430px;
+    min-height: 450px;
     border-radius: 15px 15px 0 0;
     background: url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
   }
 
   .container4:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .front4{
+    height: 510px;
   }
 
   .container5 {
@@ -284,13 +300,21 @@
     background-color: rgb(245, 240, 240);
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     margin-top: 100px;
-    min-height: 445px;
+    min-height: 450px;
     border-radius: 15px 15px 0 0;
     background: url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
   }
 
   .container5:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .container5 .heading h1 {
+    font-size: 23px;
+  }
+
+  .front5{
+    height: 510px;
   }
 
   .para5 {
@@ -306,13 +330,17 @@
     background-color: rgb(245, 240, 240);
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     margin-top: 100px;
-    min-height: 430px;
+    min-height: 450px;
     border-radius: 15px 15px 0 0;
     background: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
   }
 
   .container6:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .front6{
+    height: 510px;
   }
 
   .container7 {
@@ -324,13 +352,17 @@
     background-color: rgb(245, 240, 240);
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     margin-top: 100px;
-    min-height: 440px;
+    min-height: 450px;
     border-radius: 15px 15px 0 0;
     background: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
   }
 
   .container7:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .front7{
+    height: 510px;
   }
 
   .para7 {
