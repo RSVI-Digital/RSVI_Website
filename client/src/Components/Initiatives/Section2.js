@@ -17,6 +17,9 @@ const Section2 = () => {
       document.getElementById('containerCard3').style.display = "none";
       document.getElementById('containerCard4').style.display = "block";
     }
+
+                          // For mobile view
+
     if (e.target.id === 'Mnext-btn_1') {
       document.getElementById('containerCardM1').style.display = "none";
       document.getElementById('containerCardM2').style.display = "block";
@@ -59,6 +62,9 @@ const Section2 = () => {
       document.getElementById('containerCard3').style.display = "block";
       // document.getElementById('containerCard1').style.transition = "all 1200ms ease-in";
   }
+
+                    // For mobile view
+
   if (e.target.id == 'Mprev-btn_2') {
     document.getElementById('containerCardM2').style.display = "none";
     document.getElementById('containerCardM1').style.display = "block";
@@ -171,6 +177,9 @@ const Section2 = () => {
            </Row>
         </div>
     </Container>
+
+                        {/******  For mobile view **********/}
+
     <Container className={style.mainContainer}>
       <section className={style.container1} id="containerCardM1">
         <Row className={style.front1} id="front1">
