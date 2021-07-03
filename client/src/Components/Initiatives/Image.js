@@ -60,6 +60,20 @@ const Image = {
         Img6: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
         Img7: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
     },
+    Projects:{
+        imghead1:"https://drive.google.com/uc?id=18z8tp35lRuvGUK775_Z_LKxl_XV7DOHo",
+        imghead2:"https://drive.google.com/uc?id=1coJbhE9XsKjiO8Ui1DAZm1wW-mbVdR15",
+        Img1:"https://drive.google.com/uc?id=1BIdncd2he_pnMxSNMrLbJic0ZauAkike",/*go digital*/ 
+        Img2:"https://drive.google.com/uc?id=1wvWL_kbkQ_n-cI_tyzf4mzlvVe2gFvIc",/*sahyog*/ 
+        Img3:"https://drive.google.com/uc?id=1pcVzSRMOInBJzfX1OlN9ovt7gMxHTIk-",/*Infotainment*/ 
+        Img4:"https://drive.google.com/uc?id=1nwXr9dW-kR0EfbZRzKNUtLrdDQZULYrU",/*mirror*/ 
+        Img5:"https://drive.google.com/uc?id=1Y8rMFBpUYiZaRPPRgemAEu3QPTprhjeF",/*barkat*/
+        Img6:"https://drive.google.com/uc?id=1RBXyWVZ2q1n2DIA29YFKmzh_PvS8o7lz",/*siddhant */
+        Img7:"https://drive.google.com/uc?id=12OP7GJWywYPCzm_L1U3NXFmVmEeYpkIJ",/*prabhav*/ 
+        Img8:"https://drive.google.com/uc?id=1pBEOzxPmfK9utMp7kelJlJ21u4QDLuoF",/*swachalan*/ 
+        Img9:"https://drive.google.com/uc?id=1Ect6JqHTMHPmw6OTaIpoQKc_9cNuoBqS",/*pariksha*/ 
+        Img10:"https://drive.google.com/uc?id=19nXkx0cjlhCGmaXlOhtQxGk6jPl79BHr",/*techsmart*/
+        }
   };
   
   export default Image;
