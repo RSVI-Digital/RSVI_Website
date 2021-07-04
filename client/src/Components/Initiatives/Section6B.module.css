@@ -50,7 +50,7 @@
     border-radius: 20px;
   }
 
-  .mobilecontainer5, .mobilecontainer6, .mobilecontainer7, .mobilecontainer8, .mobilecontainer9, .mobilecontainer10,{
+  .mobilecontainer5, .mobilecontainer6, .mobilecontainer7, .mobilecontainer8, .mobilecontainer9, .mobilecontainer10{
     position: relative;
     width: 280px;
     display: none;
