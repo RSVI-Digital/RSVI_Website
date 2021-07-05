@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import style from './Section6C.module.css';
 import image from './Image';
 
-const DCards = () => {
+const DCards = (props) => {
+   useEffect(()=>{
+    if(props.displayState){
+        document.getElementById("mainDCardContainer").style.display="block";
+    }
+    else document.getElementById("mainDCardContainer").style.display="none";
+   })
 
     const nextCard = (e) => {
         console.log(e.target.id,);
-
         // For desktop view
 
         if (e.target.id === 'Dnext-btn_1') {
@@ -96,13 +101,15 @@ const DCards = () => {
     }
 
     return (
-        <Container className={style.mainDCardContainer}>
-            <Row className={style.DCardContainer1} id="DCardContainer1">
-                <Col className={style.imageContainer}>
+   <Container className={style.mainDCardContainer} id="mainDCardContainer">
+    {props.displayState && ( 
+          <>
+          <Row className={style.DCardContainer1} id="DCardContainer1">
+               <Col className={style.imageContainer}>
                     <img src={image.Section6b.Img1} alt="" />
                 </Col>
                 <Col className={style.detailsContainer}>
-                    <h1>Gyaan</h1>
+                  <h1>Gyaan</h1>
                     <p>Customised Study plan for students to make them well equipped with basic spectrums of knowledge. Also, this involves special classes for preparation of Competative Exams like Banking, SSC, IAS, etc.</p>
                     <button className={style.containerButtonNext} id="Dnext-btn_1" onClick={nextCard}>
                         Next
@@ -287,7 +294,7 @@ const DCards = () => {
                         Previous
                     </button>
                 </Col >
-            </Row>
+            </Row></>)}
         </Container>
     );
 }

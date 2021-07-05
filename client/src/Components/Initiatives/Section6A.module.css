@@ -8,11 +8,11 @@
   grid-auto-rows: minmax(100px, auto);
   padding: 50px;
 }
-.projectHead1Wrapper{
-    display:flex;
-    height:3.5rem;
-    justify-content: center;
-    grid-column: 1/2;  /*new*/
+.projectHead1Wrapper {
+  display: flex;
+  height: 3.5rem;
+  justify-content: center;
+  grid-column: 1/2; /*new*/
 }
 .bird1,
 .bird2 {
@@ -20,39 +20,38 @@
   height: 50px;
   animation-name: Fly;
   animation-duration: 10s;
-  animation-iteration-count: infinite; 
+  animation-iteration-count: infinite;
   position: relative;
 }
 .bird1 {
- 
   transform: rotate(-25deg);
 }
 @keyframes Fly {
-    0%{
-     top:-10px;
-     transform:scaleY(0.6);
-    }
-    25%{
-     top:-25px;
-     transform:scaleY(1);
-    }
-    50%{
-    top:-10px;
-    transform:scaleY(0.6);
-    }
-    75%{
-      top:-25px;
-      transform:scaleY(1);
-    }
-    100%{
-      top:-10px;
-      transform:scaleY(0.6);
-    }
+  0% {
+    top: -10px;
+    transform: scaleY(0.6);
+  }
+  25% {
+    top: -25px;
+    transform: scaleY(1);
+  }
+  50% {
+    top: -10px;
+    transform: scaleY(0.6);
+  }
+  75% {
+    top: -25px;
+    transform: scaleY(1);
+  }
+  100% {
+    top: -10px;
+    transform: scaleY(0.6);
+  }
 }
 .projectHead1 {
   /* grid-column: 1/2;    */
-    width:16rem;  
-    top:0;                        /*New*/
+  width: 16rem;
+  top: 0; /*New*/
   text-align: center;
   height: fit-content;
 }
@@ -105,13 +104,15 @@
   font-weight: bolder;
 }
 .p5 {
-  text-decoration: underline;
   font-size: 20px;
-  color: green;
+
   cursor: pointer;
   text-align: end;
   margin: 0.5rem;
   font-size: 25px;
+}
+.p5 > a {
+  color: green;
 }
 .p4 {
   /* position: absolute;
@@ -324,8 +325,8 @@
   .c2img3 {
     top: -20px;
   }
-  .projectHead1Wrapper{
-      height:6rem;
+  .projectHead1Wrapper {
+    height: 6rem;
   }
   .projectHead2 {
     margin-top: 2rem;

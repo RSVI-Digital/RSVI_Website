@@ -1,9 +1,19 @@
 import React, { Component } from "react";
 import Module from "./Section6A.module.css";
+import Section6C from './Section6C'
 import Image from "./Image";
 class Section6A extends Component {
-  render() {
+   constructor(){
+       super()
+       this.state={display:false}
+   }
+    displayHandler=()=>{
+        console.log('clicked',this.state.display);
+      this.setState((prevstate)=>{return{display:!prevstate.display}})
+   }
+    render() {
     return (
+        <>
       <div className={Module.reachGrid}>
         <div className={`${Module.projectUdaanWrapper}`}>
         <div className={`${Module.projectHead1Wrapper}`}>  
@@ -44,7 +54,7 @@ class Section6A extends Component {
                 alt="Infotainment"
                 className={`${Module.colImg} ${Module.c1img3}`}
               ></img>
-              <h5 className={Module.p5}>Read More</h5>
+              <h5 className={Module.p5}onClick={this.displayHandler}><a href="#down">Read More</a></h5>
             </div>
           </div>
         </div>
@@ -110,6 +120,9 @@ class Section6A extends Component {
           </div>
         </div>
       </div>
+      <a id="down"></a>
+      <Section6C displayState={this.state.display} />
+      </>
     );
   }
 }
