@@ -91,6 +91,7 @@ class Section3 extends Component {
                 </div>
                 </div>
                 </TabPanel>
+                
             </Tabs>
             </div>
         )
