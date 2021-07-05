@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import style from './Section6B.module.css';
+import image from './Image';
 
 const Section6B = () => {
 
@@ -91,7 +92,7 @@ const Section6B = () => {
       <section className={style.mobilecontainer1} id="containerCard6M1">
         <Row>
           <Col className={style.mobileimage}>
-            <img src="https://drive.google.com/uc?id=1Co5HCvkyMYr6D4AFWVRgcPXulOz9f6AI" alt="dummy" />
+            <img src={image.Section6b.Img1} alt="dummy" />
           </Col>
           <Col className={style.mobileheading}>
             <h1>Gyaan</h1>
@@ -111,7 +112,7 @@ const Section6B = () => {
       <section className={style.mobilecontainer2} id="containerCard6M2">
         <Row>
           <Col className={style.mobileimage}>
-            <img src="https://drive.google.com/uc?id=1iQ1QaO8K5pRGrnJWovxIiAkQpGKAGED8" alt="dummy" />
+            <img src={image.Section6b.Img2} alt="dummy" />
           </Col>
           <Col className={style.mobileheading}>
             <h1>Tech-Guru Sessions</h1>
@@ -131,7 +132,7 @@ const Section6B = () => {
       <section className={style.mobilecontainer3} id="containerCard6M3">
         <Row>
           <Col className={style.mobileimage}>
-            <img src="https://drive.google.com/uc?id=1xVWkV4uO1kpa65nQ-TYnI6b3bsWjbOxt" alt="dummy" />
+            <img src={image.Section6b.Img3} alt="dummy" />
           </Col>
           <Col className={style.mobileheading}>
             <h1>Interview Preparation Strategies </h1>
@@ -150,7 +151,7 @@ const Section6B = () => {
       <section className={style.mobilecontainer4} id="containerCard6M4">
         <Row>
           <Col className={style.mobileimage}>
-            <img src="https://drive.google.com/uc?id=1sRuJmXIrPUitblBbCpJ-yE0GJxRWpyK2" alt="dummy" />
+            <img src={image.Section6b.Img4} alt="dummy" />
           </Col>
           <Col className={style.mobileheading}>
             <h1>Mentor-Mentee Program </h1>
@@ -169,7 +170,7 @@ const Section6B = () => {
       <section className={style.mobilecontainer5} id="containerCard6M5">
         <Row>
           <Col className={style.mobileimage}>
-            <img src="https://drive.google.com/uc?id=1HgsDKmdHzCinxtOXFIbybtPhiN_7GY9X" alt="dummy" />
+            <img src={image.Section6b.Img5} alt="dummy" />
           </Col>
           <Col className={style.mobileheading}>
             <h1>Chai Pe Charcha </h1>
@@ -188,7 +189,7 @@ const Section6B = () => {
       <section className={style.mobilecontainer6} id="containerCard6M6">
         <Row>
           <Col className={style.mobileimage}>
-            <img src="https://drive.google.com/uc?id=1Ya1D-_BHF7jROOYgfR3l-aDSrsebVyMI" alt="dummy" />
+            <img src={image.Section6b.Img6} alt="dummy" />
           </Col>
           <Col className={style.mobileheading}>
             <h1>Movie Review Sessions (Audio) by RSVI</h1>
@@ -207,7 +208,7 @@ const Section6B = () => {
       <section className={style.mobilecontainer7} id="containerCard6M7">
         <Row>
           <Col className={style.mobileimage}>
-            <img src="https://drive.google.com/uc?id=1VvEMpjexkaWiy5qkTw-k3w6nDBRRsEuw" alt="dummy" />
+            <img src={image.Section6b.Img7} alt="dummy" />
           </Col>
           <Col className={style.mobileheading}>
             <h1>Web Series (Audio) by RSVI</h1>
@@ -226,7 +227,7 @@ const Section6B = () => {
       <section className={style.mobilecontainer8} id="containerCard6M8">
         <Row>
           <Col className={style.mobileimage}>
-            <img src="https://drive.google.com/uc?id=1Co0yYkhAt59edSNnu6uLZ9j_pA2nufOX" alt="dummy" />
+            <img src={image.Section6b.Img8} alt="dummy" />
           </Col>
           <Col className={style.mobileheading}>
             <h1>Utsav</h1>
@@ -245,7 +246,7 @@ const Section6B = () => {
       <section className={style.mobilecontainer9} id="containerCard6M9">
         <Row>
           <Col className={style.mobileimage}>
-            <img src="https://drive.google.com/uc?id=1M6yDZsYNsdVl8fE15We87dAjuG-jhWon" alt="dummy" />
+            <img src={image.Section6b.Img9} alt="dummy" />
           </Col>
           <Col className={style.mobileheading}>
             <h1>Aayina</h1>
@@ -264,7 +265,7 @@ const Section6B = () => {
       <section className={style.mobilecontainer10} id="containerCard6M10">
         <Row>
           <Col className={style.mobileimage}>
-            <img src="https://drive.google.com/uc?id=1PrczYg9KzTmPnoaZ4ZAVtQue2XKMHnwD" alt="dummy" />
+            <img src={image.Section6b.Img10} alt="dummy" />
           </Col>
           <Col className={style.mobileheading}>
             <h1>Rozgaar Samachaar Capsule </h1>

@@ -167,7 +167,6 @@
     margin-top: 35px;
     font-size: 28px;
     width: 280px;
-    margin-left: 3px;
     height: auto;
   }
 
@@ -176,12 +175,17 @@
     width: 25%;
     height: 6px;
     background-color: green;
-    margin-left: 10px;
+    margin-left: 23px;
+  }
+
+  .contentDetails {
+    height: 170px;
+    padding-right: 20px;
   }
 
   .contentDetails p {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 23px;
     margin-right: 10px;
     text-align: justify;
     word-spacing: 0px;
@@ -196,7 +200,7 @@
   .next {
     position: absolute;
     right: 0px;
-    top: 4px;
+    top: 7px;
     width: 60px;
     border: none;
     background: transparent;
@@ -214,7 +218,8 @@
     border: none;
     width: 85px;
     background: transparent;
-    margin-left: -170px;
+    margin-left: -138px;
+    margin-bottom: 0px;
     font-size: 15px;
     color: green;
     letter-spacing: 1px;
