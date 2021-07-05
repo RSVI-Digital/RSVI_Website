@@ -50,7 +50,7 @@ const Image = {
     Img9: "https://drive.google.com/uc?id=1M6yDZsYNsdVl8fE15We87dAjuG-jhWon",
     Img10: "https://drive.google.com/uc?id=1PrczYg9KzTmPnoaZ4ZAVtQue2XKMHnwD",
     Img11: "https://drive.google.com/uc?id=1iUk9-UIGCTGqLErDAE0TW0jJ5B6lbNRT",
-  },,
+  },
   Section7: {
     Img1: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
     Img2: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
