@@ -92,7 +92,7 @@ const Section2 = () => {
 }
 
   return (
-    <div>
+    <div style={{marginTop:"8%"}}>
         <h1 className={style.header}>Training Programs</h1>
         <Container className={style.mainTraining}>
         <div className={style.container1} id="containerCard1">
