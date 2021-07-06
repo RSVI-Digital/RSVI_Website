@@ -120,6 +120,21 @@
   }
 }
 
+@media screen and (max-width: 870px) {
+  .mainTraining {
+    padding: 30px;
+  }
+
+  .containertext {
+    margin: 20px 0px 10px 0px;
+  }
+
+  .topimage,
+  .bottomimage {
+    min-width: 240px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .mainTraining {
     display: none;
