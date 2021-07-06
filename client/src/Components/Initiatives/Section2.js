@@ -121,7 +121,7 @@ const Section2 = () => {
         <div className={style.container2} id="containerCard2">
            <Row className={style.Row3}>
              <Col className={style.topimage}>
-             <img src={image.Section2.Img3} alt="Braille" />
+             <img src={image.Section2.Img3} alt="Computer Training" />
              </Col>
              <Col className={style.containertext}>
                <h2 className={style.containerH2}> Computer Training  </h2>
@@ -136,7 +136,7 @@ const Section2 = () => {
                <input type="button" className={style.next} value="Next" id="next-btn_2" onClick={nextCard} />
              </Col>
              <Col className={style.bottomimage}>
-             <img src={image.Section2.Img4} alt="Braille" />
+             <img src={image.Section2.Img4} alt="Mobile Training" />
              </Col>
            </Row>
         </div>
