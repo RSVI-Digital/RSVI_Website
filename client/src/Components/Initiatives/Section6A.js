@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Module from "./Section6A.module.css";
-import Section6C from './Section6C'
+import Section6D from './Section6D'
 import Image from "./Image";
 class Section6A extends Component {
    constructor(){
@@ -55,6 +55,7 @@ class Section6A extends Component {
                 className={`${Module.colImg} ${Module.c1img3}`}
               ></img>
               <h5 className={Module.p5}onClick={this.displayHandler}><a href="#down">Read More</a></h5>
+            {/*  <Section6D displayState={this.state.display} />*/}
             </div>
           </div>
         </div>
@@ -120,8 +121,8 @@ class Section6A extends Component {
           </div>
         </div>
       </div>
-      <a id="down"></a>
-      <Section6C displayState={this.state.display} />
+     <a id={this.state.display && "down"}></a>
+    <Section6D displayState={this.state.display} />
       </>
     );
   }

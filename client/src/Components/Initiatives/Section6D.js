@@ -1,9 +1,9 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import style from './Section6D.module.css';
 import image from './Image';
 
-const Section6D = () => {
+const Section6D = (props) => {
 
     const nextCard = (e) => {
         if (e.target.id === 'next-btn_1') {
@@ -183,8 +183,15 @@ const Section6D = () => {
         }
 
     }
+    useEffect(()=>{
+        if(props.displayState){
+            document.getElementById("mainDCardContainerDiv").style.display="block";
+        }
+        else document.getElementById("mainDCardContainerDiv").style.display="none";
+       })
     return (
-        <>
+        <div id="mainDCardContainerDiv">
+        {props.displayState && (<>
             <Container className={style.mainContainer}>
                 <section className={style.mobilecontainer1} id="containerCard6M1">
                     <Row>
@@ -596,8 +603,8 @@ const Section6D = () => {
                     </Col >
                 </Row>
             </Container>
-        </>
-
+        </>)}
+        </div>
     );
 }
 
