@@ -133,7 +133,7 @@ const Section6D = () => {
             document.getElementById('containerCard6M10').style.display = "none";
             document.getElementById('containerCard6M9').style.display = "block";
         }
-        
+
         if (e.target.id == 'prev-btn_11') {
             document.getElementById('containerCard6M11').style.display = "none";
             document.getElementById('containerCard6M10').style.display = "block";

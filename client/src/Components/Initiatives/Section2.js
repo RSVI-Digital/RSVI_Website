@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import style from './Section2.module.css';
+import image from './Image';
 
 const Section2 = () => {
   const nextCard = (e) => {
@@ -98,7 +99,7 @@ const Section2 = () => {
         <div className={style.container1} id="containerCard1">
            <Row className={style.Row1}>
              <Col className={style.topimage}>
-             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
+             <img src={image.Section2.Img1} alt="Braille" />
              </Col>
              <Col className={style.containertext}>
                <h2 className={style.containerH2}> Braille Training </h2>
@@ -113,14 +114,14 @@ const Section2 = () => {
                <input type="button" className={style.next} value="Next" id="next-btn_1" onClick={nextCard} />
              </Col>
              <Col className={style.bottomimage}>
-             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
+             <img src={image.Section2.Img2} alt="Braille" />
              </Col>
            </Row>
         </div>
         <div className={style.container2} id="containerCard2">
            <Row className={style.Row3}>
              <Col className={style.topimage}>
-             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
+             <img src={image.Section2.Img3} alt="Computer Training" />
              </Col>
              <Col className={style.containertext}>
                <h2 className={style.containerH2}> Computer Training  </h2>
@@ -135,14 +136,14 @@ const Section2 = () => {
                <input type="button" className={style.next} value="Next" id="next-btn_2" onClick={nextCard} />
              </Col>
              <Col className={style.bottomimage}>
-             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
+             <img src={image.Section2.Img4} alt="Mobile Training" />
              </Col>
            </Row>
         </div>
         <div className={style.container3} id="containerCard3">
            <Row className={style.Row1}>
              <Col className={style.topimage}>
-             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
+             <img src={image.Section2.Img5} alt="alt" />
              </Col>
              <Col className={style.containertext}>
                <h2 className={style.containerH2}> Technical / Reading Without Seeing Training </h2>
@@ -157,14 +158,14 @@ const Section2 = () => {
                <input type="button" className={style.next} value="Next" id="next-btn_3" onClick={nextCard} />
              </Col>
              <Col className={style.bottomimage}>
-             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
+             <img src={image.Section2.Img6} alt="alt" />
              </Col>
            </Row>
         </div>
         <div className={style.container4} id="containerCard4">
            <Row className={style.Row3}>
              <Col className={style.topimage}>
-             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
+             <img src={image.Section2.Img7} alt="alt" />
              </Col>
              <Col className={style.containertext}>
                <h2 className={style.containerH2}> Misc Workshop and Seminar </h2>
@@ -184,7 +185,7 @@ const Section2 = () => {
       <section className={style.container1} id="containerCardM1">
         <Row className={style.front1} id="front1">
           <Col className={style.imagePart}>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
+          <img src={image.Section2.Img1} alt="alt" />
           </Col>
           <Col className={style.heading}>
             <h1>Braille Training</h1>
@@ -205,7 +206,7 @@ const Section2 = () => {
       <section className={style.container2} id="containerCardM2">
         <Row className={style.front2} id="front2">
           <Col className={style.imagePart}>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
+          <img src={image.Section2.Img2} alt="alt" />
           </Col>
           <Col className={style.heading}>
             <h1>Mobility</h1>
@@ -226,7 +227,7 @@ const Section2 = () => {
       <section className={style.container3} id="containerCardM3">
         <Row className={style.front3} id="front3">
           <Col className={style.imagePart}>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
+          <img src={image.Section2.Img3} alt="alt" />
           </Col>
           <Col className={style.heading}>
             <h1>Computer Training</h1>
@@ -247,7 +248,7 @@ const Section2 = () => {
       <section className={style.container4} id="containerCardM4">
         <Row className={style.front4} id="front4">
           <Col className={style.imagePart}>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
+          <img src={image.Section2.Img4} alt="alt" />
           </Col>
           <Col className={style.heading}>
             <h1>Mobile Training</h1>
@@ -268,7 +269,7 @@ const Section2 = () => {
       <section className={style.container5} id="containerCardM5">
         <Row className={style.front5} id="front5">
           <Col className={style.imagePart}>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
+          <img src={image.Section2.Img5} alt="alt" />
           </Col>
           <Col className={style.heading}>
             <h1>Technical/Reading Without Seeing training</h1>
@@ -289,7 +290,7 @@ const Section2 = () => {
       <section className={style.container6} id="containerCardM6">
         <Row className={style.front6} id="front6">
           <Col className={style.imagePart}>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
+          <img src={image.Section2.Img6} alt="alt" />
           </Col>
           <Col className={style.heading}>
             <h1>Vocational Training</h1>
@@ -310,7 +311,7 @@ const Section2 = () => {
       <section className={style.container7} id="containerCardM7">
         <Row className={style.front7} id="front7">
           <Col className={style.imagePart}>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-jxeu2mRorUwNN3aOItkBaKJaoRgqBHV9Q&usqp=CAU" alt="Braille" />
+          <img src={image.Section2.Img7} alt="alt" />
           </Col>
           <Col className={style.heading}>
             <h1>Misc workshops and Seminars</h1>

@@ -49,18 +49,14 @@
 
 /* ********************** */
 .topimage {
-  max-width: 100%;
   margin: 0px 0px;
   padding: 0px 0px;
-  width: 100%;
   clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
 }
 
 .bottomimage {
-  max-width: 100%;
   margin: 0px 0px;
   padding: 0px 0px;
-  width: 100%;
   clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
 }
 
@@ -108,13 +104,13 @@
   background-image: url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1000px) {
   .mainTraining {
-    padding: 30px 30px;
+    padding: 50px 50px;
   }
 
   .containertext {
-    margin: 0px;
+    margin: 20px 0px 10px 0px;
   }
 
   .Row1 {
