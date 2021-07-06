@@ -8,7 +8,7 @@ import AboutUs from './Components/AboutUs/AboutUs';
 import GetInTouch from './Components/GetInTouch/GetInTouch';
 import Footer from './Components/Footer/Footer';
 
-// import Internship from "./Components/Internship/Internship";
+import Internship from "./Components/Internship/Internship";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
          <Route exact path="/ActivityChild" component={ActivityChild}/>
          <Route exact path='/about-us' component={AboutUs} />
          <Route exact path='/get-in-touch' component={GetInTouch} />
-         {/* <Route exact path='/internship' component={Internship} /> */}
+         <Route exact path='/internship' component={Internship} />
       </Switch>
       <Footer />
     </div>

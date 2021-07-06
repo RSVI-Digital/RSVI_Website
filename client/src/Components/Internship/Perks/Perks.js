@@ -6,8 +6,9 @@ function Perks() {
   return (
     <React.Fragment>
       <body>
+        <div className={Style.bckimg}>
         <h1 className={Style.heading}>PERKS</h1>
-
+        </div>
         <div className={Style.containerfluid}>
           <div className={Style.row}>
             {/* card1 */}
@@ -126,8 +127,9 @@ function Perks() {
               </div>
               <div className={Style.cardbody}>
                 <h5 class="card-title text-center fw-bold ">
-                  INTERNSHIP COMPLETION CERTIFICATE
+                  INTERNSHIP CERTIFICATE
                 </h5>
+                
                 <p>get your internship completion certificate.</p>
               </div>
             </div>
