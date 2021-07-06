@@ -1,0 +1,53 @@
+.row1 {
+  margin-left: -20px;
+  margin-right: 400px;
+  margin-top: 150px;
+}
+
+.row2 {
+  margin-left: -400px;
+}
+
+.graphic {
+  height: 150px;
+  width: 150px;
+  background-image: url('https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W');
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.graphic p {
+  justify-content: center;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.heading {
+  margin-top: 50px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.content {
+  justify-content: center;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+
+.collabcompanies {
+  margin-top: 50px;
+  padding: 50px;
+  background-image: url('https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W');
+  width: 100%;
+}
+
+.companiescol2 {
+  margin-left: 50px;
+}
+.collabiamges {
+  height: 100px;
+  border-radius: 30px;
+}

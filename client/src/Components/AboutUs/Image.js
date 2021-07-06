@@ -19,7 +19,13 @@ const Image = {
     Img3: "https://drive.google.com/uc?id=1ag96TlP0mLKRS6DWecQYJnzNzYRZvQgZ",
     Img4: "https://drive.google.com/uc?id=10Y87f0sGCJ191JiXdR38q6l8wvQMcJCw",
   },
-  Section8: "https://drive.google.com/uc?id=1vxaQVQ7nuH5GI_QR_1Fa_a8VL8nmQyF2",
+  Section8: {
+    Img1: "https://drive.google.com/uc?id=1vxaQVQ7nuH5GI_QR_1Fa_a8VL8nmQyF2",
+    Img2: "https://drive.google.com/uc?id=1EiGosNdiCoondh98q1DDugHP-Bv1pcNC",
+    Img3: "https://drive.google.com/uc?id=1Ea1o3dRCtQNOFwKe79KDS5R-4CVvRpQM",
+    Img4: "https://drive.google.com/uc?id=1EfvIAYezSsPuSWcf-LJD1jD6N5-yQWW_",
+    Img5:"https://drive.google.com/uc?id=1EdOxe_6klWEndwfGD8VLGDVlxAoPkCr3",
+  },
   Section9: {
     Img1: "https://drive.google.com/uc?id=1hlRMlkkZ9ZhEoaZINQwONl6BP4_HV2d_",
     Img2: "https://drive.google.com/uc?id=1cnxZo83kCJ9-OX8fC8ZSXibP15sTZeD4",

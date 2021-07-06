@@ -97,11 +97,11 @@ const Section6D = () => {
     }
 
     const previousCard = (e) => {
-        if (e.target.id == '6prev-btn_2') {
+        if (e.target.id == 'prev-btn_2') {
             document.getElementById('containerCard6M2').style.display = "none";
             document.getElementById('containerCard6M1').style.display = "block";
         }
-        if (e.target.id == '6prev-btn_3') {
+        if (e.target.id == 'prev-btn_3') {
             document.getElementById('containerCard6M3').style.display = "none";
             document.getElementById('containerCard6M2').style.display = "block";
         }

@@ -8,7 +8,7 @@ class Section8 extends Component {
         return (
             <div>
                 <Row className={Modules.section8}>
-                    <img src={Image.Section8} alt="section8" className={Modules.sec8img}></img>
+                    <img src={Image.Section8.Img1} alt="section8" className={Modules.sec8img}></img>
                 </Row>
                 <Row className={Modules.collabs}>
                   <Col className={Modules.sec8Col}>
@@ -26,7 +26,7 @@ class Section8 extends Component {
                     </p>
                     <button className={Modules.mobilebutton}> KNOW MORE </button>
                   </Col>
-                </Row> 
+                </Row>
             </div>
         )
     }

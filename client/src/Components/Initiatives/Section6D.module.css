@@ -391,17 +391,19 @@
     height: 100vh;
     width: 100%;
     display: block;
+    margin-bottom: 200px;
   }
 
   .mobilecontainer1 {
     position: relative;
-    width: 350px;
+    width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     background-color: blanchedalmond;
     border-radius: 20px;
-    min-height: 500px;
+    min-height: 580px;
+    top: 50px;
   }
 
 
@@ -415,21 +417,23 @@
   .mobilecontainer9,
   .mobilecontainer10,
   .mobilecontainer11 {
+    z-index: 2;
+    top: 50px;
     position: relative;
-    width: 350px;
+    width: 300px;
     display: none;
     margin-left: auto;
     margin-right: auto;
     background-color: blanchedalmond;
     border-radius: 20px;
-    min-height: 500px;
+    min-height: 580px;
   }
 
   .mobileimage img {
-    margin-top: 10px;
-    margin-left: 50px;
+    margin-top: 20px;
+    margin-left: 25px;
     position: relative;
-    height: 280px;
+    height: 300px;
     width: 250px;
     z-index: 1;
     border-radius: 20px;
@@ -460,25 +464,25 @@
     position: absolute;
     right: 0px;
     bottom: 0;
-    top: 450px;
-    width: 120px;
+    top: 540px;
+    width: 100px;
     border: none;
     background: transparent;
     color: green;
-    font-size: 13px;
+    font-size: 15px;
     text-decoration: underline;
     cursor: pointer;
+    z-index: 10;
   }
 
 
   .previous {
     position: absolute;
     border: none;
-    top: 450px;
-    width: 85px;
+    top: 540px;
     background: transparent;
-    margin-left: -230px;
-    font-size: 13px;
+    margin-left: -170px;
+    font-size: 15px;
     color: green;
     bottom: 0;
     cursor: pointer;
