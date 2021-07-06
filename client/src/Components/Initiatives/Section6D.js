@@ -44,6 +44,10 @@ const Section6D = () => {
         }
         if (e.target.id == 'next-btn_10') {
             document.getElementById('containerCard6M10').style.display = "none";
+            document.getElementById('containerCard6M11').style.display = "block";
+        }
+        if (e.target.id == 'next-btn_11') {
+            document.getElementById('containerCard6M11').style.display = "none";
             document.getElementById('containerCard6M1').style.display = "block";
         }
 
@@ -128,6 +132,11 @@ const Section6D = () => {
         if (e.target.id == 'prev-btn_10') {
             document.getElementById('containerCard6M10').style.display = "none";
             document.getElementById('containerCard6M9').style.display = "block";
+        }
+        
+        if (e.target.id == 'prev-btn_11') {
+            document.getElementById('containerCard6M11').style.display = "none";
+            document.getElementById('containerCard6M10').style.display = "block";
         }
 
         // For Desktop View
@@ -280,11 +289,11 @@ const Section6D = () => {
                             <img src={image.Section6b.Img6} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
-                            <h1>Movie Review Sessions (Audio) by RSVI</h1>
+                            <h1>RSVI Got Talent</h1>
                         </Col>
                         <Col className={style.mobilecontent}>
                             <p>
-                                Sharing a detailed Movie Review Session to the Visually Impaired in form of an accessible audio capsule.
+                            A platform to unleash hidden talent of the students of RSVI.
                             </p>
                         </Col>
                         <Row className={style.buttons}>
@@ -299,11 +308,11 @@ const Section6D = () => {
                             <img src={image.Section6b.Img7} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
-                            <h1>Web Series (Audio) by RSVI</h1>
+                            <h1>Movie Review Sessions (Audio) by RSVI</h1>
                         </Col>
                         <Col className={style.mobilecontent}>
                             <p>
-                                An initiative to share audio capsules of most preferred web series to its Visually Impaired students for their leisure and entertainment.
+                                Sharing a detailed Movie Review Session to the Visually Impaired in form of an accessible audio capsule.
                             </p>
                         </Col>
                         <Row className={style.buttons}>
@@ -318,11 +327,11 @@ const Section6D = () => {
                             <img src={image.Section6b.Img8} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
-                            <h1>Utsav</h1>
+                            <h1>Web Series (Audio) by RSVI</h1>
                         </Col>
                         <Col className={style.mobilecontent}>
                             <p>
-                                Celebrating every occasion in form of fun and Learn
+                                An initiative to share audio capsules of most preferred web series to its Visually Impaired students for their leisure and entertainment.
                             </p>
                         </Col>
                         <Row className={style.buttons}>
@@ -337,13 +346,11 @@ const Section6D = () => {
                             <img src={image.Section6b.Img9} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
-                            <h1>Aaina</h1>
+                            <h1>Utsav</h1>
                         </Col>
                         <Col className={style.mobilecontent}>
                             <p>
-                            Grooming sessions for the Visually Impaired are organized with emphasis on <br />
-                            " Beauty doesn't need a vision" .<br />
-                            Everyone is beautiful and worth appreciation.
+                                Celebrating every occasion in form of fun and Learn
                             </p>
                         </Col>
                         <Row className={style.buttons}>
@@ -358,6 +365,27 @@ const Section6D = () => {
                             <img src={image.Section6b.Img10} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
+                            <h1>Aaina</h1>
+                        </Col>
+                        <Col className={style.mobilecontent}>
+                            <p>
+                            Grooming sessions for the Visually Impaired are organized with emphasis on <br />
+                            " Beauty doesn't need a vision" .<br />
+                            Everyone is beautiful and worth appreciation.
+                            </p>
+                        </Col>
+                        <Row className={style.buttons}>
+                            <input type="button" className={style.previous} value="Previous" id="prev-btn_10" onClick={previousCard} />
+                            <input type="button" className={style.next} value="Next" id="next-btn_10" onClick={nextCard} />
+                        </Row>
+                    </Row>
+                </section>
+                <section className={style.mobilecontainer11} id="containerCard6M11">
+                    <Row>
+                        <Col className={style.mobileimage}>
+                            <img src={image.Section6b.Img11} alt="dummy" />
+                        </Col>
+                        <Col className={style.mobileheading}>
                             <h1>Rozgaar Samachaar Capsule </h1>
                         </Col>
                         <Col className={style.mobilecontent}>
@@ -366,8 +394,8 @@ const Section6D = () => {
                             </p>
                         </Col>
                         <Row className={style.buttons}>
-                            <input type="button" className={style.previous} value="Previous" id="prev-btn_10" onClick={previousCard} />
-                            <input type="button" className={style.next} value="Next" id="next-btn_10" onClick={nextCard} />
+                            <input type="button" className={style.previous} value="Previous" id="prev-btn_11" onClick={previousCard} />
+                            <input type="button" className={style.next} value="Next" id="next-btn_11" onClick={nextCard} />
                         </Row>
                     </Row>
                 </section>

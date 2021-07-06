@@ -399,64 +399,32 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: lightgray;
-    margin-top: 20px;
+    background-color: blanchedalmond;
+    margin-top: 50px;
     border-radius: 20px;
+    min-height: 280px;
   }
 
-  .mobilecontainer2 {
-    position: relative;
-    width: 280px;
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: lightgray;
-    border-radius: 20px;
-  }
 
-  .mobilecontainer3 {
-    position: relative;
-    width: 280px;
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: lightgray;
-    border-radius: 20px;
-  }
-
-  .mobilecontainer4 {
-    position: relative;
-    width: 280px;
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: lightgray;
-    border-radius: 20px;
-  }
-
+  .mobilecontainer2,
+  .mobilecontainer3,
+  .mobilecontainer4,
   .mobilecontainer5,
   .mobilecontainer6,
   .mobilecontainer7,
   .mobilecontainer8,
   .mobilecontainer9,
-  .mobilecontainer10 {
+  .mobilecontainer10,
+  .mobilecontainer11 {
     position: relative;
+    margin-top: 50px;
     width: 280px;
     display: none;
     margin-left: auto;
     margin-right: auto;
-    background-color: lightgray;
+    background-color: blanchedalmond;
     border-radius: 20px;
-  }
-
-  .mobilecontainer6 {
-    position: relative;
-    width: 280px;
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: lightgray;
-    border-radius: 20px;
+    min-height: 280px;
   }
 
   .mobileimage img {
@@ -483,32 +451,36 @@
   }
 
   .buttons {
-    position: relative;
     justify-content: space-around;
-    margin-bottom: 10px;
+    bottom: 10px;
   }
 
   .next {
     position: absolute;
     right: 0px;
-    top: 4px;
+    bottom: 0;
+    top: 250px;
     width: 60px;
     border: none;
     background: transparent;
     color: green;
     font-size: 15px;
-    cursor: pointer;
     text-decoration: underline;
+    cursor: pointer;
   }
 
+
   .previous {
+    position: absolute;
     border: none;
+    top: 250px;
     width: 85px;
     background: transparent;
     margin-left: -170px;
     font-size: 15px;
     color: green;
+    bottom: 0;
     cursor: pointer;
     text-decoration: underline;
-  } 
+  }
 }
