@@ -11,6 +11,7 @@ import Section6 from './Section6';
 import Section6A from './Section6A';
 import Section6B from './Section6B';
 import Section6C from './Section6C';
+import Section6D from './Section6D';
 import Section7 from './Section7';
 class Initiatives extends Component {
     render() {
@@ -23,8 +24,9 @@ class Initiatives extends Component {
                     <Section4></Section4>
                     <Section5></Section5>
                     <Section6A></Section6A>
-                    <Section6B></Section6B>
-                    <Section6C></Section6C>
+                    {/* <Section6B></Section6B> */}
+                    {/* <Section6C></Section6C> */}
+                    <Section6D></Section6D>
                     {/* <Section7></Section7> */}
                 </Container>
             </div>
