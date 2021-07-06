@@ -13,6 +13,7 @@ import Section6B from './Section6B';
 import Section6C from './Section6C';
 import Section6D from './Section6D';
 import Section7 from './Section7';
+import InvertedSection6 from './InvertedSection6'
 class Initiatives extends Component {
     render() {
         return (
@@ -23,7 +24,8 @@ class Initiatives extends Component {
                     <Section3></Section3>
                     <Section4></Section4>
                     <Section5></Section5>
-                    <Section6A></Section6A>
+                   {/* <Section6A></Section6A>*/}{/*commented to see invertedsection6 */}
+                    <InvertedSection6/>
                     {/* <Section6B></Section6B> */}
                     {/* <Section6C></Section6C> */}
                     {/*<Section6D></Section6D>*/}{/*commented and included in Section6A */}
