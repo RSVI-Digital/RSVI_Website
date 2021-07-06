@@ -26,7 +26,7 @@ class Initiatives extends Component {
                     <Section6A></Section6A>
                     {/* <Section6B></Section6B> */}
                     {/* <Section6C></Section6C> */}
-                    <Section6D></Section6D>
+                    {/*<Section6D></Section6D>*/}{/*commented and included in Section6A */}
                     {/* <Section7></Section7> */}
                 </Container>
             </div>
