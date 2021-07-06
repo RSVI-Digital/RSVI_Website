@@ -284,7 +284,7 @@ const Section6D = () => {
                         </Col>
                         <Col className={style.mobilecontent}>
                             <p>
-                                Ek Nayi Pehel
+                                Sharing a detailed Movie Review Session to the Visually Impaired in form of an accessible audio capsule.
                             </p>
                         </Col>
                         <Row className={style.buttons}>
@@ -303,7 +303,7 @@ const Section6D = () => {
                         </Col>
                         <Col className={style.mobilecontent}>
                             <p>
-                                Ek Nayi Pehel
+                                An initiative to share audio capsules of most preferred web series to its Visually Impaired students for their leisure and entertainment.
                             </p>
                         </Col>
                         <Row className={style.buttons}>
@@ -337,11 +337,13 @@ const Section6D = () => {
                             <img src={image.Section6b.Img9} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
-                            <h1>Aayina</h1>
+                            <h1>Aaina</h1>
                         </Col>
                         <Col className={style.mobilecontent}>
                             <p>
-                                Reflection
+                            Grooming sessions for the Visually Impaired are organized with emphasis on <br />
+                            " Beauty doesn't need a vision" .<br />
+                            Everyone is beautiful and worth appreciation.
                             </p>
                         </Col>
                         <Row className={style.buttons}>
@@ -537,7 +539,7 @@ const Section6D = () => {
                         <img src={image.Section6b.Img10} alt="" />
                     </Col>
                     <Col className={style.detailsContainer}>
-                        <h1>Aayina</h1>
+                        <h1>Aaina</h1>
                         <p>Grooming sessions for the Visually Impaired are organized with emphasis on <br />
                             " Beauty doesn't need a vision" .<br />
                             Everyone is beautiful and worth appreciation.</p>
