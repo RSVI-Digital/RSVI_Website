@@ -24,7 +24,9 @@ const Image = {
     Img4: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
     Img5: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
   },
-  Section4: "https://drive.google.com/uc?id=12zmq8aiALzMlEb1QrQuRmzNVXTMQZWc-",
+  Section4:{
+    img1:"https://drive.google.com/uc?id=1WmYx_Sjs7y_tj-A7ehZrr7l7HdRwxAMJ"
+   }, 
   Section5: {
     Img1: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
     Img2: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
