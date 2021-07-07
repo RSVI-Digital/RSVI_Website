@@ -80,7 +80,11 @@
   cursor: pointer;
 }
 
-.containerButton:hover {
+.containerButtonNext:hover {
+  text-decoration: underline;
+}
+
+.containerButtonPrev:hover {
   text-decoration: underline;
 }
 
@@ -356,5 +360,43 @@
     color: green;
     cursor: pointer;
     text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .mobilecontainer1 .mobileheading h1 {
+    margin-left: -82px;    
+  }
+
+  .mobilecontainer2 .mobileheading h1 {
+    margin-left: -20px;    
+  }
+
+  .mobilecontainer3 .mobileheading h1 {
+    margin-left: -10px;    
+  }
+
+  .mobilecontainer4 .mobileheading h1 {
+    margin-left: -40px;    
+  }
+
+  .mobilecontainer5 .mobileheading h1 {
+    margin-left: -35px;    
+  }
+
+  .mobilecontainer6 .mobileheading h1 {
+    margin-left: -35px;    
+  }
+
+  .mobilecontainer9 .mobileheading h1 {
+    margin-left: -77px;    
+  }
+
+  .mobilecontainer10 .mobileheading h1 {
+    margin-left: -85px;    
+  }
+
+  .mobilecontainer11 .mobileheading h1 {
+    margin-left: -17px;    
   }
 }

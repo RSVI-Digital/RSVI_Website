@@ -161,7 +161,7 @@
   }
 
   .mainContainer {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     display: block;
   }
@@ -360,5 +360,41 @@
 
   .para7 {
     margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+
+
+  .container1 .heading h1 {
+    margin-left: -45px;
+  }
+
+  .container2 .heading h1 {
+    margin-left: -80px;
+  }
+
+  .container3 .heading h1 {
+    margin-left: -24px;
+  }
+
+  .container6 .heading h1 {
+    margin-left: -24px;
+  }
+
+  .container4 .heading h1{
+    margin-left: -40px;
+  }
+
+  .container5 .heading h1{
+    margin-left: -10px;
+  }  
+
+  .container7 .heading h1{
+    margin-left: -20px;
+  }  
+
+  .contentDetails p {
+    font-size: 15px;
   }
 }
