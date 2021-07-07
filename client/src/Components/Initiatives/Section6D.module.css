@@ -11,17 +11,6 @@
   width: 100%;
 }
 
-.DCardContainer1Main {
-  position: relative;
-  margin: auto;
-  top: 50px;
-  height: 80%;
-  width: 80%;
-  background-color: rgba(128, 128, 128, 0.24);
-  z-index: 1;
-  /* clip-path: polygon(10% 10%, 10% 10%, 10% 10%, 10% 10%, 10% 10%, 10% 10%, 10% 10%, 10% 10%, 10% 10%, 10% 10%); */
-}
-
 .DCardContainer1 {
   position: relative;
   margin: auto;
@@ -95,114 +84,15 @@
   text-decoration: underline;
 }
 
-.DCardContainer2 {
-  position: relative;
-  margin: auto;
-  top: 100px;
-  height: 300px;
-  width: 70%;
-  display: none;
-  grid-template-columns: 1fr 2fr;
-  background: blanchedalmond;
-  z-index: 2;
-}
-
-.DCardContainer3 {
-  position: relative;
-  margin: auto;
-  top: 100px;
-  height: 300px;
-  width: 70%;
-  display: none;
-  grid-template-columns: 1fr 2fr;
-  background: blanchedalmond;
-  z-index: 2;
-}
-
-.DCardContainer4 {
-  position: relative;
-  margin: auto;
-  top: 100px;
-  height: 300px;
-  width: 70%;
-  display: none;
-  grid-template-columns: 1fr 2fr;
-  background: blanchedalmond;
-  z-index: 2;
-}
-
-.DCardContainer5 {
-  position: relative;
-  margin: auto;
-  top: 100px;
-  height: 300px;
-  width: 70%;
-  display: none;
-  grid-template-columns: 1fr 2fr;
-  background: blanchedalmond;
-  z-index: 2;
-}
-
-.DCardContainer6 {
-  position: relative;
-  margin: auto;
-  top: 100px;
-  height: 300px;
-  width: 70%;
-  display: none;
-  grid-template-columns: 1fr 2fr;
-  background: blanchedalmond;
-  z-index: 2;
-}
-
-.DCardContainer7 {
-  position: relative;
-  margin: auto;
-  top: 100px;
-  height: 300px;
-  width: 70%;
-  display: none;
-  grid-template-columns: 1fr 2fr;
-  background: blanchedalmond;
-  z-index: 2;
-}
-
-.DCardContainer8 {
-  position: relative;
-  margin: auto;
-  top: 100px;
-  height: 300px;
-  width: 70%;
-  display: none;
-  grid-template-columns: 1fr 2fr;
-  background: blanchedalmond;
-  z-index: 2;
-}
-
-.DCardContainer9 {
-  position: relative;
-  margin: auto;
-  top: 100px;
-  height: 300px;
-  width: 70%;
-  display: none;
-  grid-template-columns: 1fr 2fr;
-  background: blanchedalmond;
-  z-index: 2;
-}
-
-.DCardContainer10 {
-  position: relative;
-  margin: auto;
-  top: 100px;
-  height: 300px;
-  width: 70%;
-  display: none;
-  grid-template-columns: 1fr 2fr;
-  background: blanchedalmond;
-  z-index: 2;
-}
-
+.DCardContainer2,
+.DCardContainer3,
+.DCardContainer4,
+.DCardContainer5,
+.DCardContainer6,
+.DCardContainer7,
+.DCardContainer8,
+.DCardContainer9,
+.DCardContainer10,
 .DCardContainer11 {
   position: relative;
   margin: auto;
@@ -334,21 +224,6 @@
 }
 
 @media screen and (width: 767px) {
-  /* .DCardContainer1,
-    .DCardContainer2,
-    .DCardContainer3,
-    .DCardContainer4,
-    .DCardContainer5,
-    .DCardContainer6,
-    .DCardContainer7,
-    .DCardContainer8,
-    .DCardContainer9,
-    .DCardContainer10,
-    .DCardContainer11 {
-        width: 200%;
-      grid-template-columns: 1fr 2fr;
-    } */
-
   .imageContainer img {
     width: 100px;
   }
@@ -390,20 +265,21 @@
   .mainContainer {
     height: 100vh;
     width: 100%;
+    margin-top: 50px;
     display: block;
     margin-bottom: 200px;
   }
 
   .mobilecontainer1 {
     position: relative;
-    width: 300px;
-    display: block;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     background-color: blanchedalmond;
     border-radius: 20px;
-    min-height: 580px;
-    top: 50px;
+    min-height: 530px;
   }
 
 
@@ -418,25 +294,21 @@
   .mobilecontainer10,
   .mobilecontainer11 {
     z-index: 2;
-    top: 50px;
     position: relative;
-    width: 300px;
+    width: 350px;
     display: none;
     margin-left: auto;
     margin-right: auto;
     background-color: blanchedalmond;
     border-radius: 20px;
-    min-height: 580px;
+    min-height: 530px;
   }
 
   .mobileimage img {
-    margin-top: 20px;
-    margin-left: 25px;
-    position: relative;
-    height: 300px;
-    width: 250px;
+    height: 280px;
+    width: 350px;
     z-index: 1;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
   }
 
   .mobileheading h1 {
@@ -457,14 +329,12 @@
 
   .buttons {
     justify-content: space-around;
-    bottom: 10px;
   }
 
   .next {
     position: absolute;
     right: 0px;
-    bottom: 0;
-    top: 540px;
+    bottom: 20px;
     width: 100px;
     border: none;
     background: transparent;
@@ -472,19 +342,18 @@
     font-size: 15px;
     text-decoration: underline;
     cursor: pointer;
-    z-index: 10;
   }
 
 
   .previous {
     position: absolute;
+    left: 50px;
+    bottom: 20px;
     border: none;
-    top: 540px;
     background: transparent;
     margin-left: -170px;
     font-size: 15px;
     color: green;
-    bottom: 0;
     cursor: pointer;
     text-decoration: underline;
   }

@@ -110,8 +110,8 @@ const Section2 = () => {
              <Col className={style.containertext}>
               <h2 className={style.containerH2}> Mobility </h2>
                <p> Orientation & Mobility Training is to orient with the surroundings and to teach how to become mobile independently with the use of white cane. </p>
-               <input type="button" className={style.previous} value="" />
-               <input type="button" className={style.next} value="Next" id="next-btn_1" onClick={nextCard} />
+               <input type="button" className={style.Dprevious} value="" />
+               <input type="button" className={style.Dnext} value="Next" id="next-btn_1" onClick={nextCard} />
              </Col>
              <Col className={style.bottomimage}>
              <img src={image.Section2.Img2} alt="Braille" />
@@ -132,8 +132,8 @@ const Section2 = () => {
              <Col className={style.containertext}>
               <h2 className={style.containerH2}> Mobile Training </h2>
                <p> Mobile Training is imparted at RSVI to the visually Impaired so that they can study and communicate through smart phones , further impart training to other Visually Impaired students.  </p>
-               <input type="button" className={style.previous} value="Previous" id="prev-btn_2" onClick={previousCard} />
-               <input type="button" className={style.next} value="Next" id="next-btn_2" onClick={nextCard} />
+               <input type="button" className={style.Dprevious} value="Previous" id="prev-btn_2" onClick={previousCard} />
+               <input type="button" className={style.Dnext} value="Next" id="next-btn_2" onClick={nextCard} />
              </Col>
              <Col className={style.bottomimage}>
              <img src={image.Section2.Img4} alt="Mobile Training" />
@@ -154,8 +154,8 @@ const Section2 = () => {
              <Col className={style.containertext}>
               <h2 className={style.containerH2}> Vocational Training </h2>
                <p> Vocational Training is imparted at RSVI to the visually Impaired so that they can study and qualify various Competitive Examinations, qualify jobs and further impart training to other Visually Impaired students. </p>
-               <input type="button" className={style.previous} value="Previous" id="prev-btn_3" onClick={previousCard} />
-               <input type="button" className={style.next} value="Next" id="next-btn_3" onClick={nextCard} />
+               <input type="button" className={style.Dprevious} value="Previous" id="prev-btn_3" onClick={previousCard} />
+               <input type="button" className={style.Dnext} value="Next" id="next-btn_3" onClick={nextCard} />
              </Col>
              <Col className={style.bottomimage}>
              <img src={image.Section2.Img6} alt="Braille" />
@@ -170,8 +170,8 @@ const Section2 = () => {
              <Col className={style.containertext}>
                <h2 className={style.containerH2}> Misc Workshop and Seminar </h2>
                <p>Misc workshops and Seminars is imparted at RSVI to the visually Impaired so that they can aware Visually Impaired Persons about technology and new updations, latest technology and trends. </p>
-               <input type="button" className={style.previous} value="Previous" id="prev-btn_4" onClick={previousCard} />
-               <input type="button" className={style.next} value="" />
+               <input type="button" className={style.Dprevious} value="Previous" id="prev-btn_4" onClick={previousCard} />
+               <input type="button" className={style.Dnext} value="" />
              </Col>
            </Row>
            <Row className={style.Row2}>

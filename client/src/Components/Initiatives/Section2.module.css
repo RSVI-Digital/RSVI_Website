@@ -61,15 +61,35 @@
 }
 
 .containertext {
-  text-align: center;
+  position: relative;
   margin: 30px 0px 0 0px;
 }
 
-.previous,
+/* .previous,
 .next {
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
+  background: none;
+  color: darkgreen;
+  text-decoration: underline;
+  border: none;
+} */
+
+.Dnext {
+  position: absolute;
+  right: 10px;
+  bottom: 0px;
+  background: none;
+  color: darkgreen;
+  text-decoration: underline;
+  border: none;
+}
+
+.Dprevious {
+  position: absolute;
+  left: 10px;
+  bottom: 0px;
   background: none;
   color: darkgreen;
   text-decoration: underline;
@@ -210,8 +230,8 @@
 
   .next {
     position: absolute;
-    right: 0px;
-    top: 7px;
+    right: 2px;
+    bottom: 0px;
     width: 60px;
     border: none;
     background: transparent;
@@ -221,27 +241,30 @@
     cursor: pointer;
   }
 
-  .next:hover {
-    text-decoration: underline;
-  }
-
   .previous {
+    position: absolute;
+    left: 32px;
+    bottom: 0px;
     border: none;
     width: 85px;
     background: transparent;
-    margin-left: -138px;
-    margin-bottom: 0px;
     font-size: 15px;
     color: green;
     letter-spacing: 1px;
     cursor: pointer;
   }
 
-  .previous:hover {
+  .previous:hover,
+  .next:hover {
     text-decoration: underline;
   }
 
-  .container2 {
+  .container2,
+  .container3,
+  .container4,
+  .container5,
+  .container6,
+  .container7 {
     position: relative;
     width: 280px;
     z-index: 10;
@@ -253,6 +276,9 @@
     margin-top: 50px;
     min-height: 450px;
     border-radius: 15px;
+  }
+
+  .container2 {
     background: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
   }
 
@@ -265,16 +291,6 @@
   }
 
   .container3 {
-    position: relative;
-    width: 280px;
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(245, 240, 240);
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin-top: 50px;
-    min-height: 450px;
-    border-radius: 15px;
     background: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
   }
 
@@ -287,16 +303,6 @@
   }
 
   .container4 {
-    position: relative;
-    width: 280px;
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(245, 240, 240);
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin-top: 50px;
-    min-height: 450px;
-    border-radius: 15;
     background: url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
   }
 
@@ -309,16 +315,6 @@
   }
 
   .container5 {
-    position: relative;
-    width: 280px;
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(245, 240, 240);
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin-top: 50px;
-    min-height: 450px;
-    border-radius: 15px;
     background: url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
   }
 
@@ -339,16 +335,6 @@
   }
 
   .container6 {
-    position: relative;
-    width: 280px;
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(245, 240, 240);
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin-top: 50px;
-    min-height: 450px;
-    border-radius: 15px;
     background: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
   }
 
@@ -361,16 +347,6 @@
   }
 
   .container7 {
-    position: relative;
-    width: 280px;
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(245, 240, 240);
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin-top: 50px;
-    min-height: 450px;
-    border-radius: 15px;
     background: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
   }
 
