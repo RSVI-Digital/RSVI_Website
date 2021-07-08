@@ -79,21 +79,33 @@
 .Dnext {
   position: absolute;
   right: 10px;
-  bottom: 0px;
-  background: none;
-  color: darkgreen;
-  text-decoration: underline;
+  bottom: 10px;
   border: none;
+  border-radius: 30px;
+  background: green;
+  color: white;
+}
+
+.Dnext:hover {
+  text-decoration: underline;
+  background: white;
+  color: green;
 }
 
 .Dprevious {
   position: absolute;
   left: 10px;
-  bottom: 0px;
-  background: none;
-  color: darkgreen;
-  text-decoration: underline;
+  bottom: 10px;
   border: none;
+  border-radius: 30px;
+  background: green;
+  color: white;
+}
+
+.Dprevious:hover {
+  text-decoration: underline;
+  background: white;
+  color: green;
 }
 
 .container1 {
@@ -124,7 +136,6 @@
   font-weight: 400;
   text-align: center;
   background-image: url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
-  right:0;
 }
 
 @media screen and (max-width: 1000px) {
@@ -158,108 +169,116 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 401px) and (max-width: 767px) {
   .mainTraining {
     display: none;
   }
 
   .mainContainer {
-    height: 80vh;
-    width: 100%;
     display: block;
   }
 
   .container1 {
     position: relative;
-    width: 280px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(245, 240, 240);
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin-top: 50px;
+    display: block;
+    width: 380px;
+    height: 650px;
+    margin-bottom: 100px;
     border-radius: 15px;
-    background: url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
+    background: url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
   }
 
-  .container1:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-
-  .front1{
-    height: 510px;
+  .imagePart {
+    position: relative;
+    height: 300px;
   }
 
   .imagePart img {
-    position: relative;
-    width: 280px;
-    z-index: 1;
+    position: absolute;
+    width: 380px;
+    height: 100%;
     border-radius: 15px 15px 0 0;
   }
 
+  .heading {
+    position: relative;
+  }
+
   .heading h1 {
-    margin-top: 35px;
-    font-size: 28px;
-    width: 280px;
-    height: auto;
+    margin-top: 30px;
+    margin-left: 20px;
   }
 
   .border {
-    position: relative;
+    margin-left: 20px;
     width: 25%;
     height: 6px;
-    background-color: green;
-    margin-left: 23px;
+    background: green;
   }
 
   .contentDetails {
-    height: 170px;
-    padding-right: 20px;
+    position: relative;
+    margin-top: 10px;
   }
 
   .contentDetails p {
-    margin-top: 10px;
-    margin-left: 23px;
-    margin-right: 10px;
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    font-size: 18.5px;
     text-align: justify;
-    word-spacing: 0px;
-  }
-
-  .buttons {
-    position: relative;
-    justify-content: space-around;
-    bottom: 10px;
   }
 
   .next {
     position: absolute;
-    right: 2px;
-    bottom: 0px;
-    width: 60px;
+    padding-bottom: 5px;
+    bottom: 15px;
+    right: 15px;
+    width: 80px;
+    font-size: 22px;
     border: none;
-    background: transparent;
-    color: green;
-    font-size: 15px;
-    letter-spacing: 1px;
+    background: green;
+    color: white;
+    list-style: bold;
+    border-radius: 20px;
     cursor: pointer;
   }
 
   .previous {
     position: absolute;
-    left: 32px;
-    bottom: 0px;
+    padding-bottom: 5px;
+    bottom: 15px;
+    left: 15px;
+    width: 100px;
+    font-size: 22px;
     border: none;
-    width: 85px;
-    background: transparent;
-    font-size: 15px;
-    color: green;
-    letter-spacing: 1px;
+    background: green;
+    color: white;
+    list-style: bold;
+    border-radius: 20px;
     cursor: pointer;
   }
 
-  .previous:hover,
   .next:hover {
     text-decoration: underline;
+    background: white;
+    color: green;
+  }
+  
+  .previous:hover {
+    text-decoration: underline;
+    background: white;
+    color: green;
+  }
+
+  .front5 .heading h1 {
+    font-size: 31px;
+  }
+
+  .front3 .heading h1 {
+    font-size: 39px;
   }
 
   .container2,
@@ -269,163 +288,193 @@
   .container6,
   .container7 {
     position: relative;
-    width: 280px;
-    z-index: 10;
-    display: none;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(245, 240, 240);
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin-top: 50px;
-    min-height: 450px;
+    display: none;
+    width: 380px;
+    height: 650px;
+    margin-bottom: 100px;
     border-radius: 15px;
   }
 
   .container2 {
-    background: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
-  }
-
-  .container2:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-
-  .front2{
-    height: 510px;
+    background-image: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
   }
 
   .container3 {
-    background: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
-  }
-
-  .container3:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-
-  .front3{
-    height: 510px;
+    background-image: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
   }
 
   .container4 {
-    background: url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
-  }
-
-  .container4:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-
-  .front4{
-    height: 510px;
+    background-image: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
   }
 
   .container5 {
-    background: url("https://drive.google.com/uc?id=13PQzs1s1tx85yBkYwiswLBHB7BQabT2j");
-  }
-
-  .container5:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-
-  .container5 .heading h1 {
-    font-size: 23px;
-  }
-
-  .front5{
-    height: 510px;
-  }
-
-  .para5 {
-    margin-top: 75px;
+    background: url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
   }
 
   .container6 {
-    background: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
-  }
-
-  .container6:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-
-  .front6{
-    height: 510px;
+    background-image: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
   }
 
   .container7 {
-    background: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
-  }
-
-  .container7:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-
-  .front7{
-    height: 510px;
-  }
-
-  .para7 {
-    margin-top: 45px;
+    background-image: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
   }
 }
 
-@media screen and (max-width: 455px) {
-
-
-  /* .container1 .heading h1 {
-    margin-left: -45px;
+@media screen and (max-width: 400px) {
+  .mainTraining {
+    display: none;
   }
 
-  .container2 .heading h1 {
-    margin-left: -80px;
+  .mainContainer {
+    display: block;
   }
 
-  .container3 .heading h1 {
-    margin-left: -24px;
+  .container1 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 280px;
+    height: 550px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    background: url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
   }
 
-  .container6 .heading h1 {
-    margin-left: -24px;
+  .imagePart {
+    position: relative;
+    height: 200px;
   }
 
-  .container4 .heading h1{
-    margin-left: -40px;
+  .imagePart img {
+    position: absolute;
+    width: 280px;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
   }
 
-  .container5 .heading h1{
-    margin-left: -10px;
-  }  
+  .heading {
+    position: relative;
+  }
 
-  .container7 .heading h1{
-    margin-left: -20px;
-  }   */
+  .heading h1 {
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  .border {
+    margin-left: 10px;
+    width: 25%;
+    height: 6px;
+    background: green;
+  }
+
+  .contentDetails {
+    position: relative;
+    margin-top: 10px;
+  }
 
   .contentDetails p {
-    font-size: 15px;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    font-size: 16px;
+    text-align: justify;
   }
-}
-@media screen and (max-width: 296px) {
-  .mainContainer{
-    margin-bottom:1rem;
+
+  .next {
+    position: absolute;
+    padding-bottom: 5px;
+    bottom: 15px;
+    right: 10px;
+    width: 60px;
+    font-size: 18px;
+    border: none;
+    background: green;
+    color: white;
+    list-style: bold;
+    border-radius: 20px;
+    cursor: pointer;
   }
-  .container1,.container2,.container3,.container4,.container5,.container6,.container7{
-    width:100%;
-    height:96%;
+
+  .previous {
+    position: absolute;
+    padding-bottom: 5px;
+    bottom: 15px;
+    left: 10px;
+    width: 80px;
+    font-size: 18px;
+    border: none;
+    background: green;
+    color: white;
+    list-style: bold;
+    border-radius: 20px;
+    cursor: pointer;
   }
-  .front1,.front2,.front3,.front4,.front5,.front6,.front7{
-    margin:0;
-    height:100%
+
+  .next:hover {
+    text-decoration: underline;
+    background: white;
+    color: green;
   }
-  .imagePart{
-    padding:1px;
+  
+  .previous:hover {
+    text-decoration: underline;
+    background: white;
+    color: green;
   }
-  .imagePart img{
-    width:100%;
-    height:100%;
-    display:block;
+
+  .front5 .heading h1 {
+    font-size: 28px;
   }
-  .heading h1{
-    width:230px;
-    height:fit-content;
+
+  .front3 .heading h1 {
+    font-size: 35px;
   }
-  .contentDetails{
-    height:fit-content;
+
+  .front7 .heading h1 {
+    font-size: 30px;
+  }
+
+  .container2,
+  .container3,
+  .container4,
+  .container5,
+  .container6,
+  .container7 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    width: 280px;
+    height: 550px;
+    margin-bottom: 200px;
+    border-radius: 15px;
+  }
+
+  .container2 {
+    background-image: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
+  }
+
+  .container3 {
+    background-image: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
+  }
+
+  .container4 {
+    background-image: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
+  }
+
+  .container5 {
+    background: url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
+  }
+
+  .container6 {
+    background-image: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
+  }
+
+  .container7 {
+    background-image: url("https://drive.google.com/uc?id=1JXc-HcF6gmJriC3-426A-jON98heQf6W");
   }
 }
