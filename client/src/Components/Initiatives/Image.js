@@ -1,5 +1,5 @@
 const Image = {
-  Section1: {
+  /* Section1: {
     Img1: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
     Img2: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
     Img3: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
@@ -7,7 +7,7 @@ const Image = {
     Img5: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
     Img6: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
     Img7: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
-  },
+  }, */
   Section2: {
     Img1: "https://drive.google.com/uc?id=1gHHhN1qVY4uNqRj4sr3Q5N8XxC4M3hpA",
     Img2: "https://drive.google.com/uc?id=1XiZ-Ik06JsvQeSl2N0AONWy80eEoWZ1s",
@@ -17,16 +17,14 @@ const Image = {
     Img6: "https://drive.google.com/uc?id=1EnGKek1rYPbb99RLkofUzulfeqsXfqLd",
     Img7: "https://drive.google.com/uc?id=1Sc98dWLKMxdBUlrzo_nilhcezpzkWG8q",
   },
-  Section3: {
+  /* Section3: {
     Img1: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
     Img2: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
     Img3: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
     Img4: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
     Img5: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
-  },
-  Section4:{
-    img1:"https://drive.google.com/uc?id=1WmYx_Sjs7y_tj-A7ehZrr7l7HdRwxAMJ"
-   }, 
+  }, */
+  Section4: "https://drive.google.com/uc?id=1WmYx_Sjs7y_tj-A7ehZrr7l7HdRwxAMJ",
   Section5: {
     Img1: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
     Img2: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
@@ -35,12 +33,7 @@ const Image = {
     Img5: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
     Img6: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
   },
-  // Section6a: {
-  //   Img1: "https://drive.google.com/uc?id=1N_ln_PzP5UiNeek84L6wLm7FrjIQ0FTj",
-  //   Img2: "https://drive.google.com/uc?id=1WOtI0n-74ygfYEdSHnYh0P85qGtGgBP5",
-  //   Img3: "https://drive.google.com/uc?id=10j0E88g-LtP9qxi4ClKZ8nsEPkCmK5xC",
-  // },
-  Section6b: {//https://drive.google.com/file/d/1mXqd-Lnj3tx0qa-fHvGRbLW9Vv6bP_7P/view?usp=sharing
+  Section6b: {
     Img1: "https://drive.google.com/uc?id=16rs5K1IRPg-B-BZhS1eCbLxEI-aVANzg",
     Img2: "https://drive.google.com/uc?id=1mXqd-Lnj3tx0qa-fHvGRbLW9Vv6bP_7P",
     Img3: "https://drive.google.com/uc?id=1u1OeurHpsX5i-5T0jqPqHgNL9qfD5lLF",
@@ -53,15 +46,6 @@ const Image = {
     Img10: "https://drive.google.com/uc?id=1OBA3fd-5tbY9Ddtd6KyTtqyVgdPcdQkp",
     Img11: "https://drive.google.com/uc?id=10XGQ2VzUrDjfjM0Ow3rRw0h40kiobph-",
   },
-  // Section7: {
-  //   Img1: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
-  //   Img2: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
-  //   Img3: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
-  //   Img4: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
-  //   Img5: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
-  //   Img6: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
-  //   Img7: "https://drive.google.com/uc?id=1Ixb8UTLWhOKjPdEEH7cibfwElh8Gs9Jm",
-  // },
   Section6P: {
     imghead1:
       "https://drive.google.com/uc?id=18z8tp35lRuvGUK775_Z_LKxl_XV7DOHo",
