@@ -117,6 +117,8 @@
 }
 
 .header {
+  max-width: 100%;
+  width: 100%;
   padding: 20px;
   font-size: 40px;
   font-weight: 400;
