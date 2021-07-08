@@ -1,9 +1,9 @@
 import React,{useEffect} from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import style from './Section6D.module.css';
+import style from './Section6Child.module.css';
 import image from './Image';
 
-const Section6D = (props) => {
+const Section6Child = (props) => {
 
     const nextCard = (e) => {
         if (e.target.id === 'next-btn_1') {
@@ -608,4 +608,4 @@ const Section6D = (props) => {
     );
 }
 
-export default Section6D;
+export default Section6Child;
