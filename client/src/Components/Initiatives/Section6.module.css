@@ -49,17 +49,18 @@
   }
 }
 .projectHead1 {
-  /* grid-column: 1/2;    */ 
-  grid-column: 2/3;
+  /* grid-column: 2/3; */
   width: 16rem;
   top: 0; /*New*/
   text-align: center;
   height: fit-content;
+  right:0;
 }
 .projectHead2 {
-  grid-column: 1/2; /*New*/
+  /* grid-column: 1/2; New */
   text-align: center;
   height: fit-content;
+  right:0;
 }
 .box {
   border: 10px outset grey;
@@ -205,6 +206,9 @@
   .reachGrid {
     grid-template-columns: repeat(1, 1fr);
   }
+  .projectHead1Wrapper{
+    margin-top:2rem;
+  }
   .projectHead2 {
     bottom: 0;
   }
@@ -220,6 +224,7 @@
 @media screen and (max-width: 700px) {
   .reachGrid {
     padding: 0;
+    margin-bottom:2rem;
   }
   .upcomingProjects {
     padding-left: 0;
@@ -262,7 +267,7 @@
 @media screen and (max-width: 455px) {
   .reachGrid {
     grid-template-columns: 100%;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
   }
   .projectUdaan {
     display: grid;
