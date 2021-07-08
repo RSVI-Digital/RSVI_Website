@@ -41,7 +41,7 @@
     height: 100%;
     border-radius: 4px;
     background-color: black;
-    transition: width 3s ease-in-out;
+    transition: width 4s ease-in-out;
 }
   
 .progressbar {
@@ -68,5 +68,9 @@
 @media screen and (max-width: 768px) {
     .caption{
         margin-bottom: 25px;
+    }
+    .progressbar {
+        height: 20px;
+        padding: 5px;
     }
 }

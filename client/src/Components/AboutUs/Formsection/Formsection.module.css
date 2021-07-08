@@ -1,0 +1,27 @@
+.formsection{
+  margin: 20px 55px;
+  padding: 10px 30px;
+ background-image: url(https://drive.google.com/uc?id=1f3ljJgoCfyHuDEKG6m_-D3_Yg4Jwbn04);
+}
+.tt{
+  font-size: 25px;
+  margin-left: 20px;
+}
+.tt1{
+  font-size: 23px;
+}
+.tt3{
+  padding-right: 580px;
+
+}
+.tt4{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.submit{
+  font-size: 25px;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  margin-left: 1200px;
+  border-radius: 30%;
+}

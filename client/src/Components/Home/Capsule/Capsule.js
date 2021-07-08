@@ -26,7 +26,7 @@ class Capsule extends Component {
                             where Visually Impaired across the globe are connected.
                         </p>
                         <button className={styles.button} >
-                            Sign up for the podcast now!
+                            Listen to podcast now!
                         </button>
                     </Col>
                 </Row>

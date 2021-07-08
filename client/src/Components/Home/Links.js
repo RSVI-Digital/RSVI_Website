@@ -14,11 +14,10 @@ const mikeIcon = 'https://drive.google.com/uc?id=1zQOXAMt3jnGn9WnOAd5LmL4iwRaKuO
 const internIcon = 'https://drive.google.com/uc?id=1NOJdCv5IMN_tbrSJOX-TQ2ew9a0YGdGE';
 const impairedIcon = 'https://drive.google.com/uc?id=1716ICJApZDDAQ-c9Sd1tec0LOEMkaKK1';
 const healthIcon = 'https://drive.google.com/uc?id=1W3Fu_mIIRzXEG7A0NYeGlaPtvgwH9smp';
-const eyeIcon = 'https://drive.google.com/uc?id=1vhc_luQzXZcH7kFYXDOcc6HO-u9vIg-i';
 const deviceIcon = 'https://drive.google.com/uc?id=1Ak65PuU-Xwj8uZIscxsLH7sq2qeFDAdJ';
 const bookIcon = 'https://drive.google.com/uc?id=1CKrtcCH_TQPut3RKWDAzViTSoZ8vN1Ve';
 
 export {yellow_background, red_background, green_background, blue_background,
     rsvi_logo, capsule_image, lamp_png,
-    volunteerIcon, mikeIcon, internIcon, impairedIcon, healthIcon, eyeIcon, deviceIcon, bookIcon
+    volunteerIcon, mikeIcon, internIcon, impairedIcon, healthIcon, deviceIcon, bookIcon
 };

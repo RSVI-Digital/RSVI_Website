@@ -1,0 +1,14 @@
+
+.p{
+  margin: 50px 0 20px 0;
+  background-image: url(https://drive.google.com/uc?id=1sATPrWrtpApDsvAB_eUP6WGuA0PJmYgO);
+  padding: max(2.5vw, 25px);
+  font-size: max(1.8vw, 20px);
+  text-align: center;
+}
+
+.div{
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-bottom: 50px;
+}

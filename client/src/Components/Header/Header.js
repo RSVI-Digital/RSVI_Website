@@ -32,7 +32,7 @@ class Header extends Component {
                     <NavLink href='/initiatives' className={styles.navlink}>
                         INITIATIVES
                     </NavLink>
-                    <NavLink href='/faq' className={styles.navlink}>
+                    <NavLink href='/faqs' className={styles.navlink}>
                         FAQ's
                     </NavLink>
                     <NavLink href='/get-in-touch' className={styles.navlink}>

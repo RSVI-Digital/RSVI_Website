@@ -38,7 +38,7 @@ class Journey extends Component {
 
     Counter = ({count}) => {
         return (
-            <CountUp start={this.state.visible? null:0} end={count} duration={3}>
+            <CountUp start={this.state.visible? null:0} end={count} duration={4} suffix={'+'}>
                 {({ countUpRef }) => {
                     return (
                         <VisibilitySensor onChange={isVisible => {if (isVisible) {this.setVisible();}}}>
@@ -59,21 +59,21 @@ class Journey extends Component {
                 <Row className={styles.iconlist}>
                     <Col>
                         <img src={volunteerIcon} alt='sample png' className={styles.icon}/>
-                        <this.Counter count={1234} />
+                        <this.Counter count={5000} />
                         <p className={styles.caption}>
                             Volunteers
                         </p>
                     </Col>
                     <Col>
                         <img src={impairedIcon} alt='sample png' className={styles.icon}/>
-                        <this.Counter count={2345} />
+                        <this.Counter count={10000} />
                         <p className={styles.caption}>
                             Visually Impaired Students and Elderly
                         </p>
                     </Col>
                     <Col>
                         <img src={internIcon} alt='sample png' className={styles.icon}/>
-                        <this.Counter count={3456} />
+                        <this.Counter count={650} />
                         <p className={styles.caption}>
                             Student Interns
                         </p>
@@ -85,37 +85,30 @@ class Journey extends Component {
                 <Row className={styles.iconlist}>
                     <Col>
                         <img src={bookIcon} alt='sample png' className={styles.icon}/>
-                        <this.Counter count={4567} />
+                        <this.Counter count={50000} />
                         <p className={styles.caption}>
                             Braille Books and Texts
                         </p>
                     </Col>
                     <Col>
                         <img src={mikeIcon} alt='sample png' className={styles.icon}/>
-                        <this.Counter count={5678} />
+                        <this.Counter count={50000} />
                         <p className={styles.caption}>
                             Daisy Recordings
                         </p>
                     </Col>
                     <Col>
                         <img src={deviceIcon} alt='sample png' className={styles.icon}/>
-                        <this.Counter count={6789} />
+                        <this.Counter count={5000} />
                         <p className={styles.caption}>
                             Mobile Devices and Computers
                         </p>
                     </Col>
                     <Col>
                         <img src={healthIcon} alt='sample png' className={styles.icon}/>
-                        <this.Counter count={4567} />
+                        <this.Counter count={250} />
                         <p className={styles.caption}>
                             Healthcare Camps
-                        </p>
-                    </Col>
-                    <Col>
-                        <img src={eyeIcon} alt='sample png' className={styles.icon}/>
-                        <this.Counter count={7890} />
-                        <p className={styles.caption}>
-                            Free Eye Check-ups
                         </p>
                     </Col>
                 </Row>
@@ -129,13 +122,13 @@ class Journey extends Component {
                 </Row>
                 <Row className={styles.years}>
                     <Col className={styles.year}>
-                        2012
+                        2005
+                    </Col>
+                    <Col className={styles.year}>
+                        2010
                     </Col>
                     <Col className={styles.year}>
                         2015
-                    </Col>
-                    <Col className={styles.year}>
-                        2018
                     </Col>
                     <Col className={styles.year}>
                         2021

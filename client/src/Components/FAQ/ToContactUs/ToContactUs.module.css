@@ -1,0 +1,40 @@
+.content{
+  
+  margin-bottom: 50px;
+
+  padding-top: max(4vw, 40px);
+  padding-bottom: max(4vw, 40px);
+
+  justify-content: center;
+  text-align-last: center;
+
+  background-size: cover;
+  background-image: url('https://drive.google.com/uc?id=1sATPrWrtpApDsvAB_eUP6WGuA0PJmYgO');
+}
+
+.heading{
+  
+  margin: 0;
+  padding: 0;
+
+  padding-bottom: max(2vw, 20px);
+  
+  text-align: center;
+  font-size: max(2vw, 25px);
+}
+
+.button{
+  color: black;
+  padding: max(0.8vw, 8px);
+  
+  font-weight: bold;
+  font-size: max(1.8vw, 18px);
+
+  border-style: none;
+  border-radius: max(1vw, 10px);
+  background-color: white;
+}
+
+.button:active, .button:hover{
+  text-decoration: none;
+}

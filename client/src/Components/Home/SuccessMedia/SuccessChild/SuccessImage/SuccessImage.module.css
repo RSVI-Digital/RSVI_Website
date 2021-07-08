@@ -1,0 +1,39 @@
+.body{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.imageholder{
+    margin: 0;
+    padding: 0;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.image{
+    margin: 0;
+    padding: 0;
+}
+
+.textholder{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://drive.google.com/uc?id=1tKJz1WQDY4CdXtPVnsIj4quqEkHMAjSL');
+}
+
+.text{
+    margin: 0;
+    padding: 2.5vw;
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .imageholder{
+        padding: 0;
+    }
+
+}
