@@ -189,6 +189,10 @@
   .header {
     font-size: 30px;
   }
+  .mainReach{
+    padding-left: 0;
+    padding-right: 0;
+  }
   .heading1 {
     font-size: 23px;
   }
@@ -231,7 +235,8 @@
     max-width: 350px;
   }
   .reachRow {
-    width: 280px;
+    /* width: 280px; */
+    width:100%;
   }
   .col1Row1 {
     margin: 8px 8px 20px 8px;
