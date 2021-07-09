@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Noto+Sans+HK&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
+
 /* .containerimages {
     margin-left: 150px;
   }
@@ -13,14 +19,18 @@
   position: relative;
   width: 100%;
   width: 100%;
-  padding: 30px 37px;
+  padding: 0px 37px 30px 37px;
 }
 
 .Row1,
+.Row3 {
+  margin: 0;
+  width: auto;
+}
+
 .Row2,
-.Row3,
 .Row4 {
-  margin: 0px 0px 50px 0px;
+  margin: 30px 0 0 0;
   width: auto;
 }
 
@@ -73,6 +83,14 @@
   margin: 30px 0px 0 0px;
 }
 
+.heading h1 .containerH2 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.containertext p,
+.contentDetails p {
+  font-family: "Source Sans Pro", sans-serif;                   
+}
 /* .previous,
 .next {
   text-align: center;
@@ -139,6 +157,8 @@
 }
 
 .header {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 70px;
   max-width: 100%;
   width: 100%;
   margin-left: 55px;
@@ -205,56 +225,6 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .header {
-    font-size: 35px;
-    margin-left: 100px;
-  }
-}
-
-@media screen and (max-width: 570px) {
-  .header {
-    font-size: 35px;
-    margin-left: 80px;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .header {
-    font-size: 35px;
-    margin-left: 70px;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  .header {
-    font-size: 35px;
-    margin-left: 40px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .header {
-    font-size: 35px;
-    margin-left: 100px;
-  }
-}
-
-@media screen and (max-width: 570px) {
-  .header {
-    font-size: 35px;
-    margin-left: 80px;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .header {
-    font-size: 35px;
-    margin-left: 40px;
-  }
-}
-
-
 @media screen and (min-width: 401px) and (max-width: 767px) {
   .mainTraining {
     display: none;
@@ -264,13 +234,21 @@
     display: block;
   }
 
+  .header {
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+  }
+
   .container1 {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     display: block;
     width: 380px;
-    height: 650px;
+    height: 630px;
     margin-bottom: 100px;
     border-radius: 15px;
     background: url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
@@ -290,12 +268,13 @@
 
   .heading {
     position: relative;
+    /* text-align: center; */
   }
 
   .heading h1 {
-    font-size: 34px;
-    margin-top: 30px;
     margin-left: 20px;
+    font-size: 25px;
+    margin-top: 30px;
   }
 
   .border {
@@ -314,7 +293,7 @@
     position: absolute;
     left: 30px;
     right: 30px;
-    font-size: 19px;
+    font-size: 18px;
     text-align: justify;
   }
 
@@ -324,7 +303,7 @@
     bottom: 15px;
     right: 15px;
     width: 80px;
-    font-size: 22px;
+    font-size: 20px;
     border: none;
     background: green;
     color: white;
@@ -339,7 +318,7 @@
     bottom: 15px;
     left: 15px;
     width: 100px;
-    font-size: 22px;
+    font-size: 20px;
     border: none;
     background: green;
     color: white;
@@ -360,14 +339,6 @@
     color: green;
   }
 
-  .front5 .heading h1 {
-    font-size: 31px;
-  }
-
-  .front3 .heading h1 {
-    font-size: 34px;
-  }
-
   .container2,
   .container3,
   .container4,
@@ -379,7 +350,7 @@
     margin-right: auto;
     display: none;
     width: 380px;
-    height: 650px;
+    height: 630px;
     margin-bottom: 100px;
     border-radius: 15px;
   }
@@ -409,6 +380,30 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .container1,
+  .container2,
+  .container3,
+  .container4,
+  .container5,
+  .container6,
+  .container7 {
+    height: 600px;
+  }
+
+  .heading h1 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+  .contentDetails p {
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    font-size: 16px;
+    text-align: justify;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .mainTraining {
     display: none;
@@ -419,8 +414,11 @@
   }
 
   .header {
-    font-size: 30px;
-    margin-left: 45px;
+    font-size: 26px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 290px;
   }
 
   .container1 {
@@ -429,7 +427,7 @@
     margin-right: auto;
     display: block;
     width: 280px;
-    height: 550px;
+    height: 520px;
     margin-bottom: 100px;
     border-radius: 15px;
     background: url("https://drive.google.com/uc?id=1fLWLZn7phXdIVHXRV2tce6N91SH73J-6");
@@ -452,13 +450,13 @@
   }
 
   .heading h1 {
-    font-size: 30px;
+    margin-left: 20px;
+    font-size: 22px;
     margin-top: 30px;
-    margin-left: 10px;
   }
 
   .border {
-    margin-left: 10px;
+    margin-left: 20px;
     width: 25%;
     height: 6px;
     background: green;
@@ -471,9 +469,9 @@
 
   .contentDetails p {
     position: absolute;
-    left: 20px;
-    right: 20px;
-    font-size: 17px;
+    left: 30px;
+    right: 30px;
+    font-size: 16px;
     text-align: justify;
   }
 
@@ -519,22 +517,6 @@
     color: green;
   }
 
-  .front5 .heading h1 {
-    font-size: 22px;
-  }
-
-  .front6 .heading h1 {
-    font-size: 28px;
-  }
-
-  .front3 .heading h1 {
-    font-size: 29px;
-  }
-
-  .front7 .heading h1 {
-    font-size: 28px;
-  }
-
   .container2,
   .container3,
   .container4,
@@ -546,7 +528,7 @@
     margin-right: auto;
     display: none;
     width: 280px;
-    height: 550px;
+    height: 520px;
     margin-bottom: 200px;
     border-radius: 15px;
   }
@@ -589,14 +571,23 @@
 
   .header {
     font-size: 25px;
-    margin-left: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 260px;
+  }
+
+  .heading {
+    font-size: 24px;
+
   }
 
   .heading h1 {
-    font-size: 24px;
+    margin-left: 10px;
+    font-size: 20px;
   }
 
   .contentDetails p {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
