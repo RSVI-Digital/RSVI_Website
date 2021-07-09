@@ -14,43 +14,39 @@ class ChildPage extends Component {
                </Col>
                <Col>
                 <Row className={style.row2}>
-                   <Col className={style.graphic}>
-                   <p> Small Graphic </p>
+                   <Col>
+                   <img src={image.Section8.Img5} alt="Collab" className={style.collabiamges1}/>
                   </Col>
-                  <Col className={style.graphic}>
-                  <p> Small Graphic </p>
+                  <Col>
+                  <img src={image.Section8.Img3} alt="Collab" className={style.collabiamges}/>
                   </Col>
-                  <Col className={style.graphic}>
-                  <p> Small Graphic </p>
+                  <Col>
+                  <img src={image.Section8.Img2} alt="Collab" className={style.collabiamges}/>
                   </Col>
-                  <Col className={style.graphic}>
-                  <p> Small Graphic </p>
+                  <Col>
+                  <img src={image.Section8.Img4} alt="Collab" className={style.collabiamges}/>
                   </Col>
                 </Row>
                 <Row className={style.row2}>
                   <Col>
-                     <h1 className={style.heading}> Title </h1>
+                     <h1 className={style.heading}> Justvocates </h1>
                      <p className={style.content}>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique pellentesque dignissim,
-                    </p>
+                      Together building a common platform for uncommon people, and undoubtedly to help the blind.                    </p>
                   </Col>
                   <Col>
-                     <h1 className={style.heading}> Title </h1>
+                     <h1 className={style.heading}> Breakthrough & L'Orèal   </h1>
                      <p className={style.content}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique pellentesque dignissim,
-                     </p>
+                      A collaboration  where we discussed about how we can identify any street harassment and intervene safely to help others.                     </p>
                   </Col>
                   <Col>
-                     <h1 className={style.heading}> Title </h1>
+                     <h1 className={style.heading}> UBER India </h1>
                      <p className={style.content}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique pellentesque dignissim,
-                    </p>
+                      RSVI collaborated with Uber India to implement a project in which Uber offered free taxi rides to the blind and staff of NGOs serving the blind in 8 cities across India.                    </p>
                   </Col>
                   <Col>
-                     <h1 className={style.heading}> Title </h1>
+                     <h1 className={style.heading}> Enactus SBSEC </h1>
                      <p className={style.content}>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique pellentesque dignissim,
-                     </p>
+                       A collaboration to educate and empower under priviledeged and people with disabilities. It made VIs more updated about new interview techniques.                     </p>
                   </Col>
                 </Row>
                </Col>

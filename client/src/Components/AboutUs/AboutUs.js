@@ -8,12 +8,14 @@ import Section5_6 from './Section5_6';
 import Section7 from './Section7';
 import Section8 from './Section8';
 import Section9 from './Section9';
+import ChildPage from './ChildPage'
 
 class AboutUs extends Component {
     render() {
         return (
             <div className={Modules.mainAboutUS}>
                 <Container className={Modules.containerAboutUs}>
+                    <ChildPage></ChildPage>
                     <Section1_2></Section1_2>
                     <Section3_4></Section3_4>
                     <Section5_6></Section5_6>
