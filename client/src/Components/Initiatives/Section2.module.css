@@ -614,3 +614,22 @@
     font-size: 14px;
   }
 }
+@media screen and (max-width: 318px) {
+
+  .container1,.container2,.container3,.container4,.container5,.container6,.container7{
+    width:100%;
+    /* height:96%; */
+  }
+  .front1,.front2,.front3,.front4,.front5,.front6,.front7{
+    margin:0;
+    /* height:100% */
+  }
+  .imagePart{
+    padding:0px;
+  }
+  .imagePart img{
+    width:100%;
+    height:100%;
+    display:block;
+  }
+}
