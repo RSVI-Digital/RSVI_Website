@@ -105,7 +105,7 @@
 .Dnext {
   position: absolute;
   right: 10px;
-  bottom: 10px;
+  bottom: 3px;
   border: none;
   border-radius: 30px;
   background: green;
@@ -121,7 +121,7 @@
 .Dprevious {
   position: absolute;
   left: 10px;
-  bottom: 10px;
+  bottom: 3px;
   border: none;
   border-radius: 30px;
   background: green;
@@ -137,7 +137,7 @@
 .container1 {
   display: block;
   position: relative;
-  width: 99%;
+  width: 100%;
   /*
       border: 1px solid black;
       background-color: blanchedalmond; */
@@ -148,12 +148,16 @@
 .container3,
 .container4 {
   position: relative;
-  width: 99%;
+  width: 100%;
   display: none;
   /*
       border: 1px solid black;
       background-color: blanchedalmond; */
   margin: 0px 0px;
+}
+
+.container7 {
+  height: 250px;
 }
 
 .header {
@@ -184,10 +188,23 @@
   }
 
   .containertext {
-    margin: 20px 0px 10px 0px;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .topimage {
+    width: 220px;
+  }
+
+  .bottomimage {
+    width: 220px;
+  }
+
+  .container4 .Row3 .containerH2 {
+    margin-top: -10px;
   }
 
   .Row1 {
+    height: 200px;
   }
 
   .Row2 {
