@@ -190,13 +190,13 @@ const Section6Child = (props) => {
         else document.getElementById("mainDCardContainerDiv").style.display="none";
        })
     return (
-        <div id="mainDCardContainerDiv">
+        <div id="mainDCardContainerDiv" className={`${style.mainDCardContainer}`}>
         {props.displayState && (<>
             <Container className={style.mainContainer}>
                 <section className={style.mobilecontainer1} id="containerCard6M1">
-                    <Row>
+                    <Row className={style.mobilecontainer1Row}>
                         <Col className={style.mobileimage}>
-                            <img src={image.Section6b.Img1} alt="dummy" />
+                            <img src={image.Section6b.Img1m} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
                             <h1>Gyaan</h1>
@@ -214,9 +214,9 @@ const Section6Child = (props) => {
                 </section>
 
                 <section className={style.mobilecontainer2} id="containerCard6M2">
-                    <Row>
+                    <Row className={style.mobilecontainer2Row}>
                         <Col className={style.mobileimage}>
-                            <img src={image.Section6b.Img2} alt="dummy" />
+                            <img src={image.Section6b.Img2m} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
                             <h1>Tech-Guru Sessions</h1>
@@ -234,9 +234,9 @@ const Section6Child = (props) => {
                 </section>
 
                 <section className={style.mobilecontainer3} id="containerCard6M3">
-                    <Row>
+                    <Row className={style.mobilecontainer3Row}>
                         <Col className={style.mobileimage}>
-                            <img src={image.Section6b.Img3} alt="dummy" />
+                            <img src={image.Section6b.Img3m} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
                             <h1>Interview Preparation Strategies </h1>
@@ -253,9 +253,9 @@ const Section6Child = (props) => {
                     </Row>
                 </section>
                 <section className={style.mobilecontainer4} id="containerCard6M4">
-                    <Row>
+                    <Row className={style.mobilecontainer4Row}>
                         <Col className={style.mobileimage}>
-                            <img src={image.Section6b.Img4} alt="dummy" />
+                            <img src={image.Section6b.Img4m} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
                             <h1>Mentor-Mentee Program </h1>
@@ -272,9 +272,9 @@ const Section6Child = (props) => {
                     </Row>
                 </section>
                 <section className={style.mobilecontainer5} id="containerCard6M5">
-                    <Row>
+                    <Row className={style.mobilecontainer5Row}>  
                         <Col className={style.mobileimage}>
-                            <img src={image.Section6b.Img5} alt="dummy" />
+                            <img src={image.Section6b.Img5m} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
                             <h1>Chai Pe Charcha </h1>
@@ -291,9 +291,9 @@ const Section6Child = (props) => {
                     </Row>
                 </section>
                 <section className={style.mobilecontainer6} id="containerCard6M6">
-                    <Row>
+                    <Row className={style.mobilecontainer6Row}>
                         <Col className={style.mobileimage}>
-                            <img src={image.Section6b.Img6} alt="dummy" />
+                            <img src={image.Section6b.Img6m} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
                             <h1>RSVI Got Talent</h1>
@@ -310,9 +310,9 @@ const Section6Child = (props) => {
                     </Row>
                 </section>
                 <section className={style.mobilecontainer7} id="containerCard6M7">
-                    <Row>
+                    <Row className={style.mobilecontainer7Row}>
                         <Col className={style.mobileimage}>
-                            <img src={image.Section6b.Img7} alt="dummy" />
+                            <img src={image.Section6b.Img7m} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
                             <h1>Movie Review Sessions (Audio) by RSVI</h1>
@@ -329,9 +329,9 @@ const Section6Child = (props) => {
                     </Row>
                 </section>
                 <section className={style.mobilecontainer8} id="containerCard6M8">
-                    <Row>
+                    <Row className={style.mobilecontainer8Row}>
                         <Col className={style.mobileimage}>
-                            <img src={image.Section6b.Img8} alt="dummy" />
+                            <img src={image.Section6b.Img8m} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
                             <h1>Web Series (Audio) by RSVI</h1>
@@ -348,9 +348,9 @@ const Section6Child = (props) => {
                     </Row>
                 </section>
                 <section className={style.mobilecontainer9} id="containerCard6M9">
-                    <Row>
+                    <Row className={style.mobilecontainer9Row}>
                         <Col className={style.mobileimage}>
-                            <img src={image.Section6b.Img9} alt="dummy" />
+                            <img src={image.Section6b.Img9m} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
                             <h1>Utsav</h1>
@@ -367,9 +367,9 @@ const Section6Child = (props) => {
                     </Row>
                 </section>
                 <section className={style.mobilecontainer10} id="containerCard6M10">
-                    <Row>
+                    <Row className={style.mobilecontainer10Row}>
                         <Col className={style.mobileimage}>
-                            <img src={image.Section6b.Img10} alt="dummy" />
+                            <img src={image.Section6b.Img10m} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
                             <h1>Aaina</h1>
@@ -388,9 +388,9 @@ const Section6Child = (props) => {
                     </Row>
                 </section>
                 <section className={style.mobilecontainer11} id="containerCard6M11">
-                    <Row>
+                    <Row className={style.mobilecontainer11Row}>
                         <Col className={style.mobileimage}>
-                            <img src={image.Section6b.Img11} alt="dummy" />
+                            <img src={image.Section6b.Img11m} alt="dummy" />
                         </Col>
                         <Col className={style.mobileheading}>
                             <h1>Rozgaar Samachaar Capsule </h1>
@@ -413,7 +413,7 @@ const Section6Child = (props) => {
             <Container className={style.mainDCardContainer}>
                 <Row className={style.DCardContainer1} id="DCardContainer1">
                     <Col className={style.imageContainer}>
-                        <img src={image.Section6b.Img1} alt="" />
+                        <img src={image.Section6b.Img1d} alt="" />
                     </Col>
                     <Col className={style.detailsContainer}>
                         <h1>Gyaan</h1>
@@ -427,7 +427,7 @@ const Section6Child = (props) => {
 
                 <Row className={style.DCardContainer2} id="DCardContainer2">
                     <Col className={style.imageContainer}>
-                        <img src={image.Section6b.Img2} alt="" />
+                        <img src={image.Section6b.Img2d} alt="" />
                     </Col>
                     <Col className={style.detailsContainer}>
                         <h1>Tech-Guru Sessions</h1>
@@ -445,7 +445,7 @@ const Section6Child = (props) => {
 
                 <Row className={style.DCardContainer3} id="DCardContainer3">
                     <Col className={style.imageContainer}>
-                        <img src={image.Section6b.Img3} alt="" />
+                        <img src={image.Section6b.Img3d} alt="" />
                     </Col>
                     <Col className={style.detailsContainer}>
                         <h1>Interview Preparation Strategies</h1>
@@ -463,7 +463,7 @@ const Section6Child = (props) => {
 
                 <Row className={style.DCardContainer4} id="DCardContainer4">
                     <Col className={style.imageContainer}>
-                        <img src={image.Section6b.Img4} alt="" />
+                        <img src={image.Section6b.Img4d} alt="" />
                     </Col>
                     <Col className={style.detailsContainer}>
                         <h1>Mentor-Mentee Programme</h1>
@@ -481,7 +481,7 @@ const Section6Child = (props) => {
 
                 <Row className={style.DCardContainer5} id="DCardContainer5">
                     <Col className={style.imageContainer}>
-                        <img src={image.Section6b.Img5} alt="" />
+                        <img src={image.Section6b.Img5d} alt="" />
                     </Col>
                     <Col className={style.detailsContainer}>
                         <h1>Chai Pe Charcha</h1>
@@ -499,7 +499,7 @@ const Section6Child = (props) => {
 
                 <Row className={style.DCardContainer6} id="DCardContainer6">
                     <Col className={style.imageContainer}>
-                        <img src={image.Section6b.Img6} alt="" />
+                        <img src={image.Section6b.Img6d} alt="" />
                     </Col>
                     <Col className={style.detailsContainer}>
                         <h1>RSVI Got Talent</h1>
@@ -517,7 +517,7 @@ const Section6Child = (props) => {
 
                 <Row className={style.DCardContainer7} id="DCardContainer7">
                     <Col className={style.imageContainer}>
-                        <img src={image.Section6b.Img7} alt="" />
+                        <img src={image.Section6b.Img7d} alt="" />
                     </Col>
                     <Col className={style.detailsContainer}>
                         <h1>Movie Review Sessions (Audio) by RSVI</h1>
@@ -535,7 +535,7 @@ const Section6Child = (props) => {
 
                 <Row className={style.DCardContainer8} id="DCardContainer8">
                     <Col className={style.imageContainer}>
-                        <img src={image.Section6b.Img8} alt="" />
+                        <img src={image.Section6b.Img8d} alt="" />
                     </Col>
                     <Col className={style.detailsContainer}>
                         <h1>Web Series (Audio) by RSVI</h1>
@@ -553,7 +553,7 @@ const Section6Child = (props) => {
 
                 <Row className={style.DCardContainer9} id="DCardContainer9">
                     <Col className={style.imageContainer}>
-                        <img src={image.Section6b.Img9} alt="" />
+                        <img src={image.Section6b.Img9d} alt="" />
                     </Col>
                     <Col className={style.detailsContainer}>
                         <h1>Utsav</h1>
@@ -571,7 +571,7 @@ const Section6Child = (props) => {
 
                 <Row className={style.DCardContainer10} id="DCardContainer10">
                     <Col className={style.imageContainer}>
-                        <img src={image.Section6b.Img10} alt="" />
+                        <img src={image.Section6b.Img10d} alt="" />
                     </Col>
                     <Col className={style.detailsContainer}>
                         <h1>Aaina</h1>
@@ -591,7 +591,7 @@ const Section6Child = (props) => {
 
                 <Row className={style.DCardContainer11} id="DCardContainer11">
                     <Col className={style.imageContainer}>
-                        <img src={image.Section6b.Img11} alt="" />
+                        <img src={image.Section6b.Img11d} alt="" />
                     </Col>
                     <Col className={style.detailsContainer}>
                         <h1>Rozgaar Samachaar Capsule</h1>

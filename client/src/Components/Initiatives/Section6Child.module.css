@@ -46,6 +46,9 @@
   letter-spacing: 2px;
   font-weight: 600;
   font-size: 38px;
+  right: 0;
+  text-align: center;
+  padding-left: 0;
 }
 
 .detailsContainer p {
@@ -264,6 +267,7 @@
 @media screen and (max-width: 650px) {
   .mainDCardContainer {
     display: none;
+    margin-top: 6rem;
   }
 
   .mainContainer {
@@ -285,7 +289,6 @@
     border-radius: 20px;
     min-height: 530px;
   }
-
 
   .mobilecontainer2,
   .mobilecontainer3,
@@ -319,13 +322,20 @@
     margin-top: 35px;
     font-size: 28px;
     width: 280px;
-    margin-left: 0px;
+    /* margin-left: 0px; */
+    margin-left: 1.5rem;
     margin-bottom: 0;
+    text-align: center;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
   }
 
   .mobilecontent p {
     margin-top: 0px;
-    text-align: left;
+    /* text-align: left; */
+    text-align: center;
     margin-left: 25px;
     margin-right: 25px;
     word-spacing: 0px;
@@ -348,7 +358,6 @@
     cursor: pointer;
   }
 
-
   .previous {
     position: absolute;
     left: 50px;
@@ -364,7 +373,7 @@
 }
 
 @media screen and (max-width: 650px) {
-  .mobilecontainer1 .mobileheading h1 {
+  /* .mobilecontainer1 .mobileheading h1 {
     margin-left: -82px;    
   }
 
@@ -394,9 +403,63 @@
 
   .mobilecontainer10 .mobileheading h1 {
     margin-left: -85px;    
-  }
+  } 
 
   .mobilecontainer11 .mobileheading h1 {
     margin-left: -17px;    
+  }*/
+}
+@media screen and (max-width: 390px) {
+  .mainDCardContainer {
+    margin-top: 6rem;
+  }
+  .mainContainer {
+    padding: 0;
+    margin: 0;
+  }
+  .mobilecontainer1,
+  .mobilecontainer2,
+  .mobilecontainer3,
+  .mobilecontainer4,
+  .mobilecontainer5,
+  .mobilecontainer6,
+  .mobilecontainer7,
+  .mobilecontainer8,
+  .mobilecontainer9,
+  .mobilecontainer10,
+  .mobilecontainer11 {
+    margin: 0;
+    width: 100%;
+  }
+  .mobilecontainer1Row,
+  .mobilecontainer2Row,
+  .mobilecontainer3Row,
+  .mobilecontainer4Row,
+  .mobilecontainer5Row,
+  .mobilecontainer6Row,
+  .mobilecontainer7Row,
+  .mobilecontainer8Row,
+  .mobilecontainer9Row,
+  .mobilecontainer10Row,
+  .mobilecontainer11Row {
+    width: 100%;
+    margin: 0;
+    display: block;
+  }
+  .mobileimage {
+    padding: 1px;
+  }
+  .mobileimage img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .mobileheading h1 {
+    font-size: 25px;
+    width: 100%;
+  }
+  .previous {
+    margin-left: -10px;
+    width: fit-content;
   }
 }
