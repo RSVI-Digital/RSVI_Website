@@ -51,7 +51,7 @@
 .projectHead1 {
   /* grid-column: 2/3; */
   width: 16rem;
-  top: 0; /*New*/
+  /* top: 0; New */
   text-align: center;
   height: fit-content;
   right:0;
@@ -212,6 +212,9 @@
   }
   .projectHead2 {
     bottom: 0;
+  }
+  .projectHead1{
+    top:0;
   }
   .p41,
   .p42 {

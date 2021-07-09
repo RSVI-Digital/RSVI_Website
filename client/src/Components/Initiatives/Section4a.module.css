@@ -152,6 +152,9 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 350px;
+    text-align:center;
+    right:0;
+    padding:0;
   }
 
   .reachRow {
