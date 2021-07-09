@@ -15,9 +15,9 @@ class Initiatives extends Component {
                 <Container className={Modules.containerInitiatives}>
                     <Section1></Section1>
                     <Section2></Section2>
-                    <Section3></Section3>
+                    {/* <Section3></Section3> */}
                     <Section4a></Section4a>
-                    <Section5></Section5>
+                    {/* <Section5></Section5> */}
                     <Section6></Section6>
                 </Container>
             </div>
