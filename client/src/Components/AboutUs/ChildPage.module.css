@@ -25,16 +25,14 @@
 
 .heading {
   margin-top: 50px;
-  justify-content: center;
-  text-align: center;
+  font-size: 30px;
   margin-bottom: 0px;
 }
 
 .content {
-  justify-content: center;
-  text-align: center;
+  font-size: 15px;
   margin-top: 0px;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 .collabcompanies {
@@ -48,6 +46,12 @@
   margin-left: 50px;
 }
 .collabiamges {
-  height: 100px;
+  height: 80px;
+  border-radius: 30px;
+}
+
+.collabiamges1 {
+  margin-left: 30px;
+  height: 80px;
   border-radius: 30px;
 }
