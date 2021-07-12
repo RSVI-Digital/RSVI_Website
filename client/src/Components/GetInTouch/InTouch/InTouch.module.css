@@ -50,6 +50,10 @@
 
 @media screen and (max-width: 991px) {
 
+    .image{
+        content: url('https://drive.google.com/uc?id=1aderwC8he7heC9xA4LC3PweFa7aBEObT');
+    }
+
     .body{
         margin-bottom: 50px;
     }

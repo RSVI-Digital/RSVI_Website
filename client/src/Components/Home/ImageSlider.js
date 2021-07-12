@@ -1,8 +1,9 @@
 import React,{useState} from 'react';
 import {SliderData} from './SliderData';
 import '../../Assets/Global-Styles/bootstrap.min.module.css';
-import {FaArrowAltCircleLeft, FaArrowAltCircleRight} from "react-icons/fa";
+// import {FaArrowAltCircleRight} from "react-icons/fa";
 import style from './ImageSlider.module.css';
+import {BsChevronDoubleLeft,BsChevronDoubleRight} from "react-icons/bs";
 
 const ImageSlider = ({slides}) => {
   
@@ -24,8 +25,8 @@ const ImageSlider = ({slides}) => {
     return (
         <div className = {style.is}>
         <section className={style.slider}>
-      <FaArrowAltCircleLeft className={style.leftarrow} onClick={prevSlide} />
-      <FaArrowAltCircleRight className={style.rightarrow} onClick={nextSlide} />
+      <BsChevronDoubleLeft className={style.leftarrow} onClick={prevSlide} />
+      <BsChevronDoubleRight className={style.rightarrow} onClick={nextSlide} />
       {SliderData.map((slide, index) => {
         return (
           <div

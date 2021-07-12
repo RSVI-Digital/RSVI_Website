@@ -1,0 +1,180 @@
+.modal {
+    position        : fixed;
+    left            : 0;
+    top             : 0;
+    right           : 0;
+    bottom          : 0;
+    background-color: (0, 0, 0, 0.5);
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    z-index         : 1;
+}
+
+.content {
+    width           : 990px;
+    background-color: rgba(255, 255, 255, 0.849);
+    box-shadow      : 2px 2px 3px darkgray;
+    border-radius   : 10px;
+    position        : relative;
+}
+
+.footer {
+    float      : left;
+    padding    : 10px 20px;
+    position   : absolute;
+    margin-top : 300px;
+    margin-left: 0px;
+    margin-left: 0px;
+}
+
+.body {
+    /* background-image: url("../../Assets/backgroundImg/blue.png"); */
+    height             : 400px;
+    margin             : 40px 30px 20px 30px;
+    padding            : 20px;
+    border-top         : 1px solid #eee;
+    border-bottom      : 1px solid #eee;
+    background-position: cover;
+    background-repeat  : no-repeat;
+
+
+}
+
+.image {
+    position  : absolute;
+    top       : 20px;
+    left      : 70px;
+    width     : 300px;
+    height    : 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.img {
+    float: left;
+    width: 50%;
+}
+
+.title {
+    background-color: white;
+    padding         : 10px;
+    padding-top     : 10px;
+    float           : right;
+    width           : 59%;
+    font-family     : 'GlacialIndifferenceRegular';
+}
+
+.button {
+    background-color: white;
+    border          : none;
+    margin          : 0px;
+    padding-left    : 20px;
+    padding-right   : 20px;
+}
+
+.heading {
+    padding-top: 10px;
+    text-align : center;
+}
+
+.para {
+    padding-top: 0px;
+    margin-top : none;
+    text-align : justify;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .content {
+        width        : 700px;
+        box-shadow   : 2px 2px 3px darkgray;
+        border-radius: 10px;
+        position     : relative;
+    }
+
+    .body {
+        height       : 400px;
+        margin       : 40px 30px 20px 30px;
+        padding      : 20px;
+        border-top   : 1px solid #eee;
+        border-bottom: 1px solid #eee;
+    }
+
+    .image {
+        position: absolute;
+        top     : 20px;
+        left    : 50px;
+        width   : 220px;
+        height  : 220px;
+    }
+
+    .heading {
+        font-size: 22px;
+    }
+
+    .para {
+        font-size: 12px;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .content {
+        width        : 400px;
+        box-shadow   : 2px 2px 3px darkgray;
+        border-radius: 10px;
+        position     : relative;
+    }
+
+    .title {
+        background-color: white;
+        padding         : 10px;
+        margin-top      : 140px;
+        width           : 100%;
+        position        : inherit;
+        top             : 70px;
+    }
+
+    .para {
+        font-size: 12px;
+    }
+
+    .image {
+        position  : absolute;
+        top       : 20px;
+        left      : 43px;
+        width     : 170px;
+        height    : 170px;
+        box-shadow: 2px 2px 3px darkgray;
+    }
+
+    .footer {
+        float      : right;
+        padding    : 10px 20px;
+        position   : absolute;
+        margin-top : 0px;
+        margin-left: 200px;
+    }
+
+    .heading {
+        margin        : 0px;
+        padding-bottom: 0px;
+        text-align    : center;
+        font-size     : 19px;
+    }
+
+    .button {
+        background-color: white;
+        border          : none;
+        margin          : 0px;
+        padding-left    : 20px;
+        padding-right   : 20px;
+    }
+
+}

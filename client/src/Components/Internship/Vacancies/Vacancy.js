@@ -10,8 +10,8 @@ function Vacancy() {
   }
   return (<div>
     <div className={Style.ban}>
-      <h1>Current Vacancies</h1>
-      <hr className={Style.rule}/>
+      <h1 className={Style.head}>CURRENT VACANCIES</h1>
+      
     </div>
     <div className="container">
       <div className="row">

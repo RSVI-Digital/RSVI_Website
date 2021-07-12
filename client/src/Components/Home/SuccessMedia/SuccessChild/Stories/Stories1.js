@@ -5,22 +5,16 @@ import {Row, Col, Container} from 'react-bootstrap';
 
 import styles from './Stories.module.css';
 
-import { black } from '../Links';
+import { storyImage1 } from '../Links';
 
 class Stories1 extends Component {
     render() {
         return (
             <Container fluid className={styles.body1}>
                 <Row className={styles.holder}>
-                    <Col md={5} className={styles.imageCol}>
+                    <Col md={5}>
                         <Row className={styles.imagebox}>
-                            <Col xs={6} className={styles.imageleft}>
-                                <img src={black} className={styles.halftop}/>
-                                <img src={black} className={styles.halfbottom}/>
-                            </Col>
-                            <Col xs={6} className={styles.imageright}>
-                                <img src={black} className={styles.full}/>
-                            </Col>
+                            <img src={storyImage1} className={styles.image}/>
                         </Row>
                     </Col>
                     <Col md={7} className={styles.textCol}>

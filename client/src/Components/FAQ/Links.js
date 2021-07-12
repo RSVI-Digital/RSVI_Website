@@ -1,4 +1,4 @@
-const image = 'https://drive.google.com/uc?id=1KOGcVIJxhlbr7etj1HB-AZ7lo7sV_-eC';
+const image = 'https://drive.google.com/uc?id=1C6DGll6_rShENExHaqpjYHHwDfV4bWL3';
 
 export {
     image,

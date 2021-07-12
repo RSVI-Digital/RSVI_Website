@@ -60,6 +60,11 @@ div.text_2 {
   height: 85%;
   width: 100%;
 }
+
+.heading {
+  font-size: 3vw;
+}
+
 @media only screen and (max-width: 850px) {
   .div_1,
   .div_2 {
@@ -68,5 +73,21 @@ div.text_2 {
   }
   div.div {
     margin-bottom: 250px;
+  }
+
+  .heading {
+    font-size: 33px;
+    margin-left: 6%;
+    margin-top: 4%;
+  }
+
+}
+
+@media screen and (max-width:1000px) {
+
+  .heading {
+    font-size: 33px;
+    margin-left: 6%;
+    margin-top: 4%;
   }
 }

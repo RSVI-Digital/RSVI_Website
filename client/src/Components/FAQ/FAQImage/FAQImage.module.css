@@ -49,4 +49,8 @@
     .text{
         font-size: 25px;
     }
+
+    .image{
+        content: url('https://drive.google.com/uc?id=1iTzpcqySWvq-y7Glpt2LMJyP_bHwqU77');
+    }
 }

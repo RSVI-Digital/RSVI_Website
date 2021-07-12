@@ -1,32 +1,80 @@
 .is{
-    background: url("https://lh3.googleusercontent.com/d/1UWcnh7JfnCW7iLABr5PNmVrkqbgcO4fh=s220?authuser=0");
-    background-size: 700px;
+  background: url("https://lh3.googleusercontent.com/d/1UWcnh7JfnCW7iLABr5PNmVrkqbgcO4fh=s220?authuser=0");
+  background-size: 700px;
+}
+
+.slider {
+    margin-bottom: 7%;
+    position: relative;
+    height: 50vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
   }
   
-  .slider {
-      margin-bottom: 7%;
-      position: relative;
-      height: 50vh;
-      display: flex;
-      justify-content: center; 
-      align-items: center;
-      /* background: url("https://lh3.googleusercontent.com/d/1UWcnh7JfnCW7iLABr5PNmVrkqbgcO4fh=s220?authuser=0"); */
-      /* background: image("pink.png"); */
-     
-      /* background-size: 700px; */
-    }
-    
+  .image {
+    width: 900px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+  .rightarrow {
+    position: absolute;
+    top: 40%;
+    right: 32px;
+    font-size: 3.5rem;
+    /* color: #ffffff; */
+    color: #FAEBE0;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .leftarrow {
+    position: absolute;
+    top: 40%;
+    left: 32px;
+    font-size: 3.5rem;
+    /* color: #ffffff; */
+    color: #FAEBE0;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .slide {
+    opacity: 0;
+    /* transition-duration: 1s ease; */
+  }
+  
+  .slide.active {
+    opacity: 1;
+    /* transition-duration: 1s;
+    transform: scale(1.08); */
+  }
+
+  @media (max-width: 900px){
     .image {
-      width: 900px;
+      width: 600px;
       height: 300px;
       border-radius: 10px;
     }
-    
+    .slider{
+      height: 20hv;
+    }
+  }
+
+  @media (max-width: 600px){
+    .image {
+      width: 300px;
+      height: 190px;
+      border-radius: 10px;
+    }
     .rightarrow {
       position: absolute;
       top: 40%;
-      right: 32px;
-      font-size: 5rem;
+      right: 8px;
+      font-size: 2.5rem;
       color: #ffffff;
       z-index: 10;
       cursor: pointer;
@@ -36,40 +84,19 @@
     .leftarrow {
       position: absolute;
       top: 40%;
-      left: 32px;
-      font-size: 5rem;
+      left: 8px;
+      font-size: 2.5rem;
       color: #ffffff;
       z-index: 10;
       cursor: pointer;
       user-select: none;
     }
-    
-    .slide {
-      opacity: 0;
-      transition-duration: 1s ease;
+    .slider {
+      margin-bottom: 7%;
+      position: relative;
+      height: 30vh;
+      display: flex;
+      justify-content: center; 
+      align-items: center;
     }
-    
-    .slide.active {
-      opacity: 1;
-      transition-duration: 1s;
-      transform: scale(1.08);
-    }
-  
-    @media (max-width: 900px){
-      .image {
-        width: 600px;
-        height: 300px;
-        border-radius: 10px;
-      }
-      .slider{
-        height: 20hv;
-      }
-    }
-  
-    @media (max-width: 600px){
-      .image {
-        width: 400px;
-        height: 300px;
-        border-radius: 10px;
-      }
-    }
+  }

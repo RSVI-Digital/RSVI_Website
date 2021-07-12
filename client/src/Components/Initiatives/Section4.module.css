@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Noto+Sans+HK&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
+.mainReach {
+  padding: 70px 60px;
+  align-items: center;
+}
+
+.header {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+
+.reachRow {
+  position: relative;
+  width: 90vw;
+}
+
+.heading1 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bolder;
+  text-align: center;
+  z-index: 2;
+}
+
+.para {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0px 0px 0px 100px;
+}
+.reachCol1 {
+  padding: 20px 30px 30px 30px;
+}
+.col1Row1 {
+  border: 2px solid grey;
+  background-color: lightgray;
+  box-shadow: 15px 15px rgb(66, 65, 65);
+  margin: 20px 20px;
+  z-index: 1;
+  padding: 10px 0px 0px 0px;
+}
+.imageReach {
+  max-width: 100%;
+  z-index: 2;
+}
+.reachCol2 {
+  background-image: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
+  padding: 100px 30px 50px 50px;
+  margin-left: -150px;
+  z-index: -1;
+}
+@media screen and (min-width: 1600px) {
+  .mainReach {
+    padding: 70px 120px;
+  }
+  .reachCol2 {
+    padding: 120px 30px 50px 50px;
+    margin-left: -160px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .reachCol2 {
+    padding: 80px 30px 50px 50px;
+    margin-left: -160px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .mainReach {
+    padding: 70px 80px;
+  }
+
+  .header {
+    margin-left: -30px;
+  }
+
+  .reachRow {
+    background-image: url("https://drive.google.com/uc?id=1C0_ElA3Vqe2lN7cRTwvjJdSKyQ02gZ8k");
+    z-index: -2;
+  }
+  .reachCol1 {
+    align-content: center;
+  }
+  .reachCol2 {
+    background-image: none;
+    padding: 50px 20px 50px 0px;
+    margin-left: 0px;
+    z-index: 1;
+  }
+  .para {
+    margin: 0px 0px 0px 0px;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .reachCol2 {
+    margin-left: -20px;
+    z-index: 1;
+  }
+  .para {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .header {
+    margin-left: 22px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .header {
+    padding-left: 50px;
+    font-size: 36px;
+  }
+  .reachCol1 {
+    padding: 50px 30px 30px 30px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .mainReach {
+    padding: 70px 50px;
+  }
+  .header {
+    padding-left: 50px;
+  }
+  .reachCol1 {
+    padding: 70px 30px 30px 30px;
+  }
+}
+@media screen and (width: 768px) {
+  .header {
+    padding-left: 50px;
+    font-size: 34px;
+  }
+  .heading1 {
+    font-size: 25px;
+  }
+  .para {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+    text-align:center;
+    right:0;
+    padding:0;
+  }
+
+  .reachRow {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    border-radius: 15px;
+  }
+  .reachCol1 {
+    padding: 30px 30px 30px 30px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .reachCol2 {
+    padding: 0px 30px 30px 30px;
+    margin-left: 0px;
+    margin-top: -10px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .heading1 {
+    font-size: 25px;
+  }
+  .para {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header {
+    font-size: 30px;
+  }
+  .mainReach{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .heading1 {
+    font-size: 23px;
+  }
+  .para {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header {
+    font-size: 26px;
+  }
+  .mainReach{
+      text-align: center;
+      align-items: center;
+  }
+  .reachRow {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .col1Row1 {
+    margin: 10px 10px 20px 10px;
+  }
+  .heading1 {
+    font-size: 20px;
+  }
+  .reachCol2 {
+    padding: 0px 20px 20px 20px;
+  }
+  .para {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header {
+    font-size: 26px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+  }
+  .reachRow {
+    /* width: 280px; */
+    width:90%;
+  }
+  .col1Row1 {
+    margin: 8px 8px 20px 8px;
+  }
+  .heading1 {
+    font-size: 18px;
+  }
+  .para {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header {
+    font-size: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 260px;
+  }
+}

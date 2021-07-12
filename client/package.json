@@ -22,14 +22,15 @@
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "4.0.3",
     "react-social-icons": "^5.4.1",
+    "react-tabs": "^3.2.2",
     "react-visibility-sensor": "^5.1.1",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [

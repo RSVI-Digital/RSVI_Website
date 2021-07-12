@@ -3,13 +3,14 @@
     font-weight: 500;
     font-size: 30px;
     padding-left: 28px;
+    padding-bottom: 1%;
 }
 
 .para2{
-    font-size: 22px;
+    font-size: max(1.4vw,16px);
 }
 
-h1{
+.hh{
     margin-top: -5%;
     margin-bottom: 0%;
     padding-left: 23px;

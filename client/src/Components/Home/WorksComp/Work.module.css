@@ -10,7 +10,7 @@
 
 .HeadLine {
     width     : 60%;
-    margin-top: -7%;
+    margin-top: -5%;
     float     : right;
     border-top: 4px solid #D9D9D9;
     position  : relative;
@@ -74,7 +74,8 @@
     }
 
     .HeadText {
-        font-size: 8vw;
+        font-size: 10vw;
+        margin-left: 9%;
     }
 
     .HeadLine {

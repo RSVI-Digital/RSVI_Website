@@ -13,7 +13,7 @@ function Collaboration() {
                     </div>
                     <div className={cn(Styles.RSVI_text, globalS["col-lg-10"])}>
                         <p className={cn(Styles.para1, globalS["mx-auto"])}>Collaborations at</p>
-                        <h1>RSVI</h1>
+                        <h1 className={cn(Styles.hh)}>RSVI</h1>
                     </div>
                 </div>
                 <div className={cn(Styles.text)}>

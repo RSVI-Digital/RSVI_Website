@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 
-import styles from './Formsection.module.css';
+import styles from './FormSection.module.css';
 import { Form } from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
-class Formsection extends Component {
+
+class FormSection extends Component {
   render() {
     return (
       <>
@@ -41,4 +42,4 @@ class Formsection extends Component {
   }
 }
 
-export default Formsection;
+export default FormSection;

@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.0"
+  },
+  "scripts": {
+    "build": "cd client && npm run build",
+    "install": "cd client && npm install",
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "name": "rsvi_website",
+  "description": "git clone https://github.com/RSVI-Digital/RSVI_Website.git",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RSVI-Digital/RSVI_Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RSVI-Digital/RSVI_Website/issues"
+  },
+  "homepage": "https://github.com/RSVI-Digital/RSVI_Website#readme"
+}

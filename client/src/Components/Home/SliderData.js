@@ -1,23 +1,23 @@
 export const SliderData = [
     {
-        image: "https://drive.google.com/uc?id=1u81uXxWs8N2bEHe-cbQJKu5SM4j6PXNq"
+        image: "https://drive.google.com/uc?id=1RllEpWw1B77Oaa038a6vGzQTuqspJhbG"
     },
     {
-        image: "https://drive.google.com/uc?id=1-YGuc9Ilxfcf5WhwKkloGUtXBjyAsoEA"
+        image: "https://drive.google.com/uc?id=1T3J2UwyXS9uwX35sYYvuwBMFPgy1Ib_k"
     },
     {
-        image: "https://drive.google.com/uc?id=1-q4tY2aUJ4Yq0QirvixYzBEOr4JeG8gQ"
+        image: "https://drive.google.com/uc?id=1iPwWkE09D1U7Q6tHspmZeCfbPasuKetB"
     },
     {
-        image: "https://drive.google.com/uc?id=18fRfZ8sxYwWUPyKfelbFUrZRSLVzQm4S"
+        image: "https://drive.google.com/uc?id=1i51pVVUP50SVKyofYuT48ovumpLHaQiq"
     },
     {
-        image: "https://drive.google.com/uc?id=1l0ymCDkabmbV2NdlJPqJuPVKzGBEu8xn"
+        image: "https://drive.google.com/uc?id=1fQM5Wn_QK_ZUMxURAdOrE4_In4kn4i3j"
     },
     {
-        image: "https://drive.google.com/uc?id=1b93UXzpTWd4vJo7pw3tCaykZToTLFsPC"
+        image: "https://drive.google.com/uc?id=1P0abdMU_PXI6tNC0DIpEutDgobNA6VtP"
     },
     {
-        image: "https://drive.google.com/uc?id=1xgkEhdHOhoGcIzBw4wu5xba8BtvfPzKy"
+        image: "https://drive.google.com/uc?id=1hYv741T9FhKhCxo4aQuC4gJ_74D1C6kd"
     }
 ]

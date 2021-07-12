@@ -1,0 +1,100 @@
+#Awards {
+    height    : auto;
+    box-sizing: border-box;
+}
+
+#title {
+    font-size  : 2.5vw;
+    margin-top : 3%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.hr1 {
+    border-top: 4px solid black;
+    width     : 41%;
+    margin-top: -2%;
+}
+
+#leftLine {
+    float      : left;
+    margin-left: -24%;
+    margin-top: -2.5%;
+}
+
+#rightLine {
+    float       : right;
+    margin-right: -24%;
+    margin-top: -2.5%;
+}
+
+.content {
+    background-image: url("../Home/Images/Backgrounds/red.png");
+    background-size : cover;
+    font-size       : 1.75vw;
+    z-index         : -1;
+    box-sizing      : border-box;
+    width           : 100%;
+    padding         : 1%;
+    text-align      : center;
+    margin-top      : 0.5%;
+}
+
+
+.AwardsImages {
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: center;
+    width          : 100%;
+    position       : relative;
+    top            : -43px;
+}
+
+#AwardsImg {
+    width     : 24%;
+    height    : 10%;
+    /* border : 4px solid red; */
+}
+
+.flash {
+    width: 20vw;
+}
+
+@media only screen and (max-width: 900px) {
+    .flash {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #title {
+        font-weight: bold;
+        width      : 100%;
+        font-size  : 155%;
+    }
+
+    .content {
+        margin-top : 0%;
+        font-size  : 4vw;
+        padding-top: 4%;
+        padding: 2%;
+    }
+
+    .AwardsImages {
+        margin-top: 15%;
+        width     : 100%;
+    }
+
+    #AwardsImg {
+        width      : 30%;
+        margin-left: 1%;
+    }
+
+    #Awards {
+        /* width: 90%; */
+           width : 100%;
+    }
+
+}

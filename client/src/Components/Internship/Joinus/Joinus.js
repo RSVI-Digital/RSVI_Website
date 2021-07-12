@@ -90,6 +90,7 @@ const Joinus = () => {
                   )}
                 >
                   <input
+                    className={Styles.input}
                     autoComplete="off"
                     name="Name"
                     id="name"
@@ -121,6 +122,7 @@ const Joinus = () => {
                   className={cx(globalStyles["col-sm-9"], globalStyles["pt-2"])}
                 >
                   <input
+                    className={Styles.input}
                     autoComplete="off"
                     name="Mail Id"
                     id="mail"
@@ -152,6 +154,7 @@ const Joinus = () => {
                   className={cx(globalStyles["col-sm-9"], globalStyles["pt-2"])}
                 >
                   <input
+                    className={Styles.input}
                     autoComplete="off"
                     name="Department"
                     id="dept"

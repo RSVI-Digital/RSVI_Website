@@ -5,13 +5,18 @@ import {Row, Col, Container} from 'react-bootstrap';
 
 import styles from './Stories.module.css';
 
-import { black } from '../Links';
+import { storyImage2 } from '../Links';
 
 class Stories2 extends Component {
     render() {
         return (
             <Container fluid className={styles.body2}>
                 <Row className={styles.holder}>
+                    <Col md={5} className={styles.bighide}>
+                        <Row className={styles.imagebox}>
+                            <img src={storyImage2} className={styles.image}/>
+                        </Row>
+                    </Col>
                     <Col md={7} className={styles.textCol}>
                         <p className={styles.heading}>
                             VANISHKA SRIVASTAVA
@@ -28,15 +33,9 @@ class Stories2 extends Component {
                             a doctor and serve the society.
                         </p>
                     </Col>
-                    <Col md={5} className={styles.imageCol}>
+                    <Col md={5} className={styles.smallhide}>
                         <Row className={styles.imagebox}>
-                            <Col xs={6} className={styles.imageleft}>
-                                <img src={black} className={styles.halftop}/>
-                                <img src={black} className={styles.halfbottom}/>
-                            </Col>
-                            <Col xs={6} className={styles.imageright}>
-                                <img src={black} className={styles.full}/>
-                            </Col>
+                            <img src={storyImage2} className={styles.image}/>
                         </Row>
                     </Col>
                 </Row>
