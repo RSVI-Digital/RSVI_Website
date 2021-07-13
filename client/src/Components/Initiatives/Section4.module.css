@@ -55,13 +55,37 @@
   margin-left: -150px;
   z-index: -1;
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1601px) {
   .mainReach {
     padding: 70px 120px;
   }
   .reachCol2 {
     padding: 120px 30px 50px 50px;
     margin-left: -160px;
+  }
+  .reachCol2 .para {
+    margin-top: 40px;
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1501px)and (max-width: 1600px) {
+  .reachCol2 {
+    height: 580px;
+  }
+  .reachCol2 .para {
+    height: 550px;
+    margin-top: 20px;
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1400px)and (max-width: 1500px) {
+  .reachCol2 {
+    height: 580px;
+  }
+  .reachCol2 .para {
+    height: 550px;
+    margin-top: 20px;
+    font-size: 21px;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -183,6 +207,7 @@
   }
   .para {
     font-size: 18px;
+    font-weight: bolder;
   }
 }
 @media screen and (max-width: 600px) {
@@ -258,3 +283,4 @@
     max-width: 260px;
   }
 }
+

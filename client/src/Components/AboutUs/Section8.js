@@ -4,7 +4,16 @@ import Modules from './Section8.module.css';
 import {Row, Col} from 'react-bootstrap';
 
 class Section8 extends Component {
-    render() {
+  constructor(){
+    super();
+    this.state={
+     display:false 
+    }
+  }
+  displayHandler=()=>{
+     this.setState((prevState)=>{return({display:!prevState.display})});
+  }  
+  render() {
         return (
             <div>
                 <Row className={Modules.section8}>
@@ -14,7 +23,7 @@ class Section8 extends Component {
                   <Col className={Modules.sec8Col}>
                     <h1> Affilations & Collaborations </h1>
                     {/* Should link it yet */}
-                    <button className={Modules.collabbutton}> KNOW MORE </button>
+                    <button className={Modules.collabbutton} onClick={this.displayHandler}> KNOW MORE </button>
                   </Col>
                   <Col className={Modules.sec8Col}>
                     <p>
@@ -24,9 +33,10 @@ class Section8 extends Component {
                     India , Enactus , NSS Society of various colleges , Yoga Session, Mental
                     Wellness doctors etc.
                     </p>
-                    <button className={Modules.mobilebutton}> KNOW MORE </button>
+                    <button className={Modules.mobilebutton} onClick={this.displayHandler}> KNOW MORE </button>
                   </Col>
                 </Row> 
+                {this.state.display?<p>Child component</p>:null}
             </div>
         )
     }

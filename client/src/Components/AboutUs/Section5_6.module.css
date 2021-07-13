@@ -251,7 +251,9 @@
   .section6{
     display: none;
   }
- 
+ .sec5para{
+   text-align:left;
+ }
 }
 @media screen and (max-width: 360px) {
   .sec5Row1{
@@ -281,8 +283,3 @@
     height: 150px;
   }
 }
-/* @media screen and (max-width: 260px) {
-  .sec6bWrap h4{
-    font-size: 12px;
-  } 
-}*/

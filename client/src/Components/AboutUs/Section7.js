@@ -31,7 +31,7 @@ class Section7 extends Component {
     } else {
       this.setState({ screenWidth: false });
     }
-    if (window.innerWidth < 360) {
+    if (360>=window.innerWidth) {
       this.setState({ screenWidth2: true });
     } else {
       this.setState({ screenWidth2: false });

@@ -298,7 +298,6 @@
 
   .rowTwoRowPara > p {
     padding: 8px 8px;
-    /* font-size: 14px; */
     font-size:16px;
   }
 }
@@ -316,8 +315,7 @@
   }
 
   .rowTwoRowPara > p {
-    text-align: justify;
-    /* font-size: 13px; */
+    text-align: left;
   }
 }
 @media screen and (max-width: 360px) {
@@ -341,10 +339,6 @@
     font-size: xx-large;
   }
 
-  .rowTwoRowPara > p {
-    text-align: justify;
-    /* font-size: 12px; */
-  }
 }
 @media screen and (max-width:265px){
   .rowTwoDiv>h1{
