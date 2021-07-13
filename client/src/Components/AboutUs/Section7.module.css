@@ -708,7 +708,23 @@
   #p1next1,#next1next1,#p1next31,#next1next31{
     display:none;
   }
-  .imppeople{
+  .imppeople,.imppeople1{
     height: 200px;
   }  
+}
+@media screen and (max-width:300px) {
+  .imppeople,.imppeople1{
+    height: 240px;
+  } 
+  .sectionSevenc{
+    padding:0.5rem;
+  }
+  .incRow1,.incRow2,.incRow3{
+    margin:0;
+  }
+}
+@media screen and (max-width:235px) {
+  .imppeople,.imppeople1{
+    height: 310px;
+  } 
 }

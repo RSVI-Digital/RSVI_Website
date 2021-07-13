@@ -126,6 +126,9 @@
         padding-left: 50px;
         padding-right: 50px;
     }
+    .sec8img{
+        height: 300px;
+    }
     .collabs{
         padding-left: 50px;
         padding-right: 50px;
@@ -145,6 +148,9 @@
         padding-left: 40px;
         padding-right: 40px;
     }
+    .sec8img{
+        height: 300px;
+    }
     .collabs{
         padding-left: 40px;
         padding-right: 40px;
@@ -163,6 +169,9 @@
     .section8{
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+    .sec8img{
+        height: 250px;
     }
     .collabs{
         margin-left: 2rem;
@@ -184,9 +193,9 @@
     } 
 }
 @media screen and (max-width: 600px) {
-    .sec8img{
-        height: 300px;
-    }
+      /*.sec8img{
+       height: 300px; 
+    }*/
     .collabs{
         flex-direction: column;
     }
@@ -219,6 +228,9 @@
     .sec8Col > h1{
         font-size: 34px;
     }
+    .sec8img{
+        height: 200px;
+    }
     .collabs p {
         font-size: 14px;
         text-align: justify;
@@ -245,7 +257,7 @@
         padding-right: 1rem;
     }
     .sec8img{
-        height: 250px;
+        height: 150px;
     }
     .collabs{
         margin-left: 1rem;

@@ -23,6 +23,7 @@
 }
 
 .rowOneColTwo h1 {
+  right:0;
   animation-name: change;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -256,7 +257,8 @@
   .rowTwoRowPara > p {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size:16px;
   }
 }
 @media screen and (min-width: 700px) and (max-width: 767px) {
@@ -296,7 +298,8 @@
 
   .rowTwoRowPara > p {
     padding: 8px 8px;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size:16px;
   }
 }
 @media screen and (max-width: 444px) {
@@ -314,7 +317,7 @@
 
   .rowTwoRowPara > p {
     text-align: justify;
-    font-size: 13px;
+    /* font-size: 13px; */
   }
 }
 @media screen and (max-width: 360px) {
@@ -340,6 +343,13 @@
 
   .rowTwoRowPara > p {
     text-align: justify;
-    font-size: 12px;
+    /* font-size: 12px; */
+  }
+}
+@media screen and (max-width:265px){
+  .rowTwoDiv>h1{
+    text-align: center;
+    padding-left: 0;
+    padding-top: 10%;
   }
 }

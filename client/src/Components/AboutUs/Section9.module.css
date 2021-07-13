@@ -41,6 +41,7 @@
   }
   .rowNineCarouselDiv img {
     padding: 15px 15px;
+    height:400px;
   }
 }
 @media screen and (min-width: 700px) and (max-width: 767px) {}
@@ -52,11 +53,14 @@
 
   .rowNineCarouselDiv img {
     padding: 12px;
+    height:300px;
   }
 }
 @media screen and (max-width: 444px) {
   .rowNineCarouselDiv img {
     padding: 8px 8px;
+    height:250px;
+    padding:0;
   }
 }
 @media screen and (max-width: 360px) {
@@ -66,5 +70,6 @@
 
   .rowNineCarouselDiv img {
     padding: 6px;
+    padding:0;
   }
 }

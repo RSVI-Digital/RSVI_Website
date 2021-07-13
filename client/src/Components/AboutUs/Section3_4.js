@@ -40,7 +40,7 @@ class Section3_4 extends Component {
 
                 <section className={Modules.section4}>
                   <div className={Modules.whyStarted}>
-                    <h1>Why We Started RSVI ?</h1>
+                    <h1>Why We Started RSVI?</h1>
                   </div>
                   <div className={Modules.reasonForStart}>
                     <p>
