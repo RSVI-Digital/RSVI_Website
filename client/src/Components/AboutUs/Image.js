@@ -21,7 +21,6 @@ const Image = {
   },
   Section8:
     "https://drive.google.com/uc?id=16tb5cgq8uCsd96xBGGX7psfHJoqQltSk",
-  Section8nr:"https://drive.google.com/uc?id=1pUuxlNyYRnTL7McYIaAIlRsTMAJl_z-i",/*crop */
   Section9: {
     Img1: "https://drive.google.com/uc?id=1GaydxgE2L9fQpx5j-AIQDWzuJZaNGg2K",
     Img2: "https://drive.google.com/uc?id=17Qaop_eaHfCmhAym_TN_-dPwWZhvWA_B",
@@ -61,3 +60,4 @@ export default Image;
 //Section8 :"https://drive.google.com/uc?id=1EhVkGdrCs_g7eAgkY8fQldZ3kCdAG3UE", 200 by 66
 //Section8 : "https://drive.google.com/uc?id=1GqX79zT33MR9n_F8Lm5Gxczv-OJW9iil", 100 by 50
 //Section8 :"https://drive.google.com/uc?id=1KHQ0BEfEfphuv4WhHZwZldTpxPbtSHYh", 100 by 33
+//Section8nr:"https://drive.google.com/uc?id=1pUuxlNyYRnTL7McYIaAIlRsTMAJl_z-i",/*crop */
