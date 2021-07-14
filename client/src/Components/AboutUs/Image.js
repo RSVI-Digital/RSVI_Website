@@ -29,6 +29,7 @@ const Image = {
     Img4: "https://drive.google.com/uc?id=1cE87GQS8Q0FlN4vP91HyTJkLWVfWh-0e",
     Img5: "https://drive.google.com/uc?id=1GVAdG6MMpX2LFcEc58AH7I2B0iU81k4U",
   },
+  Collab: 'https://drive.google.com/uc?id=1MzodVC9KXf6pmAzqaO5lnJ7a8j18fAGx',
 };
 
 export default Image;

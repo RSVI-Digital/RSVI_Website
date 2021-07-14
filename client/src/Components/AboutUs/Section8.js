@@ -2,17 +2,9 @@ import React, { Component } from 'react';
 import Image from './Image';
 import Modules from './Section8.module.css';
 import {Row, Col} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class Section8 extends Component {
-  constructor(){
-    super();
-    this.state={
-     display:false 
-    }
-  }
-  displayHandler=()=>{
-     this.setState((prevState)=>{return({display:!prevState.display})});
-  }  
   render() {
         return (
             <div>
@@ -23,7 +15,7 @@ class Section8 extends Component {
                   <Col className={Modules.sec8Col}>
                     <h1> Affilations & Collaborations </h1>
                     {/* Should link it yet */}
-                    <button className={Modules.collabbutton} onClick={this.displayHandler}> KNOW MORE </button>
+                    <button className={Modules.collabbutton}><Link to='/know-more'> KNOW MORE </Link></button>
                   </Col>
                   <Col className={Modules.sec8Col}>
                     <p>
@@ -33,10 +25,9 @@ class Section8 extends Component {
                     India , Enactus , NSS Society of various colleges , Yoga Session, Mental
                     Wellness doctors etc.
                     </p>
-                    <button className={Modules.mobilebutton} onClick={this.displayHandler}> KNOW MORE </button>
+                    <button className={Modules.mobilebutton}><Link to='/know-more'> KNOW MORE </Link></button>
                   </Col>
                 </Row> 
-                {this.state.display?<p>Child component</p>:null}
             </div>
         )
     }
