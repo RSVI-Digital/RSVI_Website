@@ -38,26 +38,3 @@ const Image = {
 };
 
 export default Image;
-//old lnks
-// Section7: {
-//   Img1: "https://drive.google.com/uc?id=1YKXDoO_4kMoCppsO-fw0z7QKm2O36mHn",
-//   Img2: "https://drive.google.com/uc?id=1mBYHsiT4ikGKUzk2Hjz_ZKhvyYKh4dfC",
-//   Img3: "https://drive.google.com/uc?id=1tc6DjdDpmBaKn7Tp1H9Ua_yxBJdukyw5",
-//   Img4: "https://drive.google.com/uc?id=1ZtrHJIAJDrGBXUrVxKJDtQ1nU-mY7jxQ",
-// },
-// Section7b: {
-//   Img1: "https://drive.google.com/uc?id=1w4u7Uj0_gItghRdkhDKTf6w9lA2podr9",
-//   Img2: "https://drive.google.com/uc?id=1mfQSRTHKtai5jBLe7PMOBDHOauOBvdft",
-//   Img3: "https://drive.google.com/uc?id=1ag96TlP0mLKRS6DWecQYJnzNzYRZvQgZ",
-//   Img4: "https://drive.google.com/uc?id=10Y87f0sGCJ191JiXdR38q6l8wvQMcJCw",
-// },
-//section8 800x300 https://drive.google.com/uc?id=1Tx8Gayu5LvBQrRjfqzq13nipvafXF1M7
-//section8 900X300 https://drive.google.com/uc?id=1AOlh5_FGD7WKO4gexz2EETON42YEuROs
-//section8 600X200 https://drive.google.com/uc?id=1R01_7z5N3TeWmJ_nR72LNh6O4iTJVZ7-
-//section8 500X166 https://drive.google.com/uc?id=120oSYw-FFbCvucm8Pnt-AprcYeqs72hz
-//section8 400X133 https://drive.google.com/uc?id=1l1LusHhaQlguTB_C-o9aUmTkLSVQXRKh
-//Section8 : "https://drive.google.com/uc?id=12Yi4kZwO54S33cA7V4t1NHfmQ9v-Caa8", 200by100
-//Section8 :"https://drive.google.com/uc?id=1EhVkGdrCs_g7eAgkY8fQldZ3kCdAG3UE", 200 by 66
-//Section8 : "https://drive.google.com/uc?id=1GqX79zT33MR9n_F8Lm5Gxczv-OJW9iil", 100 by 50
-//Section8 :"https://drive.google.com/uc?id=1KHQ0BEfEfphuv4WhHZwZldTpxPbtSHYh", 100 by 33
-//Section8nr:"https://drive.google.com/uc?id=1pUuxlNyYRnTL7McYIaAIlRsTMAJl_z-i",/*crop */
