@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import Style from "./Work.module.css";
 import WorkData from "./WorkData";
-// import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import globalStyles from "../../../Assets/Global-Styles/bootstrap.min.module.css";
 import cx from "classnames";
 import { HashLink as Link } from "react-router-hash-link";
@@ -19,9 +19,7 @@ const Work = () => {
     >
       <div className={Style.WorkHead}>
         <h1 className={Style.HeadText}>What we do?</h1>
-        <hr className={Style.HeadLine} />
       </div>
-      <br />
       <br />
       {WorkData.map((val) => {
         return (

@@ -11,20 +11,20 @@
 
 .hr1 {
     border-top: 4px solid black;
-    width     : 41%;
+    width     : 37%;
     margin-top: -2%;
 }
 
 #leftLine {
     float      : left;
     margin-left: -24%;
-    margin-top: -2.5%;
+    margin-top : -2.5%;
 }
 
 #rightLine {
     float       : right;
     margin-right: -24%;
-    margin-top: -2.5%;
+    margin-top  : -2.5%;
 }
 
 .content {
@@ -79,7 +79,7 @@
         margin-top : 0%;
         font-size  : 4vw;
         padding-top: 4%;
-        padding: 2%;
+        padding    : 2%;
     }
 
     .AwardsImages {
@@ -94,7 +94,7 @@
 
     #Awards {
         /* width: 90%; */
-           width : 100%;
+        width: 100%;
     }
 
 }

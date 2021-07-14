@@ -3,20 +3,10 @@
 }
 
 .HeadText {
-    /*font-family: 'GlacialIndifferenceRegular';
-    color      : #625D5D;*/
     font-family: "Open Sans", sans-serif;
     margin-left: 55px;
-    font-size: 40px;
+    font-size  : 40px;
     font-weight: 700;
-}
-
-.HeadLine {
-    width     : 66%;
-    margin-top: -3.5%;
-    float     : right;
-    border-top: 6px solid #0c0b0b00;
-    position  : relative;
 }
 
 .tileBox {
@@ -28,18 +18,17 @@
 }
 
 .tile {
-    padding             : 25px;
-    font-size           : 2vw;
-    font-weight         : 600;
-    margin              : 2vw;
-    width               : 200px;
-    height              : auto;
-    text-align          : center;
-    background-repeat   : no-repeat;
-    background-size     : cover;
-    /* box-shadow       : rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
-    box-shadow          : rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
-    transition          : transform 0.2s ease-in-out;
+    padding          : 25px;
+    font-size        : 2vw;
+    font-weight      : 600;
+    margin           : 2vw;
+    width            : 200px;
+    height           : auto;
+    text-align       : center;
+    background-repeat: no-repeat;
+    background-size  : cover;
+    box-shadow       : rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    transition       : transform 0.2s ease-in-out;
 }
 
 .tile:hover {
@@ -50,7 +39,7 @@
 
 @media only screen and (max-width: 900px) {
     .HeadText {
-        font-size: 8vw;
+        font-size : 8vw;
         margin-top: 5%;
         text-align: center;
     }
@@ -63,15 +52,21 @@
     }
 
     .tile {
-        padding-top: 2vw;
-        padding-left: 3vw;
-        padding-right: 3vw;
+        padding-top   : 2vw;
+        padding-left  : 3vw;
+        padding-right : 3vw;
         padding-bottom: 3vw;
-        font-size: 3vw;
-        width    : 23vw;
+        font-size     : 3vw;
+        width         : 23vw;
     }
 
-    .tileBox{
+    .tileBox {
         margin-top: 2%;
+    }
+}
+
+@media only screen and (min-width:1400px) {
+    .tile {
+        font-size: 28px;
     }
 }

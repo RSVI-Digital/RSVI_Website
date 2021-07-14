@@ -1,58 +1,59 @@
 .content {
   background-color: white;
-  color: black;
+  color           : black;
 }
 
 .card {
   border-radius: 100%;
-  margin-bottom: 3%; 
+  margin-bottom: 3%;
 }
 
 .image {
   display: block;
-  margin: 0 auto;
-  height: 100%;
-  width: 100%;
+  margin : 0 auto;
+  height : 100%;
+  width  : 100%;
   padding: 0;
 }
 
 .theBack {
-  height: 100%;
+  height          : 100%;
   background-image: url("https://drive.google.com/uc?id=1sATPrWrtpApDsvAB_eUP6WGuA0PJmYgO");
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  margin: auto;
-  
+  align-items     : center;
+  justify-content : center;
+  padding         : 10px;
+  margin          : auto;
+
 }
 
 .heading {
-  margin: 10px;
-  padding-top: 0px;
+  margin        : 10px;
+  padding-top   : 0px;
   padding-bottom: 0px;
-  text-align: center;
+  text-align    : center;
 }
 
 .backPara {
-  text-align: center;
-  margin: 0%;
-  margin-top: auto;
+  text-align   : center;
+  margin       : 0%;
+  margin-top   : auto;
   margin-bottom: auto;
-  
+
 }
 
-
-
-.imge{
-  height: 460px;
-  width: auto;
+.imge {
+  height   : 460px;
+  width    : auto;
+  font-size: 13px;
 }
 
-.imgo{
-  height: 290px;
-  width: auto;
+.imgo {
+  height   : 290px;
+  width    : auto;
+  font-size: 13px;
 }
-.text{
+
+.text {
   vertical-align: middle;
 }
 
@@ -70,80 +71,81 @@
 }*/
 
 @media only screen and (max-width: 1000px) {
-  .imgs{
-    display: contents;
-    overflow: hidden;
-    float: left;
-    height:100%;
-    width: 10%;
+  .imgs {
+    display      : contents;
+    overflow     : hidden;
+    float        : left;
+    height       : 100%;
+    width        : 10%;
     margin-bottom: 20px;
-  }
-  .imge{
-    display: contents;
-    overflow: hidden;
-    float: none;
-    height: 100px;
-    width: 100%;
-    margin-bottom: 20px;
-    
   }
 
-  .imgo{
-    display: contents;
-    overflow: hidden;
-    float: none;
-    height: 150px;
-    width: 100%;
-    margin: auto;
-    
+  .imge {
+    display      : contents;
+    overflow     : hidden;
+    float        : none;
+    height       : 100px;
+    width        : 100%;
+    margin-bottom: 20px;
+
   }
-  .card{
-    width: 100%;
-    height: 100%;
-    display: contents;
+
+  .imgo {
+    display : contents;
     overflow: hidden;
-    margin: auto 20px auto 10px;
+    float   : none;
+    height  : 150px;
+    width   : 100%;
+    margin  : auto;
+
+  }
+
+  .card {
+    width      : 100%;
+    height     : 100%;
+    display    : contents;
+    overflow   : hidden;
+    margin     : auto 20px auto 10px;
     align-items: center;
-    
+
   }
+
   .image {
-    display:inline-block;
+    display    : inline-block;
     margin-left: 20px;
-    height: auto;
-    width: 90%;
-    padding: 0;
+    height     : auto;
+    width      : 90%;
+    padding    : 0;
   }
+
   .theBack {
-    vertical-align: middle;
-    height: 100%;
-    width: 90%;
-    margin: auto 0 auto 15px;
-    padding: auto 0px;
-    align-items: center;
+    vertical-align : middle;
+    height         : 100%;
+    width          : 90%;
+    margin         : auto 0 auto 15px;
+    padding        : auto 0px;
+    align-items    : center;
     justify-content: center;
-    vertical-align: middle;
-    
+    vertical-align : middle;
+
   }
+
   .heading {
-    margin: 0%;
-    padding-top: 150px;
-    padding: auto 0px;
-    
+    margin     : 0%;
+    padding-top: 50px;
+    padding    : auto 0px;
+
     text-align: center;
-   
+
   }
+
   .backPara {
-    padding: auto 0px;
+    padding   : auto 0px;
     text-align: center;
-    margin: 0%;
-    padding: 20px;
-  
-    
+    margin    : 0%;
+    padding   : 20px;
+
+
   }
-  
+
 }
-
-
-
-
-
