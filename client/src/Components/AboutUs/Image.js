@@ -29,7 +29,13 @@ const Image = {
     Img4: "https://drive.google.com/uc?id=1cE87GQS8Q0FlN4vP91HyTJkLWVfWh-0e",
     Img5: "https://drive.google.com/uc?id=1GVAdG6MMpX2LFcEc58AH7I2B0iU81k4U",
   },
-  Collab: 'https://drive.google.com/uc?id=1MzodVC9KXf6pmAzqaO5lnJ7a8j18fAGx',
+  Collab: "https://drive.google.com/uc?id=1MzodVC9KXf6pmAzqaO5lnJ7a8j18fAGx",
+  Component3:{
+    img1:"https://drive.google.com/uc?id=1kMqUfYP1Xs5E9Mf_-YI4dPERg_ZPd9gM",
+    img2:"https://drive.google.com/uc?id=1Ean3qxvkXOMMzPy0Jl1JCkZbYuSJxBj1",
+    img3:"https://drive.google.com/uc?id=1PG5jChJGXe9I5GOOkrY78bqWmXFpeS7_",
+    img4:"https://drive.google.com/uc?id=1RKlh3w1lunKSxkorr_fJOsv9XviYle2R",
+  }
 };
 
 export default Image;

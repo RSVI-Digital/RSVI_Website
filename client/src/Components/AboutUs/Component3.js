@@ -11,7 +11,7 @@ class Component3 extends Component {
                 <Row className={Module.comp3Row1}>
                     <Col className={Module.row1Col1}>
                         <Row className={Module.c1r1}>
-                            <img src='https://docs.google.com/uc?id=1EdOxe_6klWEndwfGD8VLGDVlxAoPkCr3' alt='Justvocates' className={Module.comp3Img}></img>
+                            <img src={Image.Component3.img1} alt='Justvocates' className={Module.comp3Img}></img>
                         </Row>
                         <Row className={Module.c1r2}>
                             <h5 className={Module.subheading}>Justvocates</h5>
@@ -21,7 +21,7 @@ class Component3 extends Component {
                     </Col>
                     <Col className={Module.row1Col2}>
                         <Row className={Module.c2r1}>
-                            <img src='' alt={"Breakthrough & L'Orèal"} className={Module.comp3Img}></img>
+                            <img src={Image.Component3.img2} alt={"Breakthrough & L'Orèal"} className={Module.comp3Img}></img>
                         </Row>
                         <Row className={Module.c2r2}>
                             <h5 className={Module.subheading}>Breakthrough & <br></br>L'Orèal</h5>
@@ -32,7 +32,7 @@ class Component3 extends Component {
                     </Col>
                     <Col className={Module.row1Col3}>
                         <Row className={Module.c3r1}>
-                            <img src='' alt={"UBER India"} className={Module.comp3Img}></img>
+                            <img src={Image.Component3.img3} alt={"UBER India"} className={Module.comp3Img}></img>
                         </Row>
                         <Row className={Module.c3r2}>
                             <h5 className={Module.subheading}>UBER India</h5>
@@ -43,7 +43,7 @@ class Component3 extends Component {
                     </Col>
                     <Col className={Module.row1Col4}>
                         <Row className={Module.c4r1}>
-                            <img src='' alt={"Enactus SBSEC"} className={Module.comp3Img}></img>
+                            <img src={Image.Component3.img4} alt={"Enactus SBSEC"} className={Module.comp3Img}></img>
                         </Row>
                         <Row className={Module.c4r2}>
                             <h5 className={Module.subheading}>Enactus SBSEC</h5>
