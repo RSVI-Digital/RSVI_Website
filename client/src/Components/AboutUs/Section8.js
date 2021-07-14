@@ -14,7 +14,7 @@ class Section8 extends Component {
                 <Row className={Modules.collabs}>
                   <Col className={Modules.sec8Col}>
                     <h1> Affilations & Collaborations </h1>
-                    {/* Should link it yet */}
+                    
                     <button className={Modules.collabbutton}><Link to='/know-more'> KNOW MORE </Link></button>
                   </Col>
                   <Col className={Modules.sec8Col}>
