@@ -21,7 +21,6 @@ const port = process.env.PORT || 5000;
 
 const transporter = nodemailer.createTransport({
   host: 'smtp.gmail.com', //replace with your email provider
-  port: 587,
   auth: {
     user: "hr.rsvi@gmail.com",
     pass: "lucknow@123"
