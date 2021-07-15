@@ -1,3 +1,3 @@
-const rsvi_logo = 'https://drive.google.com/uc?id=165lGw6lMAl5cHZGQGFy9sE5H4abB8phd';
+const rsvi_logo = 'https://drive.google.com/uc?id=1bGIg5ESNyCPTO6njXnFBnok6Tjt7SJPE';
 
 export { rsvi_logo };
