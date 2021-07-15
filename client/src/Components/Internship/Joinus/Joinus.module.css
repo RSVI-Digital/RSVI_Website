@@ -203,3 +203,16 @@ form {
     width: 25vw; 
   }
 }
+
+@media screen and (max-width: 767px) {
+  .wrapForm {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .input {
+    width: 100%;
+  }
+  .btn{
+    float: right;
+  }
+}

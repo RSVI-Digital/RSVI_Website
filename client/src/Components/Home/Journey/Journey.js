@@ -1,4 +1,3 @@
-import { eyeIcon } from '../Links';
 import { bookIcon } from '../Links';
 import { mikeIcon } from '../Links';
 import { deviceIcon } from '../Links';

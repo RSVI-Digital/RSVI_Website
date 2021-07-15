@@ -1,23 +1,16 @@
-const yellow_background = 'https://drive.google.com/uc?id=11ZKzHqt_GPZeXzHr50uHs9Rt39wSPh5A';
-const red_background = 'https://drive.google.com/uc?id=1tKJz1WQDY4CdXtPVnsIj4quqEkHMAjSL';
-const green_background = 'https://drive.google.com/uc?id=1f3ljJgoCfyHuDEKG6m_-D3_Yg4Jwbn04';
-const blue_background = 'https://drive.google.com/uc?id=1sATPrWrtpApDsvAB_eUP6WGuA0PJmYgO';
-
-const lamp_png = 'https://drive.google.com/uc?id=1aNR08liSeUoaeIumnKcb9QETIEOftkKg';
-
 const rsvi_logo = 'https://drive.google.com/uc?id=165lGw6lMAl5cHZGQGFy9sE5H4abB8phd';
 
-const capsule_image = 'https://drive.google.com/uc?id=1bRIZCKNbHEdWAEbs_g2gkswDaX38xCg2';
+const capsule_image = 'https://drive.google.com/uc?id=16ymD-kiBr9QvjeGAqxItkWlH7qYPXTXW';
 
-const volunteerIcon = 'https://drive.google.com/uc?id=1tUiVCetNqSFqfpnc7io8JXo9AcbjUltC';
-const mikeIcon = 'https://drive.google.com/uc?id=1zQOXAMt3jnGn9WnOAd5LmL4iwRaKuOFw';
-const internIcon = 'https://drive.google.com/uc?id=1NOJdCv5IMN_tbrSJOX-TQ2ew9a0YGdGE';
-const impairedIcon = 'https://drive.google.com/uc?id=1716ICJApZDDAQ-c9Sd1tec0LOEMkaKK1';
-const healthIcon = 'https://drive.google.com/uc?id=1W3Fu_mIIRzXEG7A0NYeGlaPtvgwH9smp';
-const deviceIcon = 'https://drive.google.com/uc?id=1Ak65PuU-Xwj8uZIscxsLH7sq2qeFDAdJ';
-const bookIcon = 'https://drive.google.com/uc?id=1CKrtcCH_TQPut3RKWDAzViTSoZ8vN1Ve';
+const volunteerIcon = 'https://drive.google.com/uc?id=1hcSHFIVkx27Z8qCh714y9aN1xm1Ttzs1';
+const mikeIcon = 'https://drive.google.com/uc?id=1dLhhD--mgVI2ukq1oj6xbAbd05MLioq2';
+const internIcon = 'https://drive.google.com/uc?id=1ou4Nz5zpC3tKautS85_mK0-jdtkqXveM';
+const impairedIcon = 'https://drive.google.com/uc?id=11AGm8Xp46_4UiewuSm8_qtUTj7QydXv1';
+const healthIcon = 'https://drive.google.com/uc?id=1Z2xNoyQyHYARedOZiGQDtFHrZf5NyK9u';
+const deviceIcon = 'https://drive.google.com/uc?id=1IWaiKneOmcNtwigetD0Sy2aLDKSWLf5n';
+const bookIcon = 'https://drive.google.com/uc?id=1U6N8gbgW6aiqtlhG8vFH6e8Ce-oEiVjO';
 
-export {yellow_background, red_background, green_background, blue_background,
-    rsvi_logo, capsule_image, lamp_png,
+export {
+    rsvi_logo, capsule_image,
     volunteerIcon, mikeIcon, internIcon, impairedIcon, healthIcon, deviceIcon, bookIcon
 };
