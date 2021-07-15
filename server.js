@@ -3,29 +3,24 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const path = require('path')
 const app = express();
+
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 // API
 const nodemailer = require('nodemailer');
 require("dotenv").config();
 
-if (process.env.NODE_ENV === 'production') {
+//if (process.env.NODE_ENV === 'development') {
     // Set static folder
     app.use(express.static('client/build'));
   
     app.get('*', (req, res) => {
       res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
     });
-  }
+  //}
 const port = process.env.PORT || 5000;
 
 
-const transporter = nodemailer.createTransport({
-  host: 'smtp.gmail.com', //replace with your email provider
-  auth: {
-    user: "hr.rsvi@gmail.com",
-    pass: "lucknow@123"
-  }
-});
 transporter.verify(function(error, success) {
   if (error) {
     console.log(error);
@@ -40,15 +35,18 @@ app.post('/send', (req, res, next) => {
   var subject = req.body.subject
   var message = req.body.message
 
+
+  console.log(email);
   var mail = {
-    from: name,
-    to: "hr.rsvi@gmail.com",
-    subject: subject,
-    text: message
+    from: "hr.rsvi@gmail.com",
+    to: email,
+    subject: "Thanks for reacing us out ",
+    text: "Hi "+name + "Thanks for reaching out to us"
   }
 
   transporter.sendMail(mail, (err, data) => {
     if (err) {
+      console.log(err);
       res.json({
         status: 'fail'
       })
