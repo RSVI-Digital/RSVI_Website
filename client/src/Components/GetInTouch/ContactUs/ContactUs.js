@@ -4,8 +4,57 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Row, Col, Container} from 'react-bootstrap';
 
 import styles from './ContactUs.module.css';
-
+import axios from 'axios';
 class ContactUs extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+          name: '',
+          email: '',
+          subject:'',
+          message: ''
+        }
+    }
+
+    onNameChange(event) {
+        this.setState({name: event.target.value})
+    }
+
+    onEmailChange(event) {
+        this.setState({email: event.target.value})
+    }
+
+    onSubjectChange(event) {
+        this.setState({subject: event.target.value})
+    }
+
+    onMsgChange(event) {
+        this.setState({message: event.target.value})
+    }
+    
+
+    submitEmail(e){
+        e.preventDefault();
+        axios({
+          method: "POST", 
+          url:"/send", 
+          data:  this.state
+        }).then((response)=>{
+          if (response.data.status === 'success'){
+              alert("Message Sent."); 
+              this.resetForm()
+          }else if(response.data.status === 'fail'){
+              alert("Message failed to send.")
+          }
+        })
+}
+
+resetForm(){
+        this.setState({name: '', email: '',subject:'', message: ''})
+}
+
+
     render() {
         return (
             <Container fluid className={styles.body}>
@@ -14,12 +63,40 @@ class ContactUs extends Component {
                         <p className={styles.heading}>
                             Contact Us
                         </p>
-                        <input className={styles.input} placeholder='Name'/>
-                        <input className={styles.input} placeholder='Email'/>
-                        <textarea className={styles.textbox} placeholder='Message'/>
-                        <button type='submit' className={styles.submit}>
-                            Submit
-                        </button>
+                        <form id="contact-form" onSubmit={this.submitEmail.bind(this)} 
+                                    method="POST">
+                                <div className="form-group">
+                                <div className="row">
+                                <div className="mb-3">
+                                    <input placeholder = "Name"  id="name" type="text" 
+                                       className="form-control" required value={this.state.name} 
+                                       onChange={this.onNameChange.bind(this)}/>
+                                </div>
+                                <div className="mb-3">
+                                    <input placeholder = "Email"  id="email" type="email"
+                                      className="form-control" aria-describedby="emailHelp"
+                                      required value={this.state.email} onChange=
+                                      {this.onEmailChange.bind(this)}/>
+                                </div>
+                                </div>
+                                </div>
+                                <div className="form-group">
+                                <div className="mb-3">
+                                    <input placeholder = "Subject"  id="subject" type="text"
+                                      className="form-control" required value={this.state.subject}
+                                      onChange={this.onSubjectChange.bind(this)}/>
+                                </div>
+                                </div>
+                                <div className="form-group">
+                                <div className="mb-3">
+                                    <textarea placeholder = "Message"  id="message" 
+                                       className="form-control" rows="1" 
+                                       required value={this.state.message}
+                                       onChange= {this.onMsgChange.bind(this)}/>
+                                        </div>
+                                </div>
+                                <button type="submit" className="submit">Submit</button>
+                                </form>
                     </Col>
                     <Col lg={5} className={styles.details}>
                         <p className={styles.content}>
