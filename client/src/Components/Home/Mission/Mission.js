@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Row, Container} from 'react-bootstrap';
 import styles from './Mission.module.css';
-
 class Mission extends Component {
     render() {
         return (
