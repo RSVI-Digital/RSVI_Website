@@ -40,19 +40,19 @@ class Section5_6 extends Component {
                         <Col className={`${Modules.sec6Col1}`}>
                             <img className={`${Modules.sec6Img}`} src={Image.Section6.Img1} alt='sec6Image1'></img>
                             <div className={`${Modules.sec6Wrap}`}>
-                                <h4>Something about the picture</h4>
+                                <h4>3rd Eye Exibition in Lucknow, Chief Guest Ms. Jaya Prada</h4>
                             </div>
                         </Col>
                         <Col className={`${Modules.sec6Col2}`}>
                             <img className={`${Modules.sec6Img}`} src={Image.Section6.Img2} alt='sec6Image2'></img>
                             <div className={`${Modules.sec6Wrap}`}>
-                                <h4>Something about the picture</h4>
+                                <h4>Inclusive Education Awareness by RSVI</h4>
                             </div>
                         </Col>
                         <Col className={`${Modules.sec6Col3}`}>
                             <img className={`${Modules.sec6Img}`} src={Image.Section6.Img3} alt='sec6Image3'></img>
                             <div className={`${Modules.sec6Wrap}`}>
-                                <h4>Something about the picture</h4>
+                                <h4>RSVI and It's students in annual marathon in Lucknow</h4>
                             </div>
                         </Col>
                     </Row>
@@ -67,19 +67,19 @@ class Section5_6 extends Component {
                     <div className={` ${Modules.sec6Carousel} `}>
                       <img src={Image.Section6.Img1} alt="thumb1" />
                       <div className={` ${Modules.sec6bWrap} `}>
-                        <h4>Something about the picture</h4>
+                        <h4>3rd Eye Exibition in Lucknow, Chief Guest Ms. Jaya Prada</h4>
                       </div>
                     </div>
                     <div className={` ${Modules.sec6Carousel} `}>
                       <img src={Image.Section6.Img2} alt="thumb2" />
                       <div className={` ${Modules.sec6bWrap} `}>
-                        <h4>Something about the picture</h4>
+                        <h4>Inclusive Education Awareness by RSVI</h4>
                       </div>
                     </div>
                     <div className={` ${Modules.sec6Carousel} `}>
                       <img src={Image.Section6.Img3} alt="thumb3" />
                       <div className={` ${Modules.sec6bWrap} `}>
-                        <h4>Something about the picture</h4>
+                        <h4>RSVI and It's students in annual marathon in Lucknow</h4>
                       </div>
                     </div>
                   </Carousel>

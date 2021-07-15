@@ -287,7 +287,7 @@ const Section2 = () => {
         <section className={style.container2} id="containerCardM2">
           <Row className={style.front2} id="front1">
             <div className={style.imagePart}>
-              <img src={image.Section2.Img1} alt="Braille" />
+              <img src={image.Section2.Img2} alt="Braille" />
             </div>
             <div className={style.heading}>
               <h1>Mobility</h1>
@@ -322,7 +322,7 @@ const Section2 = () => {
         <section className={style.container3} id="containerCardM3">
           <Row className={style.front3} id="front1">
             <div className={style.imagePart}>
-              <img src={image.Section2.Img1} alt="Braille" />
+              <img src={image.Section2.Img3} alt="Braille" />
             </div>
             <div className={style.heading}>
               <h1>Computer Training</h1>
@@ -358,7 +358,7 @@ const Section2 = () => {
         <section className={style.container4} id="containerCardM4">
           <Row className={style.front4} id="front1">
             <div className={style.imagePart}>
-              <img src={image.Section2.Img1} alt="Braille" />
+              <img src={image.Section2.Img4} alt="Braille" />
             </div>
             <div className={style.heading}>
               <h1>Mobile Training</h1>
@@ -393,7 +393,7 @@ const Section2 = () => {
         <section className={style.container5} id="containerCardM5">
           <Row className={style.front5} id="front1">
             <div className={style.imagePart}>
-              <img src={image.Section2.Img1} alt="Braille" />
+              <img src={image.Section2.Img5} alt="Braille" />
             </div>
             <div className={style.heading}>
               <h1>Technical/Reading Without Seeing training</h1>
@@ -428,7 +428,7 @@ const Section2 = () => {
         <section className={style.container6} id="containerCardM6">
           <Row className={style.front6} id="front1">
             <div className={style.imagePart}>
-              <img src={image.Section2.Img1} alt="Braille" />
+              <img src={image.Section2.Img6} alt="Braille" />
             </div>
             <div className={style.heading}>
               <h1>Vocational Training</h1>
@@ -464,7 +464,7 @@ const Section2 = () => {
         <section className={style.container7} id="containerCardM7">
           <Row className={style.front7} id="front1">
             <div className={style.imagePart}>
-              <img src={image.Section2.Img1} alt="Braille" />
+              <img src={image.Section2.Img7} alt="Braille" />
             </div>
             <div className={style.heading}>
               <h1>Misc workshops and Seminars</h1>

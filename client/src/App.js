@@ -6,7 +6,7 @@ import AboutUs from './Components/AboutUs/AboutUs';
 import GetInTouch from './Components/GetInTouch/GetInTouch';
 import FAQ from './Components/FAQ/FAQ';
 import Footer from './Components/Footer/Footer';
-
+import Knowmore from './Components/AboutUs/Knowmore'
 import WhatWeDo  from './Components/Home/WorksComp/WhatWeDo';
 import ActivityChild from './Components/Home/Activity/ActivityChild';
 import SuccessChild from './Components/Home/SuccessMedia/SuccessChild/SuccessChild';
@@ -24,6 +24,7 @@ function App() {
           <Route exact path="/ActivityChild" component={ActivityChild}/>
           <Route exact path="/success-child" component={SuccessChild}/>
           <Route exact path='/about-us' component={AboutUs} />
+          <Route exact path='/know-more' component={Knowmore} />
           <Route exact path='/faqs' component={FAQ} />
           <Route exact path='/get-in-touch' component={GetInTouch} />
           <Route exact path='/internship' component={Internship} />

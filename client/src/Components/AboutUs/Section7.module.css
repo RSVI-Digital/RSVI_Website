@@ -183,7 +183,11 @@
 .sectionSevenc {
   display: none;
 }
-#p1next1,#next1next1,#next22,#p1next31,#next1next31{
+#p1next1,
+#next1next1,
+#next22,
+#p1next31,
+#next1next31 {
   display: none;
 }
 
@@ -457,7 +461,6 @@
   .cWrap > p {
     font-size: 16px;
   }
-  
 }
 
 /* Mobile screen can begin from here */
@@ -630,27 +633,40 @@
     width: auto;
     border-radius: 8px;
   }
-  #p1,#p21,#p31{
+  #p1,
+  #p21,
+  #p31 {
     display: block;
   }
-  #btn,#btn2 ,#btn3{
+  #btn,
+  #btn2,
+  #btn3 {
     color: seagreen;
     cursor: pointer;
     text-decoration: underline;
   }
-  #parabtn,#parabtn2,#parabtn3{
-    text-align:right;
+  #parabtn,
+  #parabtn2,
+  #parabtn3 {
+    text-align: right;
   }
   #next1,
-  #next2,#p1next1,#next1next1,#next21,
-  #next22,#p1next31,#next1next31,#next31,#next32{
+  #next2,
+  #p1next1,
+  #next1next1,
+  #next21,
+  #next22,
+  #p1next31,
+  #next1next31,
+  #next31,
+  #next32 {
     display: none;
   }
-  .imppeople{
-    height:260px;
+  .imppeople {
+    height: 260px;
   }
-  .imppeople1{
-    height:160px;
+  .imppeople1 {
+    height: 160px;
   }
   .cWrapc > p {
     text-align: left;
@@ -672,7 +688,9 @@
   }
   .cWrapc > p {
     text-align: left;
-    font-size: 13px;
+    /* font-size: 13px; */
+    font-size:15px;
+
   }
   .cWrapc > h2 {
     font-size: 20px;
@@ -681,9 +699,20 @@
   .cWrapc > h4 {
     font-size: 15px;
   }
-  
-  .imppeople{
-    height:270px;
+
+  .imppeople {
+    height: 340px;
+  }
+  .imppeople1{
+    height:210px;
+  }
+  .sectionSevenc {
+    padding: 0.5rem;
+  }
+  .incRow1,
+  .incRow2,
+  .incRow3 {
+    margin: 0;
   }
 }
 
@@ -696,7 +725,6 @@
   .sectionSevenc {
     display: flex;
     max-width: 100%;
-    padding: 20px 35px 20px 20px;
     margin: 1rem 1rem;
   }
 
@@ -704,11 +732,28 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
-  #p1next1,#next1next1,#p1next31,#next1next31{
-    display:none;
+
+  #p1next1,
+  #next1next1,
+  #p1next31,
+  #next1next31 {
+    display: none;
   }
-  .imppeople{
-    height: 200px;
-  }  
+  .imppeople,
+  .imppeople1 {
+    height: 250px;
+  }
+  
+}
+@media screen and (max-width: 300px) {
+  .imppeople,
+  .imppeople1 {
+    height: 340px;
+  }
+}
+@media screen and (max-width: 235px) {
+  .imppeople,
+  .imppeople1 {
+    height: 410px;
+  }
 }

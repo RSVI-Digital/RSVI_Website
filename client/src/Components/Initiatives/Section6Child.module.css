@@ -1,96 +1,117 @@
 .mainContainer {
-    display: none;
-  }
-  
-  /* For Desktop View */
-  
-  @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
-  
-  .mainDCardContainer {
-    height: 100vh;
-    width: 100%;
-  }
-  
-  .DCardContainer1 {
-    position: relative;
-    margin: auto;
-    top: 100px;
-    height: 300px;
-    width: 70%;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    background: blanchedalmond;
-    z-index: 2;
-  }
-  
-  .imageContainer {
-    width: 120px;
-    padding: 0px;
-  }
-  
-  .imageContainer img {
-    position: absolute;
-    width: 230px;
-    height: 100%;
-  }
-  
-  .detailsContainer {
-    margin-top: 15px;
-    font-family: "Playfair Display", serif;
-    padding-right: 50px;
-    padding-left: 0px;
-  }
-  
-  .detailsContainer h1 {
-    margin-top: 15px;
-    letter-spacing: 2px;
-    font-weight: 600;
-    font-size: 38px;
-    right: 0;
-    text-align: center;
-    padding-left: 0;
-  }
-  
-  .detailsContainer p {
-    word-spacing: 5px;
-    margin-left: 20px;
-    font-size: 20px;
-    text-align: justify;
-  }
-  
-  .containerButtonNext {
-    position: absolute;
-    right: 35px;
-    bottom: 10px;
-    background: transparent;
-    border: none;
-    font-family: "Playfair Display", serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    color: rgb(3, 165, 3);
-    cursor: pointer;
-  }
-  
-  .containerButtonPrev {
-    position: absolute;
-    bottom: 12px;
-    background: transparent;
-    border: none;
-    font-family: "Playfair Display", serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    color: rgb(3, 165, 3);
-    cursor: pointer;
-  }
-  
-  .containerButtonNext:hover {
-    text-decoration: underline;
-  }
-  
-  .containerButtonPrev:hover {
-    text-decoration: underline;
-  }
-  
+  display: none;
+}
+
+/* For Desktop View */
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+
+.mainDCardContainer {
+  height: auto;
+  width: 100%;
+}
+
+.DCardContainer1 {
+  position: relative;
+  margin: 50px auto;
+  height: 300px;
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background: blanchedalmond;
+  z-index: 2;
+}
+
+.imageContainer {
+  width: 120px;
+  padding: 0px;
+}
+
+.imageContainer img {
+  position: absolute;
+  width: 230px;
+  height: 100%;
+}
+
+.detailsContainer {
+  margin-top: 15px;
+  font-family: "Playfair Display", serif;
+  padding-right: 50px;
+  padding-left: 0px;
+}
+
+.detailsContainer h1 {
+  margin-top: 15px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 38px;
+  right: 0;
+  text-align: center;
+  padding-left: 0;
+}
+
+.detailsContainer p {
+  word-spacing: 5px;
+  margin-left: 20px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.containerButtonNext {
+  position: absolute;
+  right: 35px;
+  bottom: 10px;
+  background: transparent;
+  border: none;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: rgb(3, 165, 3);
+  cursor: pointer;
+}
+
+.containerButtonPrev {
+  position: absolute;
+  bottom: 12px;
+  background: transparent;
+  border: none;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: rgb(3, 165, 3);
+  cursor: pointer;
+}
+
+.containerButtonNext:hover {
+  text-decoration: underline;
+}
+
+.containerButtonPrev:hover {
+  text-decoration: underline;
+}
+
+.DCardContainer2,
+.DCardContainer3,
+.DCardContainer4,
+.DCardContainer5,
+.DCardContainer6,
+.DCardContainer7,
+.DCardContainer8,
+.DCardContainer9,
+.DCardContainer10,
+.DCardContainer11 {
+  position: relative;
+  margin: 50px auto;
+  height: 300px;
+  width: 70%;
+  display: none;
+  grid-template-columns: 1fr 2fr;
+  background: blanchedalmond;
+  z-index: 2;
+}
+
+@media screen and (min-width: 1400px) {
+  .DCardContainer1,
   .DCardContainer2,
   .DCardContainer3,
   .DCardContainer4,
@@ -101,366 +122,321 @@
   .DCardContainer9,
   .DCardContainer10,
   .DCardContainer11 {
-    position: relative;
-    margin: auto;
-    top: 100px;
-    height: 300px;
-    width: 70%;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .detailsContainer {
+    padding-right: 50px;
+    padding-left: 20px;
+  }
+
+  .containerButtonPrev {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .containerButtonPrev {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .DCardContainer1,
+  .DCardContainer2,
+  .DCardContainer3,
+  .DCardContainer4,
+  .DCardContainer5,
+  .DCardContainer6,
+  .DCardContainer7,
+  .DCardContainer8,
+  .DCardContainer9,
+  .DCardContainer10,
+  .DCardContainer11 {
+    width: 75%;
+  }
+
+  .detailsContainer {
+    padding-right: 50px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .DCardContainer1,
+  .DCardContainer2,
+  .DCardContainer3,
+  .DCardContainer4,
+  .DCardContainer5,
+  .DCardContainer6,
+  .DCardContainer7,
+  .DCardContainer8,
+  .DCardContainer9,
+  .DCardContainer10,
+  .DCardContainer11 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 951px) {
+  .detailsContainer h1 {
+    font-size: 35px;
+  }
+
+  .detailsContainer p {
+    font-size: 18px;
+  }
+
+  .containerButtonNext {
+    font-size: 17px;
+  }
+
+  .containerButtonPrev {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 950px) and (min-width: 768px) {
+  .DCardContainer1,
+  .DCardContainer2,
+  .DCardContainer3,
+  .DCardContainer4,
+  .DCardContainer5,
+  .DCardContainer6,
+  .DCardContainer7,
+  .DCardContainer8,
+  .DCardContainer9,
+  .DCardContainer10,
+  .DCardContainer11 {
+    width: 100%;
+  }
+
+  .detailsContainer h1 {
+    font-size: 32px;
+  }
+
+  .detailsContainer p {
+    font-size: 19px;
+  }
+
+  .containerButtonNext {
+    font-size: 18px;
+  }
+
+  .containerButtonPrev {
+    font-size: 18px;
+  }
+}
+
+@media screen and (width: 767px) {
+  .imageContainer img {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 651px) and (max-width: 700px) {
+  .DCardContainer1,
+  .DCardContainer2,
+  .DCardContainer3,
+  .DCardContainer4,
+  .DCardContainer5,
+  .DCardContainer6,
+  .DCardContainer7,
+  .DCardContainer8,
+  .DCardContainer9,
+  .DCardContainer10,
+  .DCardContainer11 {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 651px) and (max-width: 767px) {
+  .imageContainer img {
+    width: 180px;
+  }
+
+  .detailsContainer {
+    padding-right: 30px;
+    padding-left: 20px;
+  }
+
+  .containerButtonNext {
+    margin-right: -15px;
+    font-size: 17px;
+  }
+
+  .containerButtonPrev {
+    font-size: 17px;
+  }
+
+  .detailsContainer h1 {
+    font-size: 30px;
+  }
+
+  .detailsContainer p {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .mainDCardContainer {
     display: none;
-    grid-template-columns: 1fr 2fr;
-    background: blanchedalmond;
+    margin-top: 6rem;
+  }
+
+  .mainContainer {
+    width: 100%;
+    margin-top: 50px;
+    display: block;
+  }
+
+  .mobilecontainer1 {
+    position: relative;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    min-height: 530px;
+  }
+
+  .mobilecontainer2,
+  .mobilecontainer3,
+  .mobilecontainer4,
+  .mobilecontainer5,
+  .mobilecontainer6,
+  .mobilecontainer7,
+  .mobilecontainer8,
+  .mobilecontainer9,
+  .mobilecontainer10,
+  .mobilecontainer11 {
     z-index: 2;
+    position: relative;
+    width: 350px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    min-height: 530px;
   }
-  
-  @media screen and (min-width: 1400px) {
-    .DCardContainer1,
-    .DCardContainer2,
-    .DCardContainer3,
-    .DCardContainer4,
-    .DCardContainer5,
-    .DCardContainer6,
-    .DCardContainer7,
-    .DCardContainer8,
-    .DCardContainer9,
-    .DCardContainer10,
-    .DCardContainer11 {
-      grid-template-columns: 1fr 3fr;
-    }
-  
-    .detailsContainer {
-      padding-right: 50px;
-      padding-left: 20px;
-    }
-  
-    .containerButtonPrev {
-      padding-left: 15px;
-    }
+
+  .mobileimage img {
+    height: 280px;
+    width: 350px;
+    z-index: 1;
+    border-radius: 20px 20px 0 0;
   }
-  
-  @media screen and (max-width: 1399px) {
-    .containerButtonPrev {
-      padding-left: 15px;
-    }
+
+  .mobileheading h1 {
+    margin-top: 35px;
+    font-size: 28px;
+    width: 280px;
+    /* margin-left: 0px; */
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
   }
-  
-  @media screen and (max-width: 1200px) {
-    .DCardContainer1,
-    .DCardContainer2,
-    .DCardContainer3,
-    .DCardContainer4,
-    .DCardContainer5,
-    .DCardContainer6,
-    .DCardContainer7,
-    .DCardContainer8,
-    .DCardContainer9,
-    .DCardContainer10,
-    .DCardContainer11 {
-      width: 75%;
-    }
-  
-    .detailsContainer {
-      padding-right: 50px;
-      padding-left: 20px;
-    }
+
+  .mobilecontent p {
+    margin-top: 0px;
+    /* text-align: left; */
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    word-spacing: 0px;
   }
-  
-  @media screen and (max-width: 992px) {
-    .DCardContainer1,
-    .DCardContainer2,
-    .DCardContainer3,
-    .DCardContainer4,
-    .DCardContainer5,
-    .DCardContainer6,
-    .DCardContainer7,
-    .DCardContainer8,
-    .DCardContainer9,
-    .DCardContainer10,
-    .DCardContainer11 {
-      width: 100%;
-    }
+
+  .buttons {
+    justify-content: space-around;
   }
-  
-  @media screen and (max-width: 1100px) and (min-width: 951px) {
-    .detailsContainer h1 {
-      font-size: 35px;
-    }
-  
-    .detailsContainer p {
-      font-size: 18px;
-    }
-  
-    .containerButtonNext {
-      font-size: 17px;
-    }
-  
-    .containerButtonPrev {
-      font-size: 17px;
-    }
+
+  .next {
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+    width: 100px;
+    border: none;
+    background: transparent;
+    color: green;
+    font-size: 19px;
+    text-decoration: underline;
+    cursor: pointer;
   }
-  
-  @media screen and (max-width: 950px) and (min-width: 768px) {
-    .DCardContainer1,
-    .DCardContainer2,
-    .DCardContainer3,
-    .DCardContainer4,
-    .DCardContainer5,
-    .DCardContainer6,
-    .DCardContainer7,
-    .DCardContainer8,
-    .DCardContainer9,
-    .DCardContainer10,
-    .DCardContainer11 {
-      width: 100%;
-    }
-  
-    .detailsContainer h1 {
-      font-size: 32px;
-    }
-  
-    .detailsContainer p {
-      font-size: 19px;
-    }
-  
-    .containerButtonNext {
-      font-size: 18px;
-    }
-  
-    .containerButtonPrev {
-      font-size: 18px;
-    }
+
+  .previous {
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    border: none;
+    background: transparent;
+    margin-left: -170px;
+    font-size: 19px;
+    color: green;
+    cursor: pointer;
+    text-decoration: underline;
   }
-  
-  @media screen and (width: 767px) {
-    .imageContainer img {
-      width: 100px;
-    }
+}
+
+@media screen and (max-width: 390px) {
+  .mainDCardContainer {
+    margin-top: 6rem;
   }
-  
-  @media screen and (min-width: 651px) and (max-width: 767px) {
-    .imageContainer img {
-      width: 180px;
-    }
-  
-    .detailsContainer {
-      padding-right: 30px;
-      padding-left: 20px;
-    }
-  
-    .containerButtonNext {
-      margin-right: -15px;
-      font-size: 17px;
-    }
-  
-    .containerButtonPrev {
-      font-size: 17px;
-    }
-  
-    .detailsContainer h1 {
-      font-size: 30px;
-    }
-  
-    .detailsContainer p {
-      font-size: 17px;
-    }
+  .mainContainer {
+    /* padding: 0; */
+    margin: 0;
   }
-  
-  @media screen and (max-width: 650px) {
-    .mainDCardContainer {
-      display: none;
-      margin-top: 6rem;
-    }
-  
-    .mainContainer {
-      height: 100vh;
-      width: 100%;
-      margin-top: 50px;
-      display: block;
-      margin-bottom: 200px;
-    }
-  
-    .mobilecontainer1 {
-      position: relative;
-      width: 350px;
-      display: flex;
-      flex-direction: column;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: blanchedalmond;
-      border-radius: 20px;
-      min-height: 530px;
-    }
-  
-    .mobilecontainer2,
-    .mobilecontainer3,
-    .mobilecontainer4,
-    .mobilecontainer5,
-    .mobilecontainer6,
-    .mobilecontainer7,
-    .mobilecontainer8,
-    .mobilecontainer9,
-    .mobilecontainer10,
-    .mobilecontainer11 {
-      z-index: 2;
-      position: relative;
-      width: 350px;
-      display: none;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: blanchedalmond;
-      border-radius: 20px;
-      min-height: 530px;
-    }
-  
-    .mobileimage img {
-      height: 280px;
-      width: 350px;
-      z-index: 1;
-      border-radius: 20px 20px 0 0;
-    }
-  
-    .mobileheading h1 {
-      margin-top: 35px;
-      font-size: 28px;
-      width: 280px;
-      /* margin-left: 0px; */
-      margin-left: 1.5rem;
-      margin-bottom: 0;
-      text-align: center;
-      padding: 0;
-      margin-left: auto;
-      margin-right: auto;
-      right: 0;
-    }
-  
-    .mobilecontent p {
-      margin-top: 0px;
-      /* text-align: left; */
-      text-align: center;
-      margin-left: 25px;
-      margin-right: 25px;
-      word-spacing: 0px;
-    }
-  
-    .buttons {
-      justify-content: space-around;
-    }
-  
-    .next {
-      position: absolute;
-      right: 0px;
-      bottom: 20px;
-      width: 100px;
-      border: none;
-      background: transparent;
-      color: green;
-      font-size: 15px;
-      text-decoration: underline;
-      cursor: pointer;
-    }
-  
-    .previous {
-      position: absolute;
-      left: 50px;
-      bottom: 20px;
-      border: none;
-      background: transparent;
-      margin-left: -170px;
-      font-size: 15px;
-      color: green;
-      cursor: pointer;
-      text-decoration: underline;
-    }
+  .mobilecontainer1,
+  .mobilecontainer2,
+  .mobilecontainer3,
+  .mobilecontainer4,
+  .mobilecontainer5,
+  .mobilecontainer6,
+  .mobilecontainer7,
+  .mobilecontainer8,
+  .mobilecontainer9,
+  .mobilecontainer10,
+  .mobilecontainer11 {
+    margin: 0;
+    width: 100%;
   }
-  
-  @media screen and (max-width: 650px) {
-    /* .mobilecontainer1 .mobileheading h1 {
-      margin-left: -82px;    
-    }
-  
-    .mobilecontainer2 .mobileheading h1 {
-      margin-left: -20px;    
-    }
-  
-    .mobilecontainer3 .mobileheading h1 {
-      margin-left: -10px;    
-    }
-  
-    .mobilecontainer4 .mobileheading h1 {
-      margin-left: -40px;    
-    }
-  
-    .mobilecontainer5 .mobileheading h1 {
-      margin-left: -35px;    
-    }
-  
-    .mobilecontainer6 .mobileheading h1 {
-      margin-left: -35px;    
-    }
-  
-    .mobilecontainer9 .mobileheading h1 {
-      margin-left: -77px;    
-    }
-  
-    .mobilecontainer10 .mobileheading h1 {
-      margin-left: -85px;    
-    } 
-  
-    .mobilecontainer11 .mobileheading h1 {
-      margin-left: -17px;    
-    }*/
+  .mobilecontainer1Row,
+  .mobilecontainer2Row,
+  .mobilecontainer3Row,
+  .mobilecontainer4Row,
+  .mobilecontainer5Row,
+  .mobilecontainer6Row,
+  .mobilecontainer7Row,
+  .mobilecontainer8Row,
+  .mobilecontainer9Row,
+  .mobilecontainer10Row,
+  .mobilecontainer11Row {
+    width: 100%;
+    margin: 0;
+    display: block;
   }
-  @media screen and (max-width: 390px) {
-    .mainDCardContainer {
-      margin-top: 6rem;
-    }
-    .mainContainer {
-      /* padding: 0; */
-      margin: 0;
-    }
-    .mobilecontainer1,
-    .mobilecontainer2,
-    .mobilecontainer3,
-    .mobilecontainer4,
-    .mobilecontainer5,
-    .mobilecontainer6,
-    .mobilecontainer7,
-    .mobilecontainer8,
-    .mobilecontainer9,
-    .mobilecontainer10,
-    .mobilecontainer11 {
-      margin: 0;
-      width: 100%;
-    }
-    .mobilecontainer1Row,
-    .mobilecontainer2Row,
-    .mobilecontainer3Row,
-    .mobilecontainer4Row,
-    .mobilecontainer5Row,
-    .mobilecontainer6Row,
-    .mobilecontainer7Row,
-    .mobilecontainer8Row,
-    .mobilecontainer9Row,
-    .mobilecontainer10Row,
-    .mobilecontainer11Row {
-      width: 100%;
-      margin: 0;
-      display: block;
-    }
-    .mobileimage {
-      padding: 1px;
-    }
-    .mobileimage img {
-      width: 100%;
-      height: 100%;
-      display: block;
-    }
-    .mobileheading h1 {
-      font-size: 25px;
-      width: 100%;
-    }
-    .previous {
-      margin-left: -10px;
-      width: fit-content;
-    }
+  .mobileimage {
+    padding: 1px;
   }
-  
+  .mobileimage img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .mobileheading h1 {
+    font-size: 25px;
+    width: 100%;
+  }
+  .previous {
+    margin-left: -10px;
+    width: fit-content;
+  }
+}

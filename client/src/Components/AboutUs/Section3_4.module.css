@@ -318,7 +318,8 @@
     margin: 0 2rem;
     padding: 20px 1.7rem;
     background-color: rgb(200, 234, 245);
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size:16px;
   }
 }
 
@@ -348,6 +349,7 @@
   .imageBox img {
     position: relative;
     width: 100%;
+    height:250px;
   }
 
   .imageBox img:hover {
@@ -372,37 +374,49 @@
     margin: 0 2rem;
     padding: 20px 1.7rem;
     background-color: rgb(200, 234, 245);
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size:16px;
     word-spacing: 0;
   }
 }
 
 @media screen and (max-width: 454px) {
+  .imageBox img{
+    height:200px;
+  }
   .content > p {
-    font-size: 13px;
+    text-align:left;
+    font-size:16px;
   }
   .whyStarted h1 {
     font-size:25px;
     margin-left:2.5rem;
   }
-  .reasonForStart p {
-    font-size: 13px;
-  }
+   .reasonForStart p {
+    text-align:left;
+  } 
 }
 
 @media screen and (max-width: 360px) {
   .content > p {
-    font-size: 12px;
+    /* font-size: 12px; */
+    font-size:16px;
   }
   .whyStarted h1 {
-   font-size: 25px;
+    font-size: 25px;
+    margin: 8px;
+    right: 0;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 3.5rem;
   }
   .whyStarted{
     margin:1rem;
+    height:100%;
   }
   .reasonForStart p {
     margin: 0 1rem;
-    font-size: 12px;
+    /* font-size: 12px; */
   }
 
   .content {
@@ -412,5 +426,7 @@
   .imageBox {
     margin: 0 1rem;
   }
-
+  .imageBox img{
+    height:150px;
+  }
 }
