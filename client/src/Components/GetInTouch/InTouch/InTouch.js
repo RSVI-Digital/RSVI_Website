@@ -7,7 +7,6 @@ import styles from './InTouch.module.css';
 
 import { inTouch } from '../Links';
 import { facebook } from '../Links';
-import { twitter } from '../Links';
 import { youtube } from '../Links';
 import { instagram } from '../Links';
 
@@ -21,10 +20,9 @@ class InTouch extends Component {
                         <img src={inTouch} className={styles.image}/>
                     </Col>
                     <Col lg={1} className={styles.icons}>
-                        <img src={youtube} className={styles.icon} />
-                        <img src={instagram} className={styles.icon} />
-                        <img src={facebook} className={styles.icon} />
-                        <img src={twitter} className={styles.icon} />
+                        <img src={youtube} className={styles.icon} onClick={() => window.open('https://youtube.com/c/RSVILucknow')}/>
+                        <img src={instagram} className={styles.icon} onClick={() => window.open('https://instagram.com/missionrsvi?igshid=1wzs8v4dk0to1')} />
+                        <img src={facebook} className={styles.icon} onClick={() => window.open('https://www.facebook.com/rsvilko/')} />
                     </Col>
                 </Row>
                 <Row className={styles.textholder}>

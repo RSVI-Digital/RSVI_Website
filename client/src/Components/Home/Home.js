@@ -5,7 +5,6 @@ import Mission from './Mission/Mission';
 import Journey from './Journey/Journey';
 import Capsule from './Capsule/Capsule';
 import Success from './SuccessMedia/Success';
-import {SliderData} from './SliderData';
 import ImageSlider from './ImageSlider';
 import Work from './WorksComp/Work';
 import Activity from './Activity/Activity';
@@ -14,7 +13,7 @@ import Activity from './Activity/Activity';
      render() {
          return (
              <div>
-                 <ImageSlider slides={SliderData}/>
+                 <ImageSlider />
                  <Rehabilitation />
                  <Work />
                  <Activity />

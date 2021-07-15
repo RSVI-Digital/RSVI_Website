@@ -1,102 +1,79 @@
-.is{
-  background: url("https://lh3.googleusercontent.com/d/1UWcnh7JfnCW7iLABr5PNmVrkqbgcO4fh=s220?authuser=0");
-  background-size: 700px;
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Noto+Sans+HK&display=swap");
+
+.rowNineCarouselWrapper {
+  width: 100%;
+  margin: 0 !important;
+  padding: 15px !important;
+  margin-bottom: 50px !important;
+  background-image: url("https://drive.google.com/uc?id=1tKJz1WQDY4CdXtPVnsIj4quqEkHMAjSL");
 }
 
-.slider {
-    margin-bottom: 7%;
-    position: relative;
-    height: 50vh;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
+.rowNineCarouselRoot > div {
+  display: flex;
+  justify-content: center;
+}
+
+.rowNineCarouselDiv img {
+  padding: 25px 80px;
+}
+@media screen and (min-width: 1590px) {}
+@media screen and (min-width: 1450px) and (max-width: 1589px) {}
+@media screen and (min-width: 1300px) and (max-width: 1449px) {}
+@media screen and (min-width: 1260px) and (max-width: 1299px) {}
+@media screen and (min-width: 1126px) and (max-width: 1259px) {}
+@media screen and (min-width: 1051px) and (max-width: 1125px) {}
+@media screen and (min-width: 1000px) and (max-width: 1050px) {}
+@media screen and (min-width: 1000px) and (max-width: 1125px) {}
+@media screen and (min-width: 870px) and (max-width: 999px) {}
+@media screen and (min-width: 769px) and (max-width: 999px) {
+  .rowNineCarouselDiv img {
+    padding-left: 40px;
+    padding-right: 40px;
   }
-  
-  .image {
-    width: 900px;
-    height: 300px;
-    border-radius: 10px;
+}
+@media screen and (width: 768px) {
+  .rowNineCarouselDiv img {
+    padding-left: 36px;
+    padding-right: 36px;
   }
-  
-  .rightarrow {
-    position: absolute;
-    top: 40%;
-    right: 32px;
-    font-size: 3.5rem;
-    /* color: #ffffff; */
-    color: #FAEBE0;
-    z-index: 10;
-    cursor: pointer;
-    user-select: none;
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .rowNineCarouselWrapper {
+    margin: 0 2rem;
   }
-  
-  .leftarrow {
-    position: absolute;
-    top: 40%;
-    left: 32px;
-    font-size: 3.5rem;
-    /* color: #ffffff; */
-    color: #FAEBE0;
-    z-index: 10;
-    cursor: pointer;
-    user-select: none;
+  .rowNineCarouselDiv img {
+    padding: 15px 15px;
+    height:400px;
   }
-  
-  .slide {
-    opacity: 0;
-    /* transition-duration: 1s ease; */
-  }
-  
-  .slide.active {
-    opacity: 1;
-    /* transition-duration: 1s;
-    transform: scale(1.08); */
+}
+@media screen and (min-width: 700px) and (max-width: 767px) {}
+@media screen and (min-width: 640px) and (max-width: 700px) {}
+@media screen and (max-width: 575px) {
+  .rowNineCarouselWrapper {
+    margin: 0 2rem;
   }
 
-  @media (max-width: 900px){
-    .image {
-      width: 600px;
-      height: 300px;
-      border-radius: 10px;
-    }
-    .slider{
-      height: 20hv;
-    }
+  .rowNineCarouselDiv img {
+    padding: 12px;
+    height:300px;
+  }
+}
+@media screen and (max-width: 444px) {
+  .rowNineCarouselDiv img {
+    padding: 8px 8px;
+    height:250px;
+    padding:0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .rowNineCarouselWrapper {
+    margin: 0 1rem;
   }
 
-  @media (max-width: 600px){
-    .image {
-      width: 300px;
-      height: 190px;
-      border-radius: 10px;
-    }
-    .rightarrow {
-      position: absolute;
-      top: 40%;
-      right: 8px;
-      font-size: 2.5rem;
-      color: #ffffff;
-      z-index: 10;
-      cursor: pointer;
-      user-select: none;
-    }
-    
-    .leftarrow {
-      position: absolute;
-      top: 40%;
-      left: 8px;
-      font-size: 2.5rem;
-      color: #ffffff;
-      z-index: 10;
-      cursor: pointer;
-      user-select: none;
-    }
-    .slider {
-      margin-bottom: 7%;
-      position: relative;
-      height: 30vh;
-      display: flex;
-      justify-content: center; 
-      align-items: center;
-    }
+  .rowNineCarouselDiv img {
+    padding: 6px;
+    padding:0;
   }
+}
