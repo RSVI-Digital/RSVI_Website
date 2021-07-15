@@ -35,6 +35,10 @@
     margin-bottom: 1vw;
 }
 
+.icon:hover{
+    cursor: pointer;
+}
+
 .textholder{
     margin: 0;
     padding: 1vw;

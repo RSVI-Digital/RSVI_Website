@@ -30,10 +30,14 @@
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     
     .imageholder{
         padding: 0;
+    }
+
+    .image{
+        content: url('https://drive.google.com/uc?id=12cmaEYiDXrqvX1AwyJsdIbt0INcA0QOO');
     }
 
 }

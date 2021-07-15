@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { image } from '../Links';
+import { successStoriesBg } from '../Links';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Row, Col, Container} from 'react-bootstrap';
@@ -12,7 +12,7 @@ class SuccessChild extends Component {
         return (
             <Container fluid className={styles.body}>
                 <Row className={styles.imageholder}>
-                    <img src={image} className={styles.image}/>
+                    <img src={successStoriesBg} className={styles.image}/>
                 </Row>
                 <Row className={styles.textholder}>
                     <p className={styles.text}>

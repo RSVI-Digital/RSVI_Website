@@ -1,47 +1,46 @@
-import React,{useState} from 'react';
-import {SliderData} from './SliderData';
-import '../../Assets/Global-Styles/bootstrap.min.module.css';
-// import {FaArrowAltCircleRight} from "react-icons/fa";
-import style from './ImageSlider.module.css';
-import {BsChevronDoubleLeft,BsChevronDoubleRight} from "react-icons/bs";
+import React, { Component } from 'react';
+import SliderData from './SliderData';
+import Modules from './ImageSlider.module.css';
+import { Carousel } from "react-responsive-carousel";
+import './Carousel.css'; 
 
-const ImageSlider = ({slides}) => {
-  
-    const [current, setCurrent] = useState(0);
-    const length = slides.length;
-
-    const nextSlide = () => {
-        setCurrent(current === length - 1 ? 0 : current + 1);
-    };
-    
-    const prevSlide = () => {
-        setCurrent(current === 0 ? length - 1 : current - 1);
-    };
-    
-    if (!Array.isArray(slides) || slides.length <= 0) {
-        return null;
-    }
-
-    return (
-        <div className = {style.is}>
-        <section className={style.slider}>
-      <BsChevronDoubleLeft className={style.leftarrow} onClick={prevSlide} />
-      <BsChevronDoubleRight className={style.rightarrow} onClick={nextSlide} />
-      {SliderData.map((slide, index) => {
+class ImageSlider extends Component {
+    render() {
         return (
-          <div
-            className={style.index === current ? 'slide active' : 'slide'}
-            key={index}
-          >
-            {index === current && (
-              <img src={slide.image} alt='travel image' className={style.image} />
-            )}
-          </div>
-        );
-      })}
-    </section>
-    </div>
-    );
+            <div>
+                <div className={`${Modules.rowNineCarouselWrapper} p-2 mt-2`}>
+                  <Carousel
+                    autoPlay
+                    infiniteLoop
+                    interval="8000"
+                    transitionTime="300"
+                    className={Modules.rowNineCarouselRoot}>
+                    <div className={` ${Modules.rowNineCarouselDiv} `}>
+                      <img src={SliderData.image1} alt="thumb1" />
+                    </div>
+                    <div className={` ${Modules.rowNineCarouselDiv} `}>
+                      <img src={SliderData.image2} alt="thumb2" />
+                    </div>
+                    <div className={` ${Modules.rowNineCarouselDiv} `}>
+                      <img src={SliderData.image3} alt="thumb3" />
+                    </div>
+                    <div className={` ${Modules.rowNineCarouselDiv} `}>
+                      <img src={SliderData.image4} alt="thumb4" />
+                    </div>
+                    <div className={` ${Modules.rowNineCarouselDiv} `}>
+                      <img src={SliderData.image5} alt="thumb5" />
+                    </div>
+                    <div className={` ${Modules.rowNineCarouselDiv} `}>
+                      <img src={SliderData.image6} alt="thumb6" />
+                    </div>
+                    <div className={` ${Modules.rowNineCarouselDiv} `}>
+                      <img src={SliderData.image7} alt="thumb7" />
+                    </div>
+                  </Carousel>
+                </div>
+            </div>
+        )
+    }
 }
 
-export default ImageSlider
+export default ImageSlider;
