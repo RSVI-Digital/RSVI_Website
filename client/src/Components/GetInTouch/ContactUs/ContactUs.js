@@ -6,13 +6,11 @@ import {Row, Col, Container} from 'react-bootstrap';
 import styles from './ContactUs.module.css';
 import axios from 'axios';
 class ContactUs extends Component {
-
     constructor(props) {
         super(props);
         this.state = {
           name: '',
           email: '',
-          subject:'',
           message: ''
         }
     }
@@ -25,14 +23,11 @@ class ContactUs extends Component {
         this.setState({email: event.target.value})
     }
 
-    onSubjectChange(event) {
-        this.setState({subject: event.target.value})
-    }
+ 
 
     onMsgChange(event) {
         this.setState({message: event.target.value})
     }
-    
 
     submitEmail(e){
         e.preventDefault();
@@ -54,7 +49,6 @@ resetForm(){
         this.setState({name: '', email: '',subject:'', message: ''})
 }
 
-
     render() {
         return (
             <Container fluid className={styles.body}>
@@ -63,16 +57,24 @@ resetForm(){
                         <p className={styles.heading}>
                             Contact Us
                         </p>
-                        <form id="contact-form" onSubmit={this.submitEmail.bind(this)} 
+                        <div className="section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="section-title">
+                                <h2 className="title">Contact Us</h2>
+                                <p>Let us know what you think! In order to provide better service,
+                                     please do not hesitate to give us your feedback. Thank you.</p><hr/>
+                                <form id="contact-form" onSubmit={this.submitEmail.bind(this)} 
                                     method="POST">
                                 <div className="form-group">
                                 <div className="row">
-                                <div className="mb-3">
+                                <div className="col-md-6">
                                     <input placeholder = "Name"  id="name" type="text" 
                                        className="form-control" required value={this.state.name} 
                                        onChange={this.onNameChange.bind(this)}/>
                                 </div>
-                                <div className="mb-3">
+                                <div className="col-md-6">
                                     <input placeholder = "Email"  id="email" type="email"
                                       className="form-control" aria-describedby="emailHelp"
                                       required value={this.state.email} onChange=
@@ -80,23 +82,22 @@ resetForm(){
                                 </div>
                                 </div>
                                 </div>
+                                
                                 <div className="form-group">
-                                <div className="mb-3">
-                                    <input placeholder = "Subject"  id="subject" type="text"
-                                      className="form-control" required value={this.state.subject}
-                                      onChange={this.onSubjectChange.bind(this)}/>
-                                </div>
-                                </div>
-                                <div className="form-group">
-                                <div className="mb-3">
                                     <textarea placeholder = "Message"  id="message" 
                                        className="form-control" rows="1" 
                                        required value={this.state.message}
                                        onChange= {this.onMsgChange.bind(this)}/>
-                                        </div>
                                 </div>
-                                <button type="submit" className="submit">Submit</button>
+                                <button type="submit" className={styles.submit}>Submit</button>
                                 </form>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
                     </Col>
                     <Col lg={5} className={styles.details}>
                         <p className={styles.content}>

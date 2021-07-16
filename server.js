@@ -1,14 +1,31 @@
 const express = require('express');
-const bodyParser = require('body-parser');
+
+
+
+
+const mongoose = require('mongoose');
 const cors = require('cors');
 const path = require('path')
-const app = express();
 
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cors());
+
+var bodyParser = require('body-parser');
+const app = express();
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
+
 // API
-const nodemailer = require('nodemailer');
-require("dotenv").config();
+mongoose.connect("mongodb+srv://Vinayak:kayaniv@cluster0.2jjwn.mongodb.net/Forms");
+const contactUsSchema = {
+
+name :String,
+email :String,
+message :String
+
+}
+
+
+const contactUs = mongoose.model("GetInTouch",contactUsSchema);
+
 
 //if (process.env.NODE_ENV === 'development') {
     // Set static folder
@@ -20,45 +37,31 @@ require("dotenv").config();
   //}
 const port = process.env.PORT || 5000;
 
-
-transporter.verify(function(error, success) {
-  if (error) {
-    console.log(error);
-  } else {
-    console.log("Server is ready to take our messages");
-  }
-});
-
-app.post('/send', (req, res, next) => {
-  var name = req.body.name
-  var email = req.body.email
-  var subject = req.body.subject
-  var message = req.body.message
+app.post("/send",function(req,res) {
 
 
-  console.log(email);
-  var mail = {
-    from: "hr.rsvi@gmail.com",
-    to: email,
-    subject: "Thanks for reacing us out ",
-    text: "Hi "+name + "Thanks for reaching out to us"
-  }
+  console.log(req.body.name);
+  console.log(req.body.email);
+  console.log(req.body.message);
 
-  transporter.sendMail(mail, (err, data) => {
-    if (err) {
-      console.log(err);
-      res.json({
-        status: 'fail'
-      })
-    } else {
-      res.json({
-       status: 'success'
-      })
-    }
+  let newContact = new contactUs ( {
+    name : req.body.name,
+    email :req.body.email,
+    message :req.body.message
+
   })
-})
+
+  newContact.save();
+ 
+    res.json({
+     status: 'success'
+    })
+  
+}
 
 
+
+)
 
 
 app.listen(port, () => {
