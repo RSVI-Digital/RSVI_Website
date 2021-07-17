@@ -235,9 +235,9 @@ const Section2 = () => {
             <Col className={style.containertext}>
               <h2 className={style.containerH2}> Misc Workshop and Seminar </h2>
               <p>
-                Misc workshops and Seminars is imparted at RSVI to the visually
-                Impaired so that they can aware Visually Impaired Persons about
-                technology and new updations, latest technology and trends.{" "}
+                Misc workshops and Seminars are organized for the visually
+                Impaired so that they can be updated about technology and new
+                updations, latest technology and trends.{" "}
               </p>
               <input
                 type="button"
