@@ -69,12 +69,12 @@ resetForm(){
                                     method="POST">
                                 <div className="form-group">
                                 <div className="row">
-                                <div className="col-md-6">
+                                <div className="col-md-12 col-lg-12 col-xs-12 col-sm-12" style={{color: "red"}}>
                                     <input placeholder = "Name"  id="name" type="text" 
                                        className="form-control" required value={this.state.name} 
                                        onChange={this.onNameChange.bind(this)}/>
                                 </div>
-                                <div className="col-md-6">
+                                <div className="col-md-12 col-lg-12 col-xs-12 col-sm-12">
                                     <input placeholder = "Email"  id="email" type="email"
                                       className="form-control" aria-describedby="emailHelp"
                                       required value={this.state.email} onChange=
