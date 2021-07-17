@@ -72,15 +72,15 @@
 
   .h {
     font-size  : 7vw;
-    margin-left: 5%;
+    margin-left: 21%;
     margin-top : -15%;
     text-align : center;
-    align-items: center;
+    width      : 100%;
   }
 
   .TabDropdown {
     border       : solid 1px;
-    margin-left  : 10%;
+    margin-left  : 12%;
     height       : 5vh;
     font-size    : 110%;
     padding      : 2%;

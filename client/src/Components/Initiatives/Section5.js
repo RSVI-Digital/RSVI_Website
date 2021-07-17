@@ -29,8 +29,8 @@ class Section5 extends Component {
         </div>
         <div className={cx(styles.content)}>
           <p>
-            RSVI and its staffs have been honoured with various state, national
-            and International level awards and recognistions in a period of 16
+            RSVI and its staff have been honored with various state, national
+            and international level awards and recognitions in a period of 16
             years.
           </p>
         </div>

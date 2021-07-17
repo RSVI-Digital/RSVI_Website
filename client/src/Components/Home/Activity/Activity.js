@@ -10,11 +10,11 @@ const Activity = () => {
       <div className={styles.div1}>
         <h1 className={styles.heading}>Activities</h1>
         <p className={styles.text}>
-          There are lots of different activities for Visually Impaired of all
-          ages where there is a host of options out there to help, educate and
-          keep them engaged.
-          <br></br>Appropriate activities will lead to the all-round development
-          of Visually Impaired.
+          There are lots of different activities for the Visually Impaired of
+          all ages where there is a host of options out there to help, educate
+          and keep them engaged.
+          <br></br>Appropriate activities will lead to the all-around
+          development of the Visually Impaired.
         </p>
         <Link exact to="/ActivityChild" className={styles.buttons}>
           Know More
