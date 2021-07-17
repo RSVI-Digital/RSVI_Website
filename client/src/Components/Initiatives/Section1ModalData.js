@@ -34,7 +34,7 @@ const ModalData = [
     title: "  Dedsevi",
     sideImg: "https://drive.google.com/uc?id=1xoARq3pxpvZYxmmVwPpdkq3rjqn_bKXX",
     content:
-      "RSVI runs a two year face to face diploma in Education Special Education for Visually Impaired under recognition from rehabilitation council of India. The Diploma Course in Special Education aims to develop professionals for special education within a broad framework of education in the present context. The course will enable pre-service teachers to acquire knowledge, develop competencies and practice skills to impart education to children with disabilities.",
+      "RSVI runs a two year face to face diploma in Special Education for Visually Impaired under recognition from Rehabilitation Council of India. The Diploma Course in Special Education aims to develop professionals for special education within a broad framework of education in the present context. The course will enable pre-service teachers to acquire knowledge, develop competencies and practice skills to impart education to children with disabilities.",
   },
   {
     id: "5",
