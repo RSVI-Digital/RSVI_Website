@@ -1,65 +1,65 @@
-.navbar{
+.navbar {
     padding-bottom: 0;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-bottom: 30px;
+    padding-top   : 20px;
+    padding-left  : 30px;
+    padding-right : 30px;
+    margin-bottom : 30px;
 }
 
-.navbrand{
+.navbrand {
     text-align: center;
 }
 
-.navlinkbar{
-    padding-top: 40px;
-    padding-bottom: 20px;
+.navlinkbar {
+    padding-top        : 40px;
+    padding-bottom     : 20px;
     border-bottom-width: 8px;
     border-bottom-style: solid;
-    border-bottom-color: rgb(150,150,150);
+    border-bottom-color: rgb(150, 150, 150);
 }
 
-.navlink{
-    font-size: 30px;
+.navlink {
+    font-size  : 30px;
     font-weight: 500;
-    color: rgb(80,80,80) !important;
+    color      : rgb(80, 80, 80) !important;
 }
 
-.navlink:hover{
-    color: green !important;
+.navlink:hover {
+    color          : green !important;
     text-decoration: underline;
 }
 
-.brandicon{
+.brandicon {
     width: 70px;
 }
 
-.brandname{
-    margin: 0;
-    width: 120px;
-    margin-top: 5px;
-    font-size: 13px;
+.brandname {
+    margin     : 0;
+    width      : 120px;
+    margin-top : 5px;
+    font-size  : 13px;
     font-weight: bold;
     white-space: normal;
 }
 
-@media  screen and (max-width:1610px) {
-    .navlink{
+@media screen and (max-width:1610px) {
+    .navlink {
         font-size: 25px;
     }
 }
 
-@media  screen and (max-width:1400px) {
+@media screen and (max-width:1400px) {
 
-    .brandicon{
+    .brandicon {
         width: 60px;
     }
 
-    .navlink{
+    .navlink {
         font-size: 20px;
     }
 
-    .navbrand{
-        display: flex;
+    .navbrand {
+        display       : flex;
         flex-direction: row;
     }
 }
