@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "description": "git clone https://github.com/RSVI-Digital/RSVI_Website.git",
     "main": "server.js",
-    "devDependencies": {},
+    
     "scripts": {
       "build": "cd client && npm run build",
       "install": "cd client && npm install",
