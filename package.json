@@ -1,22 +1,22 @@
-{
-  "name": "rsvi_website",
-  "version": "1.0.0",
-  "description": "git clone https://github.com/RSVI-Digital/RSVI_Website.git",
-  "main": "server.js",
-  "devDependencies": {},
-  "scripts": {
-    "build": "cd client && npm run build",
-    "install": "cd client && npm install",
-    "start": "node server",
-    "server": "nodemon server",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RSVI-Digital/RSVI_Website.git"
-  },
+
   {
+    "name": "rsvi_website",
+    "version": "1.0.0",
+    "description": "git clone https://github.com/RSVI-Digital/RSVI_Website.git",
+    "main": "server.js",
+    "devDependencies": {},
+    "scripts": {
+      "build": "cd client && npm run build",
+      "install": "cd client && npm install",
+      "start": "node server",
+      "server": "nodemon server",
+      "client": "npm start --prefix client",
+      "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/RSVI-Digital/RSVI_Website.git"
+    },
     "dependencies": {
       "body-parser": "^1.19.0",
       "cors": "^2.8.5",
@@ -26,13 +26,11 @@
       "nodemailer": "^6.6.3",
       "react-icons": "^4.2.0"
     },
-
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RSVI-Digital/RSVI_Website/issues"
-  },
-  "homepage": "https://github.com/RSVI-Digital/RSVI_Website#readme"
-}
-
-
+   
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/RSVI-Digital/RSVI_Website/issues"
+    },
+    "homepage": "https://github.com/RSVI-Digital/RSVI_Website#readme"
+  }
