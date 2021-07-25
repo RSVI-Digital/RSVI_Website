@@ -84,7 +84,7 @@ app.post("/joinus", function (req, res) {
   console.log(req.body.department);
   console.log(req.body.message);
 
-  let newJoin = new JoinUs({
+  let newJoin = new joinUs({
     name: req.body.name,
     email: req.body.email,
     department: req.body.department,
