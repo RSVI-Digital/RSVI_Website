@@ -22,7 +22,7 @@ class Component2 extends Component {
   }
 
   onTypeChange(event) {
-    this.setState({ department: event.target.value });
+    this.setState({ type: event.target.value });
   }
 
   onMsgChange(event) {
@@ -33,7 +33,7 @@ class Component2 extends Component {
     e.preventDefault();
     axios({
       method: "POST",
-      url: "/joinus",
+      url: "/collabwithus",
       data: this.state,
     }).then((response) => {
       if (response.data.status === "success") {
@@ -46,7 +46,7 @@ class Component2 extends Component {
   }
 
   resetForm() {
-    this.setState({ name: "", email: "", department: "", message: "" });
+    this.setState({ name: "", email: "", type: "", message: "" });
   }
   render() {
     return (
@@ -97,8 +97,8 @@ class Component2 extends Component {
                     <div className={styles.ContactUsSpace}>
                       <div className="col-md-12 col-lg-12 col-xs-12 col-sm-12">
                         <input
-                          placeholder="Department"
-                          id="department"
+                          placeholder="Individual/Organization"
+                          id="type"
                           type="text"
                           className="form-control"
                           required

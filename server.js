@@ -28,10 +28,20 @@ const joinUsSchema = {
 
 }
 
+const collabSchema = {
+
+  name: String,
+  email: String,
+  type: String,
+  message: String
+
+}
+
 
 
 const contactUs = mongoose.model("GetInTouch", contactUsSchema);
 const joinUs = mongoose.model("JoinUs", joinUsSchema);
+const collabWithUs = mongoose.model("Collaborations", collabSchema);
 
 //if (process.env.NODE_ENV === 'development') {
 // Set static folder
@@ -89,6 +99,31 @@ app.post("/joinus", function (req, res) {
   })
 
 }
+)
+
+app.post("/collabwithus", function (req, res) {
+
+  console.log(req.body.name);
+  console.log(req.body.email);
+  console.log(req.body.department);
+  console.log(req.body.message);
+
+  let newCollab = new collabWithUs({
+    name: req.body.name,
+    email: req.body.email,
+    type: req.body.type,
+    message: req.body.message
+
+  })
+
+  newCollab.save();
+
+  res.json({
+    status: 'success'
+  })
+
+}
+
 
 )
 
