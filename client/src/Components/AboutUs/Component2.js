@@ -102,7 +102,7 @@ class Component2 extends Component {
                           type="text"
                           className="form-control"
                           required
-                          value={this.state.email}
+                          value={this.state.type}
                           onChange={this.onTypeChange.bind(this)}
                         />
                       </div>
