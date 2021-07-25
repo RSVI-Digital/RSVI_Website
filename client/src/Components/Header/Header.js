@@ -19,9 +19,7 @@ class Header extends Component {
         >
           <Navbar.Brand className={styles.navbrand}>
             <img src={rsvi_logo} alt="rsvi logo" className={styles.brandicon} />
-            <p className={styles.brandname}>
-              Rehabilitation Society of the Visually Impaired
-            </p>
+            
           </Navbar.Brand>
         </NavLink>
         <Navbar.Toggle aria-controls="navbar-nav" />

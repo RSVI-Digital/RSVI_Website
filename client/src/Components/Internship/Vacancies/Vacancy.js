@@ -10,7 +10,7 @@ function Vacancy() {
   }
   return (<div>
     <div className={Style.ban}>
-      <h1 className={Style.head}>CURRENT VACANCIES</h1>
+      <h1 className={Style.head}>What We Offer</h1>
       
     </div>
     <div className="container">

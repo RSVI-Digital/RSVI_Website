@@ -90,6 +90,12 @@
     height: 21vw;
 }
 
+.ContactUsSpace
+{
+padding:20px;
+
+}
+
 @media screen and (max-width: 992px){
 
     .holder{
@@ -140,4 +146,11 @@
     .map{
         height: 350px;
     }
+
+    .ContactUsSpace
+    {
+    padding:10px;
+
+    }
+
 }

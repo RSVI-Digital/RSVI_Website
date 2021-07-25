@@ -81,6 +81,24 @@ form {
   font-size: 1.5vw;
   margin-left: 43%;
 }
+.ContactUsSpace
+{
+padding:10px;
+
+}
+
+.submit{
+  margin: 0;
+  padding: 0;
+  float: left;
+  padding: 0.4vw;
+  font-weight: bold;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  border-radius: 2.5vw;
+  border-style: hidden;
+  background-color: white;
+}
 
 @media only screen and (max-width: 1050px) {
   .leftSec {

@@ -7,6 +7,9 @@ import Stories3 from './Stories/Stories3';
 import Stories4 from './Stories/Stories4';
 
 class SuccessChild extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     render() {
         return (
             <div>

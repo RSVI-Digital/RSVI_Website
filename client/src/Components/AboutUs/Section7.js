@@ -64,6 +64,24 @@ class Section7 extends Component {
         };
     });
   };
+
+
+  displayHandlerExit = (e) => {
+    console.log(e.target.alt);
+    this.setState((prevState) => {
+     
+        return {
+          display1: false,
+          display2: false,
+          display3: false,
+        };
+      
+    });
+  }; 
+
+
+
+
   contentHandler = (e) => {
     const btn = e.target.id;
     let para,
@@ -174,7 +192,8 @@ class Section7 extends Component {
           <Row className={`${Modules.sectionSeven}`}>
             <Col
               className={`${Modules.section7Col} ${Modules.section7Col1}`}
-              onClick={this.displayHandler}
+              onMouseOver={this.displayHandler}
+              //onMouseOut={this.displayHandlerExit}
             >
               <img
                 className={`${Modules.sevenImage}`}
@@ -188,7 +207,8 @@ class Section7 extends Component {
             </Col>
             <Col
               className={`${Modules.section7Col} ${Modules.section7Col2}`}
-              onClick={this.displayHandler}
+              onMouseOver={this.displayHandler}
+              //onMouseOut={this.displayHandlerExit}
             >
               <img
                 className={`${Modules.sevenImage}`}
@@ -202,7 +222,8 @@ class Section7 extends Component {
             </Col>
             <Col
               className={`${Modules.section7Col} ${Modules.section7Col3}`}
-              onClick={this.displayHandler}
+              onMouseOver={this.displayHandler}
+              //onMouseOut={this.displayHandlerExit}
             >
               <img
                 className={`${Modules.sevenImage}`}

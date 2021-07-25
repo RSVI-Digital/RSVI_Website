@@ -37,7 +37,7 @@ class ContactUs extends Component {
           data:  this.state
         }).then((response)=>{
           if (response.data.status === 'success'){
-              alert("Message Sent."); 
+            alert("Your Message has been successfully delivered.");
               this.resetForm()
           }else if(response.data.status === 'fail'){
               alert("Message failed to send.")
@@ -62,18 +62,20 @@ resetForm(){
                     <div className="row">
                         <div className="col-md-12">
                             <div className="section-title">
-                                <h2 className="title">Contact Us</h2>
                                 <p>Let us know what you think! In order to provide better service,
                                      please do not hesitate to give us your feedback. Thank you.</p><hr/>
                                 <form id="contact-form" onSubmit={this.submitEmail.bind(this)} 
                                     method="POST">
                                 <div className="form-group">
                                 <div className="row">
+                                < div className={styles.ContactUsSpace}  >
                                 <div className="col-md-12 col-lg-12 col-xs-12 col-sm-12" style={{color: "red"}}>
                                     <input placeholder = "Name"  id="name" type="text" 
                                        className="form-control" required value={this.state.name} 
                                        onChange={this.onNameChange.bind(this)}/>
                                 </div>
+                                </div>
+                                < div className={styles.ContactUsSpace}  >
                                 <div className="col-md-12 col-lg-12 col-xs-12 col-sm-12">
                                     <input placeholder = "Email"  id="email" type="email"
                                       className="form-control" aria-describedby="emailHelp"
@@ -81,13 +83,16 @@ resetForm(){
                                       {this.onEmailChange.bind(this)}/>
                                 </div>
                                 </div>
+
+                                < div className={styles.ContactUsSpace}  >
+                                <div className="col-md-12 col-lg-12 col-xs-12 col-sm-12" style={{color: "red"}}>
+                                    <textarea placeholder = "Message"  id="message" type="text" style={{height: "100px"}}
+                                       className="form-control" required value={this.state.message} 
+                                       onChange={this.onMsgChange.bind(this)}/>
                                 </div>
-                                
-                                <div className="form-group">
-                                    <textarea placeholder = "Message"  id="message" 
-                                       className="form-control" rows="1" 
-                                       required value={this.state.message}
-                                       onChange= {this.onMsgChange.bind(this)}/>
+                                </div>
+
+                                </div>
                                 </div>
                                 <button type="submit" className={styles.submit}>Submit</button>
                                 </form>

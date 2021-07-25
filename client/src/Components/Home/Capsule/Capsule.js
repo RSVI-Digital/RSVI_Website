@@ -23,8 +23,8 @@ class Capsule extends Component {
               platforms like WhatsApp where Visually Impaired across the globe
               are connected.
             </p>
-            <button className={styles.button}>
-              Listen to the podcast now!
+            <button className={styles.button} disabled>
+              Coming Soon
             </button>
           </Col>
         </Row>

@@ -34,20 +34,24 @@
     margin-bottom: 1.5vw;
   }
   
-  .submit{
-    margin: 0;
-    padding: 4px;
-    float: right;
-    color: black;
-    font-size: 1.4vw;
-    font-weight: bold;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 1.5vw;
-    margin-bottom: 1.5vw;
-    border-style: none;
-    background-color: white;
-  }
+ 
+.submit{
+  margin: 0;
+  padding: 0;
+  float: left;
+  padding: 0.4vw;
+  font-weight: bold;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  border-radius: 2.5vw;
+  border-style: hidden;
+  background-color: white;
+}
+.ContactUsSpace
+{
+padding:20px;
+
+}
   
   .submit:hover{
     border-width: 2px;
@@ -82,5 +86,9 @@
       border-radius: 15px;
       margin-bottom: 15px;
     }
-  
+    .ContactUsSpace
+    {
+    padding:10px;
+    
+    }
   }
