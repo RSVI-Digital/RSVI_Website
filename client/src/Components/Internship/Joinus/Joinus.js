@@ -138,7 +138,7 @@ class Joinus extends Component {
                           type="text"
                           className="form-control"
                           required
-                          value={this.state.email}
+                          value={this.state.department}
                           onChange={this.onDepartmentChange.bind(this)}
                         />
                       </div>
