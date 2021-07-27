@@ -15,7 +15,7 @@ function Rehabilitation() {
 				<p className={styles.text}>
 					The Rehabilitation Society of the Visually Impaired (RSVI) is an NGO based 
 					in Lucknow, started by Professor Rakesh Jain. It has been working for the 
-					rehabilitation and upliftment of the visually impaired for more than 15 years now. 
+					rehabilitation and upliftment of the visually impaired for more than 15 years now. RSVI got registered on 21st October 2005. 
 				</p>
 			</Row>
 		</Container>

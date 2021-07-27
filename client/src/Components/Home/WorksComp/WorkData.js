@@ -33,7 +33,7 @@ const WorkData = [
     imgsrc:
       "https://drive.google.com/thumbnail?id=1Tfhu2QSSsAu1nDa-ok8MtNkXGD7X43Ey",
     imgbg: `${blue}`,
-    title: "Project Udaan",
+    title: "Projects",
     linkto: "/initiatives#work4@Home",
   },
 ];
