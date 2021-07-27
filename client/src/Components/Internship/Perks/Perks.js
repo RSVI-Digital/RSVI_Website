@@ -130,7 +130,7 @@ function Perks() {
                   INTERNSHIP CERTIFICATE
                 </h5>
                 
-                <p>get your internship completion certificate.</p>
+                <p>Get your internship completion certificate.</p>
               </div>
             </div>
           </div>

@@ -58,7 +58,7 @@ const ModalData = [
     title: "   CRE Programs",
     sideImg: "https://drive.google.com/uc?id=1uHa_De5PxFFOm9XDJNXaZXirceuUnlGO",
     content:
-      "CRE (Continuing Rehabilitation Programme) Programmes on different topics and disabilities (Mainly designed for Special Educators & Trainers)\nSuch Awareness Workshops – to create awareness in people about disability",
+      "CRE (Continuing Rehabilitation Education) Programmes on different topics and disabilities (Mainly designed for Special Educators & Trainers)\nSuch Awareness Workshops – to create awareness in people about disability",
   },
 ];
 

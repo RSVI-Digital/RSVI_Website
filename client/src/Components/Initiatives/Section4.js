@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Image from "./Image";
 import { Row, Col } from "react-bootstrap";
 import Modules from "./Section4.module.css";
-
+import cn from "classnames";
 class Section4 extends Component {
   render() {
     return (
@@ -23,7 +23,7 @@ class Section4 extends Component {
               </Row>
             </Col>
             <Col className={Modules.reachCol2}>
-              <p className={Modules.para}>
+            <p className={cn(Modules.contenp)}>
                 RSVI has setup a branch in Unchehra to serve the blind in the
                 state of Madhya Pradesh, The Branch will empower the target
                 group by providing training, education, assistive devices and

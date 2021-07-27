@@ -15,6 +15,16 @@
   padding-left: 20px;
 }
 
+.contenp {
+  width             : 100%;
+  height            : 100%;
+  font-size         : 18px;
+  text-align        : justify;
+  display           : flex;
+  align-items       : center;
+  padding-left      : 15%;
+  /* justify-content: center; */
+}
 .reachRow {
   position: relative;
   width: 90vw;
