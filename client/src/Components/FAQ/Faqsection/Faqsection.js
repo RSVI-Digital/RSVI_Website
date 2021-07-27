@@ -13,7 +13,7 @@ const data = {
     },
     {
       title: "Who are your target groups?",
-      content: " Our target group is very diverse with all ages covered and can be classified as below: <br> Visually Impaired People living in urban/rural areas <br> Visually Impaired people who are from Poor marginal communities living in remote areas <br>Visually Impaired People residing in slumps and least privileged areas"
+      content: " Our target group is very diverse with all ages covered and can be classified as below: <br> Visually Impaired People living in urban/rural areas <br> Visually Impaired people who are from Poor marginal communities living in remote areas <br>Visually Impaired People residing in slums and least privileged areas"
     },
     {
       title: "How does RSVI identify the programs and areas to work in?",
