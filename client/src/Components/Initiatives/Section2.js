@@ -295,7 +295,7 @@ const Section2 = () => {
             </div>
             <div className={style.contentDetails}>
               <p>
-                Orientation & MobilityTraining is to orient with the
+                Orientation & Mobility Training is to orient with the
                 surroundings and to teach how to become mobile independently
                 with the use of white cane.
               </p>
