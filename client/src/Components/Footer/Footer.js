@@ -17,7 +17,7 @@ function openTab2() {
 }
 
 function openTab3() {
-    window.open('https://www.linkedin.com/company/rehabilitation-society-of-visually-impaired');
+    window.open('https://www.linkedin.com/in/rsvi-working-for-the-visually-impaired-602bba1b3/');
 }
 
 
@@ -27,7 +27,7 @@ function Footer() {
         <div className="row">
           {/* Column1 */}
           <div className="col-lg-2 col-mg-4 col-sm-2">
-          <img src="https://drive.google.com/uc?id=165lGw6lMAl5cHZGQGFy9sE5H4abB8phd" className={Style.forimg}/>
+          <img src="https://drive.google.com/uc?id=1bGIg5ESNyCPTO6njXnFBnok6Tjt7SJPE" className={Style.forimg}/>
           <p className={Style.fortxt}>Rehabilitation<br></br>Society of the <br></br>Visually Impaired </p>
           </div>
           

@@ -9,11 +9,11 @@ function Collaboration() {
             <div className={cn(Styles.leftPart , globalS["col-lg-7"], globalS["col-md-7"], globalS["col-sm-12"])}>
                 <div className ={cn(Styles.imageAndText, globalS["row"])}>
                     <div className= {cn(globalS["col-lg-2"])}>
-                        <img className={cn(Styles.RSVI_image, globalS["mx-auto"])} src="https://drive.google.com/uc?id=1kafk9Ud_mGWBHxCkXoMd9R09OcMBIU00" alt="RSVI_Image" />
                     </div>
                     <div className={cn(Styles.RSVI_text, globalS["col-lg-10"])}>
-                        <p className={cn(Styles.para1, globalS["mx-auto"])}>Collaborations at</p>
-                        <h1 className={cn(Styles.hh)}>RSVI</h1>
+                        {/* <p className={cn(Styles.para1, globalS["mx-auto"])}>Collaborations at RSVI</p> */}
+                        <h1 className={Styles.heading}>Collaborations at RSVI</h1>
+                        {/* <h1 className={cn(Styles.hh)}>RSVI</h1> */}
                     </div>
                 </div>
                 <div className={cn(Styles.text)}>
