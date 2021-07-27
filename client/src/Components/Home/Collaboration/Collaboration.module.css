@@ -9,6 +9,11 @@
 .para2{
     font-size: max(1.4vw,16px);
 }
+.heading{
+    font-size: max(3.5vw,45px);
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+}
 
 .hh{
     margin-top: -5%;

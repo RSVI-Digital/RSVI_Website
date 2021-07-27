@@ -93,7 +93,7 @@ class Journey extends Component {
                         <img src={mikeIcon} alt='sample png' className={styles.icon}/>
                         <this.Counter count={50000} />
                         <p className={styles.caption}>
-                            Daisy Recordings
+                           Recordings
                         </p>
                     </Col>
                     <Col>

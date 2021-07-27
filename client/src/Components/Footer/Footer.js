@@ -27,8 +27,8 @@ function Footer() {
         <div className="row">
           {/* Column1 */}
           <div className="col-lg-2 col-mg-4 col-sm-2">
-          <img src="https://drive.google.com/uc?id=1bGIg5ESNyCPTO6njXnFBnok6Tjt7SJPE" className={Style.forimg}/>
-          <p className={Style.fortxt}>Rehabilitation<br></br>Society of the <br></br>Visually Impaired </p>
+          {/* <img src="https://drive.google.com/uc?id=1bGIg5ESNyCPTO6njXnFBnok6Tjt7SJPE" className={Style.forimg}/> */}
+          <h2 className={Style.fortxt}>Contact Us </h2>
           </div>
           
           <div className="col-lg-1 col-mg-2 col-sm-1">
