@@ -130,7 +130,7 @@ class Journey extends Component {
                         2015
                     </Col>
                     <Col className={styles.year}>
-                        2021
+                        2021 & more ..
                     </Col>
                 </Row>
             </Container>

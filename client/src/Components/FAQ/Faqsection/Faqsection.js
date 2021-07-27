@@ -41,7 +41,7 @@ const data = {
     },
     {
       title: "How to do Internship at RSVI and whom to contact ?",
-      content: "Please drop an email at hr@rvi.org <br> Visit our social Media platforms to know about active Internships <br> Project Manager : Prakhar Verma , 9958836145 "
+      content: "Please drop an email at hr@rsvi.org <br> Visit our social Media platforms to know about active Internships <br> Project Manager : Prakhar Verma , 9958836145 "
     },
     {
       title: "What are perks of internship at RSVI ?",

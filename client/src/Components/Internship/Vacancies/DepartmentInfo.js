@@ -17,7 +17,7 @@ const DepartmentInfo = [
     heading: "HR Department",
     imageURL: "https://docs.google.com/uc?id=1NLRf4YQ6xOY9ZZE_5yJt86qpN_n6BjnN",
     direction: "vertical",
-    information: "Plan out engagement activities for Interns (Informal connects / Games etc. ). Rewards and Recognition and Evaluation for interns "
+    information: "Plan out engagement activities for Interns (Informal connects / Games etc. ). Rewards and Recognition and Evaluation for interns.Planning entire hiring process of Internship at RSVI. "
   }, {
     id: 3,
     heading: "Voice Over",
