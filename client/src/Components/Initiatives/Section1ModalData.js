@@ -26,7 +26,7 @@ const ModalData = [
     title: "Competition Preparation ",
     sideImg: "https://drive.google.com/uc?id=1y9Ap-1SFa7vp8pukJSVdOTlf4_TcECEo",
     content:
-      "Educational & Competitive Classes are imparted at RSVI to the visually Impaired so that qualify various Competetive Examninations. ",
+      "Educational & Competitive Classes are imparted at RSVI to the visually Impaired so that qualify various competitive Examninations. ",
   },
   {
     id: "4",

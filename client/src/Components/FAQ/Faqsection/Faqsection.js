@@ -49,7 +49,7 @@ const data = {
     },
     {
       title: "How can I contact RSVI?",
-      content: "You can email us at hr@rsvi.orgor call us on (between 9:30am to 5:30pm):<br> Phone: 0522-3019456/05224070138 <br> Project Manager : Prakhar Verma , 9958836145 "
+      content: "You can email us at hr@rsvi.org or call us on (between 9:30am to 5:30pm):<br> Phone: 0522-3019456/05224070138 <br> Project Manager : Prakhar Verma , 9958836145 "
     }]
 }
 

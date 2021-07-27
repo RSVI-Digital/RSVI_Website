@@ -267,7 +267,7 @@ const Section2 = () => {
             <div className={style.contentDetails}>
               <p>
                 Braille Training is imparted at RSVI to the visually Impaired so
-                that they can study and qualify various Competetive
+                that they can study and qualify various competitive
                 Examinations, qualify jobs and further impart training to other
                 Visually Impaired students.
               </p>
@@ -331,7 +331,7 @@ const Section2 = () => {
             <div className={style.contentDetails}>
               <p>
                 Computer and Laptop Training is imparted at RSVI to the visually
-                Impaired so that they can study and qualify various Competetive
+                Impaired so that they can study and qualify various competitive
                 Examinations, qualify jobs and further impart training to other
                 Visually Impaired students.
               </p>
@@ -437,7 +437,7 @@ const Section2 = () => {
             <div className={style.contentDetails}>
               <p>
                 Vocational Training is imparted at RSVI to the visually Impaired
-                so that they can study and qualify various Competetive
+                so that they can study and qualify various competitive
                 Examinations, qualify jobs and further impart training to other
                 Visually Impaired students.
               </p>

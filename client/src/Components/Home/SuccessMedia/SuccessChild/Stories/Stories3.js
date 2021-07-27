@@ -34,7 +34,7 @@ class Stories3 extends Component {
                             script and computer. He now reads books and e-newspaper. 
                             He has recently been operated upon one of his eyes with 
                             our efforts and is gaining some vision in his left eye. 
-                            He says it is a new berth for him in this world.
+                            He says it is a new birth for him in this world.
                         </p>
                     </Col>
                 </Row>
